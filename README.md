@@ -1,19 +1,19 @@
-# ScanBus-BR Modbus Master/Client Simulator.
-### "The most complete GUI (Graphical User Interface) for Linux."
+# ScanBus-BR Modbus Master/Client Simulator. 
+_"The most complete GUI (Graphical User Interface) for Linux."_
 
 ![ScanBus-BR](https://www.scanbus.com.br/Scanbus-BR-windows.png)
 
 ## What is ScanBus-BR?
 
-### ScanBus-BR is a free Modbus Master / Client simulator software (Freeware) that stands out for its versatility and simplicity.
+ ScanBus-BR is a free Modbus Master / Client simulator software (Freeware) that stands out for its versatility and simplicity.
 
-### Free from any advertising or any Adware.
+Free from any advertising or any Adware.
 
-### Designed to help developers find errors in slave devices and for anyone who wants to simulate, test and study the Modbus protocol.
+Designed to help developers find errors in slave devices and for anyone who wants to simulate, test and study the Modbus protocol.
 
-### You will hardly find another free or even paid software that will provide you with as many features as ScanBus-BR
+You will hardly find another free or even paid software that will provide you with as many features as ScanBus-BR
 
-### Errors and exception codes are displayed in the status line and in data traffic.
+Errors and exception codes are displayed in the status line and in data traffic.
 
 ### Available protocols:
 
