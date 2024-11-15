@@ -31,3 +31,6 @@ Linux "Various" (64-bit).
 Portuguese.
 Spanish.
 English.
+
+Link Download:
+http://www.scanbus.com.br
