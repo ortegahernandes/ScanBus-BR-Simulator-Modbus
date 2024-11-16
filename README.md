@@ -5,7 +5,7 @@ _"The most complete GUI (Graphical User Interface) for Linux."_
 
 ## What is ScanBus-BR?
 
- ScanBus-BR is a free Modbus Master / Client simulator software (Freeware) that stands out for its versatility and simplicity.
+ScanBus-BR is a free Modbus Master / Client simulator software (Freeware) that stands out for its versatility and simplicity.
 
 Free from any advertising or any Adware.
 
@@ -34,3 +34,64 @@ English.
 
 Link Download:
 http://www.scanbus.com.br
+
+## Data traffic:
+Search the input and output bytes (in hexadecimal format).
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Traffic_Data.png).
+
+
+## Special functions
+### Time graph:
+Generates graphs (time x values) with the values ​​received via Modbus.
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Graphic_time_1.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Graphic_time_2.png)
+
+Available up to 8 lines with the following configuration:
+- Thread colors 
+- Multiplication Factor
+- Offset
+- Caption
+- LINE style
+- line width 
+- Points on the line
+  
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Graphic_time_3.png)
+
+Chart options:
+- Background color adjustment
+- Grid color adjustment
+- Gridline Adjustment
+- Maximum value (manual)
+- Minimum value (manual)
+- Auto graph limit adjustment (automatic)
+- Time adjustment
+
+## Device Scanner: 
+Find connected device ID, functions and registers.
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_Device.png)
+
+## Serial RTU Scanner:
+Find the serial configuration of the connected device
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_RTU.png)
+
+## TCP Scanner:
+Find the device's IP and TCP port.
+
+Coming soon in version 0.11.0
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_TCP.png)
+
+
+## Wide vision function:
+Check individually which registers are active.
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/wide_vision_1.png)
+
+Apply multiplication factor, decimal place and off set to 16-bit values.
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/wide_vision_2.png)
+
