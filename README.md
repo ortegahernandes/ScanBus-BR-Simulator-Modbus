@@ -38,8 +38,14 @@ http://www.scanbus.com.br
 ## Data traffic:
 Search the input and output bytes (in hexadecimal format).
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Traffic_Data.png).
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Traffic_Data.png)
 
+#### Options:
+- Show or hide valid data (useful for discovering occasional communication errors).
+- Show or hide errors.
+- Save to .CSV file (with separator choice)
+
+***
 
 ## Special functions
 ### Time graph:
@@ -48,7 +54,7 @@ Generates graphs (time x values) with the values ​​received via Modbus.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Graphic_time_1.png)
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Graphic_time_2.png)
 
-Available up to 8 lines with the following configuration:
+#### Available up to 8 lines with the following configuration:
 - Thread colors 
 - Multiplication Factor
 - Offset
@@ -59,7 +65,7 @@ Available up to 8 lines with the following configuration:
   
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Graphic_time_3.png)
 
-Chart options:
+#### Chart options:
 - Background color adjustment
 - Grid color adjustment
 - Gridline Adjustment
@@ -68,15 +74,28 @@ Chart options:
 - Auto graph limit adjustment (automatic)
 - Time adjustment
 
+***
+
 ## Device Scanner: 
 Find connected device ID, functions and registers.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_Device.png)
 
+#### Options:
+- Display only valid data.
+- Show exception (exception indicates that the device ID exists but something is wrongly configured).
+- Stop when found (when a valid register is found, the scan ends).
+- Stop at the end (when it reaches the value of Id = 255, finish the scan, otherwise it will return to ID 1 cyclically).
+- Save to .CSV file (with separator choice).
+
+***
+
 ## Serial RTU Scanner:
 Find the serial configuration of the connected device
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_RTU.png)
+
+***
 
 ## TCP Scanner:
 Find the device's IP and TCP port.
