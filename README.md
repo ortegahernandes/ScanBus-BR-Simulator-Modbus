@@ -31,7 +31,7 @@ Errors and exception codes are displayed in the status line and in data traffic.
 - Portuguese.
 - Spanish.
 - English.
-- 
+  
 ***
 ***
 # Link Download:
