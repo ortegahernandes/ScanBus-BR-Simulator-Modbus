@@ -1,7 +1,7 @@
 # ScanBus-BR Modbus Master/Client Simulator. 
 _"The most complete GUI (Graphical User Interface) for Linux."_
 
-![ScanBus-BR](https://www.scanbus.com.br/Scanbus-BR-windows.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
 
 ## What is ScanBus-BR?
 
@@ -44,11 +44,34 @@ http://www.scanbus.com.br
 Search the input and output bytes (in hexadecimal format).
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Traffic_Data.png)
-
 #### Options:
 - Show or hide valid data (useful for discovering occasional communication errors).
 - Show or hide errors.
 - Save to .CSV file (with separator choice)
+
+  ***
+
+## 16-Bit Data Reading Screen
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
+
+## 16-bit recording window
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_16bits.png)
+
+***
+
+## 32-Bit Data Reading Screen
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Screeen_32bits.png)
+
+## 32-bit recording window
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_32bits.png)
+
+***
+
+## 64-Bit Data Reading Screen
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Screeen_64bits.png)
+
+## 64-bit recording window
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_64bits.png)
 
 ***
 
