@@ -32,7 +32,7 @@ Errors and exception codes are displayed in the status line and in data traffic.
 - Spanish.
 - English.
 
-Link Download:
+## Link Download:
 http://www.scanbus.com.br
 
 ## Data traffic:
