@@ -100,8 +100,6 @@ Find the serial configuration of the connected device
 ## TCP Scanner:
 Find the device's IP and TCP port.
 
-Coming soon in version 0.11.0
-
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_TCP.png)
 
 
