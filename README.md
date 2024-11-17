@@ -17,20 +17,20 @@ Errors and exception codes are displayed in the status line and in data traffic.
 
 ### Available protocols:
 
-RTU(serial)
-TCP/IP
-RTU over TCP/IP
+- RTU(serial)
+- TCP/IP
+- RTU over TCP/IP
 
 ### Operating systems:
 
-Windows 7, 10 and 11 (64 bits).
-Linux "Various" (64-bit).
+- Windows 7, 10 and 11 (64 bits).
+- Linux "Various" (64-bit).
 
 ### In languages:
 
-Portuguese.
-Spanish.
-English.
+- Portuguese.
+- Spanish.
+- English.
 
 Link Download:
 http://www.scanbus.com.br
