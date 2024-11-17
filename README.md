@@ -31,9 +31,14 @@ Errors and exception codes are displayed in the status line and in data traffic.
 - Portuguese.
 - Spanish.
 - English.
-
-## Link Download:
+- 
+***
+***
+# Link Download:
 http://www.scanbus.com.br
+
+***
+***
 
 ## Data traffic:
 Search the input and output bytes (in hexadecimal format).
