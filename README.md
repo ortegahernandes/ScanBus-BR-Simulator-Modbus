@@ -53,31 +53,53 @@ Search the input and output bytes (in hexadecimal format).
 
   ***
 
-## 16-Bit Data Reading Screen
+## Connection and adjustment tab: 
+
+- Serial RTU.
+- TCP/IP.
+- Receipt log.
+- Advanced adjustments.
+
+***
+
+## 16-Bit Data Reading Screen:
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
 
-## 16-bit recording window
+- Two 16-bit tables.
+- Visualization of values received in decimal, hexadecimal and binary simultaneously.
+- Receiving status.
+- Receipt count.
+- Slave/server response times (minimum, current, average and maximum).
+
+## 16-bit recording window: 
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_16bits.png)
 
 ***
 
-## 32-Bit Data Reading Screen
+## 32-Bit Data Reading Screen:
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Screeen_32bits.png)
 
-## 32-bit recording window
+## 32-bit recording window: 
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_32bits.png)
 
 ***
 
-## 64-Bit Data Reading Screen
+## 64-Bit Data Reading Screen: 
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Screeen_64bits.png)
 
-## 64-bit recording window
+## 64-bit recording window:
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_64bits.png)
 
 ***
 
 ## Special functions
+
 ### Time graph:
 Generates graphs (time x values) with the values ​​received via Modbus.
 
