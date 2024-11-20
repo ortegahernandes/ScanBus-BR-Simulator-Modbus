@@ -54,10 +54,11 @@ Search the input and output bytes (in hexadecimal format).
   ***
 
 ## Connection and adjustment tab: 
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/aba_conexao.png)
 
 - Serial RTU.
 - TCP/IP.
-- Receipt log.
+- Record log.
 - Advanced adjustments.
 
 ***
