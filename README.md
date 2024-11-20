@@ -157,7 +157,7 @@ Find the device's IP and TCP port.
 
 
 ## Wide vision function:
-Check individually which registers are active.
+Individually check which 16-bit registers are active.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/wide_vision_1.png)
 
