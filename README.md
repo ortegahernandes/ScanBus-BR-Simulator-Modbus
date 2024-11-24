@@ -162,6 +162,8 @@ Find the device's IP and TCP port.
 
 You will need to know in advance the function and address that the equipment responds to.
 
+***
+
 ## Wide vision function:
 Individually check which 16-bit registers are active.
 
