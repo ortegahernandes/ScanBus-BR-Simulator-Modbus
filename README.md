@@ -66,7 +66,7 @@ Search the input and output bytes (in hexadecimal format).
 
 ## 16-Bit Data Reading Screen:
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux,png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
 
 - Two 16-bit tables.
 - Visualization of values received in decimal, hexadecimal and binary simultaneously.
@@ -157,9 +157,9 @@ Find the device's IP and TCP port.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_TCP.png)
 
 #### Scanner of: 
-- IP.
-- Port.
-- ID.
+- IP (TCP)
+- Port
+- ID 
 
 You will need to know in advance the function and address that the equipment responds to.
 
