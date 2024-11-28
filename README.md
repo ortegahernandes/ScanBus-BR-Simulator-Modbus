@@ -136,7 +136,7 @@ Find connected device ID, functions and registers.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_Device.png)
 
 #### Options:
-- Display only valid data.
+- Display only valid data (Avoid filling the table with rows only reporting invalid data, e.g. registers with timeout).
 - Show exception (exception indicates that the device ID exists but something is wrongly configured).
 - Stop when found (when a valid register is found, the scan ends).
 - Stop at the end (when it reaches the value of Id = 255, finish the scan, otherwise it will return to ID 1 cyclically).
