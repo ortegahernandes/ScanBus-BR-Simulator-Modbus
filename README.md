@@ -153,15 +153,15 @@ Find connected device ID, functions and registers.
 
 - Filter option according to the received value. The options are:
 
-- - All: regardless of the record value, shows the record as long as it is valid.
+  - All: regardless of the record value, shows the record as long as it is valid.
 
-- - Greater than: only shows results when the record has a value greater than the entered value.
+  - Greater than: only shows results when the record has a value greater than the entered value.
 
-- - Less than: only shows results when the record has a value less than the entered value.
+  - Less than: only shows results when the record has a value less than the entered value.
 
-- - Equal to: only shows the record that has the same value as the entered value.
+  - Equal to: only shows the record that has the same value as the entered value.
 
-- - Different from: hides the record if the record value is equal to the entered value.
+  - Different from: hides the record if the record value is equal to the entered value.
 
 
 ***
