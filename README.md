@@ -142,8 +142,6 @@ Find connected device ID, functions and registers.
 - Stop at the end (when it reaches the value of Id = 255, finish the scan, otherwise it will return to ID 1 cyclically).
 - Save to .CSV file (with separator choice).
 
- #### Coming soon:
-
 - Filter option according to the received value. The options are:
 
 - - All: regardless of the record value, shows the record as long as it is valid.
