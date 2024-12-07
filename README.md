@@ -43,7 +43,7 @@ http://www.scanbus.com.br
 ***
 ***
 
-## Data traffic:
+## Hex Dump:
 Search the input and output bytes (in hexadecimal format).
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Traffic_Data.png)
