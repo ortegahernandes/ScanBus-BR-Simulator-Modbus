@@ -177,7 +177,7 @@ For 32-bit values the following byte order is available:
 - little endian / byte swap
     
 Note:
-- 32-bit values ​​are used read requests from 2-byte wide registers.
+- 32-bit values ​​use 2-byte wide registers.
 
 ***
 
