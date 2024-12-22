@@ -1,4 +1,5 @@
 # ScanBus-BR Modbus Master/Client Simulator. 
+ **For Windows and Linux (64-bit).**
 
 _"The most complete GUI (Graphical User Interface) for Linux."_
 
