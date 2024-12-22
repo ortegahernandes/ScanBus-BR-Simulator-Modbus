@@ -163,6 +163,21 @@ Find connected device ID, functions and registers.
 
   - Different from: hides the record if the record value is equal to the entered value.
 
+- Can be set to values: 
+  - 16 bits unsigned (default).
+  - 16 bits signed.
+  - 32 bits unsigned.
+  - 32 bits signed.
+  - 32 bits floating point.
+    
+For 32-bit values the following byte order is available: 
+- big endian
+- little endian
+- big endian / byte swap
+- little endian / byte swap
+    
+Note:
+- 32-bit values ​​are used for read requests from 2-byte wide registers.
 
 ***
 
