@@ -28,7 +28,9 @@ Errors and exception codes are displayed in the status line and in data traffic.
 
 - Windows 7, 10 and 11 (64 bits).
 - Linux "Various" (64-bit).
-On Linux, simply extract the file and use it. 
+  
+On Linux, simply extract the file and use it.
+
 Note: on some operating systems, it is necessary to install the GTK library
 
 ### In languages:
