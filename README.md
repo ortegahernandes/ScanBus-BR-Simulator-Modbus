@@ -31,7 +31,7 @@ Errors and exception codes are displayed in the status line and in data traffic.
   
 On Linux, simply extract the file and use it.
 
-Note: on some operating systems, it is necessary to install the GTK library
+Note: on some operating systems Linux, it is necessary to install the GTK library
 
 ### In languages:
 
