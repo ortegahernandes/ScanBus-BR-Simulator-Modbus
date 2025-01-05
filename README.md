@@ -216,3 +216,30 @@ Apply multiplication factor, decimal place and off set to 16-bit values.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/wide_vision_2.png)
 
+***
+
+## Terminal Serial
+Simple serial terminal (decimal and hexadecimal).
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Terminal_serial.png)
+
+- FDTI chip?:
+  - For correct operation when using converters with these chips and using the "lines per frame" function.
+    The COM port is ignored, and the device that is not in use will be connected.
+    Only for Windows version, Linux is not supported at the moment.
+
+- Dec/HEX:
+  - Select whether the read and written bytes are in decimal or hexadecimal.
+    
+- Lines per frame : 
+  - Each received packet is skipped by one line.
+    For FTDI chips, select the FTDI Chip? function before connecting (support for Windows only).
+
+- Show Sent:
+  - Shows the bytes sent on the screen.
+ 
+- Separator:
+  - Place any character separating the Bytes
+
+
+
