@@ -94,6 +94,17 @@ Search the input and output bytes (in hexadecimal format).
 - Receipt count.
 - Slave/server response times (minimum, current, average and maximum).
 
+- Format:
+  - Unsigned 
+  - Uigned.
+  - Floating point.
+    
+- Byte order is available: 
+  - Big endian
+  - Little endian
+  - Big endian / byte swap
+  - Little endian / byte swap
+
 ## 32-bit recording window: 
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_32bits.png)
@@ -107,6 +118,17 @@ Search the input and output bytes (in hexadecimal format).
 - Receiving status.
 - Receipt count.
 - Slave/server response times (minimum, current, average and maximum).
+
+- Format:
+  - Unsigned 
+  - Signed.
+  - Double.
+    
+- Byte order is available: 
+  - Big endian
+  - Little endian
+  - Big endian / byte swap
+  - Little endian / byte swap
 
 ## 64-bit recording window:
 
@@ -176,10 +198,10 @@ Find connected device ID, functions and registers.
   - 32 bits floating point.
     
 For 32-bit values the following byte order is available: 
-- big endian
-- little endian
-- big endian / byte swap
-- little endian / byte swap
+- Big endian
+- Little endian
+- Big endian / byte swap
+- Little endian / byte swap
     
 Note:
 - 32-bit values ​​use 2-byte wide registers.
