@@ -96,7 +96,7 @@ Search the input and output bytes (in hexadecimal format).
 
 - Format:
   - Unsigned 
-  - Uigned.
+  - Signed.
   - Floating point.
     
 - Byte order is available: 
