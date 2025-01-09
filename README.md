@@ -270,6 +270,11 @@ Simple serial terminal (decimal and hexadecimal).
  
 - Separator:
   - Place any character separating the Bytes
+ 
+- Line counter:
+  -  Line count written on screen.
+
+- Count of the last packet received.
 
 
 
