@@ -213,6 +213,14 @@ Find the serial configuration of the connected device
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_RTU.png)
 
+#### Scanner of: 
+- BaudRate
+- Parity
+- StopBit
+- ID 
+
+You will need to know in advance the function and address that the equipment responds to.
+
 ***
 
 ## TCP Scanner:
