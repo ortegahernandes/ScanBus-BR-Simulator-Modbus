@@ -249,7 +249,7 @@ Apply multiplication factor, decimal place and off set to 16-bit values.
 ***
 
 ## Terminal Serial
-Simple serial terminal (decimal and hexadecimal).
+#### Simple serial terminal (decimal , hexadecimal and text).
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Terminal_serial.png)
 
@@ -258,8 +258,8 @@ Simple serial terminal (decimal and hexadecimal).
     The COM port is ignored, and the device that is not in use will be connected.
     Only for Windows version, Linux is not supported at the moment.
 
-- Dec/HEX:
-  - Select whether the read and written bytes are in decimal or hexadecimal.
+- Dec/HEX/Text:
+  - Select whether the read and written bytes are in decimal , hexadecimal or Text (ASCII).
     
 - Lines per frame : 
   - Each received packet is skipped by one line.
@@ -276,5 +276,16 @@ Simple serial terminal (decimal and hexadecimal).
 
 - Count of the last packet received.
 
+#### SPY Mode - Modbus-RTU.
 
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/SPY_Mode_1.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/SPY_Mode_2.png)
+
+- Mode:
+  - Chronological:
+    - Displays data on the screen according to data captures.
+  - Filtered:
+    - If the results are exactly the same, they will not appear on the screen, the data is (ID, Function, Address, Quantity/Value).
+      
+- Note: functions 15 and 16 have a limitation coming from the USB converter which breaks the packet generally into 32 bytes so generally packets larger than 32 bytes will not be detected (this is around 10 registers).  
 
