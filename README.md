@@ -287,5 +287,8 @@ Apply multiplication factor, decimal place and off set to 16-bit values.
   - Filtered:
     - If the results are exactly the same, they will not appear on the screen, the data is (ID, Function, Address, Quantity/Value).
       
-- Note: functions 15 and 16 have a limitation coming from the USB converter which breaks the packet generally into 32 bytes so generally packets larger than 32 bytes will not be detected (this is around 10 registers).  
+- Notes:
+  - Functions 15 and 16 have a limitation coming from the USB converter which breaks the packet generally into 32 bytes so generally packets larger than 32 bytes will not be detected (this is around 10 registers).
+  - Preferably used in a functional system, if there is no slave, it can be connected directly to the slave, however some master devices wait for the slave's response, alternatively a slave simulator with open addresses can be connected.
+ex: Modrssim2 https://sourceforge.net/projects/modrssim2/  
 
