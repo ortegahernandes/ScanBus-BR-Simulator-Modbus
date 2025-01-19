@@ -7,7 +7,7 @@ _"The most complete GUI (Graphical User Interface) for Linux."_
 
 ## What is ScanBus-BR?
 
-ScanBus-BR is a free Modbus Master / Client simulator software (Freeware) that stands out for its versatility and simplicity.
+ScanBus-BR is a free Modbus Master / Client simulator software (Freeware).
 
 The ScanBus is PORTABLE, meaning it DOES NOT REQUIRE INSTALLATION and can be used even on pen drives.
 
