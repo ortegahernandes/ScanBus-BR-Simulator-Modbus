@@ -286,12 +286,11 @@ Apply multiplication factor, decimal place and off set to 16-bit values.
     - Displays data on the screen according to data captures.
   - Filtered:
     - If the results are exactly the same, they will not appear on the screen, the data is (ID, Function, Address, Quantity/Value).
+  - Simulate Modbus Slave ?:
+    - Activates an internal modbus slave simulator, this simulator is of ID/Function/addresses that are open and registers result in zero, that is, it responds to any IDs, Functions, Addresses with register value in zero. It is useful when testing on the master device only.
       
 - Notes:
   - Functions 15 and 16 have a limitation coming from the USB converter which breaks the packet generally into 32 bytes so generally packets larger than 32 bytes will not be detected (this is around 10 registers).
   - Preferably used in a functional system, if there is no slave, it can be connected directly to the Master, however some master devices wait for the slave's response, alternatively to simulate a slave use a simulator slave with open addresses can be connected.
     
- ex:
-  - Diagslave (Preferably) https://www.modbusdriver.com/diagslave.html  
-  - Modrssim2 https://sourceforge.net/projects/modrssim2/  
 
