@@ -283,14 +283,16 @@ Apply multiplication factor, decimal place and off set to 16-bit values.
 
 - Mode:
   - Chronological:
-    - Displays data on the screen according to data captures.
+    - Displays data on the screen in the order it is captured.
   - Filtered:
-    - If the results are exactly the same, they will not appear on the screen, the data is (ID, Function, Address, Quantity/Value).
-  - Simulate Modbus Slave ?:
-    - Activates an internal modbus slave simulator, this simulator is of ID/Function/addresses that are open and registers result in zero, that is, it responds to any IDs, Functions, Addresses with register value in zero. It is useful when testing on the master device only.
-      
+    - If the results are identical, they will not be displayed on the screen. The data includes (ID, Function, Address, Quantity/Value).
+
+- Simulate Modbus Slave:
+  - Activates an internal Modbus slave simulator. This simulator responds to any ID, Function, or Address with a register value of zero. It is particularly useful for testing on the master device alone.
+
+
 - Notes:
-  - Functions 15 and 16 have a limitation coming from the USB converter which breaks the packet generally into 32 bytes so generally packets larger than 32 bytes will not be detected (this is around 10 registers).
-  - Preferably used in a functional system, if there is no slave, it can be connected directly to the Master, however some master devices wait for the slave's response, alternatively to simulate a slave use a simulator slave with open addresses can be connected.
-    
+  - Functions 15 and 16 have a limitation due to the USB converter, which typically splits the packet into 32-byte segments. As a result, packets larger than 32 bytes (approximately 10 registers) may not be detected.
+  - It is recommended to use this in a functional system. If no slave is available, it can be connected directly to the Master. However, some master devices may wait for a response from the slave. In such cases, using a slave simulator with open addresses can be a viable alternative.
+
 
