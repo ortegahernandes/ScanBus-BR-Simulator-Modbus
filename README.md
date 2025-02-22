@@ -293,6 +293,3 @@ Apply multiplication factor, decimal place and off set to 16-bit values.
 
 - Notes:
   - Functions 15 and 16 have a limitation due to the USB converter, which typically splits the packet into 32-byte segments. As a result, packets larger than 32 bytes (approximately 10 registers) may not be detected.
-  - It is recommended to use this in a functional system. If no slave is available, it can be connected directly to the Master. However, some master devices may wait for a response from the slave. In such cases, using a slave simulator with open addresses can be a viable alternative.
-
-
