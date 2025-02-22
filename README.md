@@ -56,8 +56,11 @@ Search the input and output bytes (in hexadecimal format).
 - Show or hide valid data (useful for discovering occasional communication errors).
 - Show or hide errors.
 - Save to .CSV file (with separator choice)
-- Search for a specific term, the terms will be in yellow.
-- If there are errors, they will appear in the status column and will be in red.
+- Search for a specific term; the cell containing the terms will be highlighted in yellow.
+- If there are errors, they will appear in the status column, and the cell will be highlighted in red.
+- Start/Pause button.
+  
+Note: If active, you can close the hexdump window, and it will continue counting.
 
   ***
 
@@ -80,6 +83,9 @@ Search the input and output bytes (in hexadecimal format).
 - Receiving status.
 - Receipt count.
 - Slave/server response times (minimum, current, average and maximum).
+- Number selector with or without sign.
+- Single-read button.
+- Button to save the snapshot to a .CSV file.
 
 ## 16-bit recording window: 
 
@@ -179,6 +185,8 @@ Find connected device ID, functions and registers.
 - Stop when found (when a valid register is found, the scan ends).
 - Stop at the end (when it reaches the value of Id = 255, finish the scan, otherwise it will return to ID 1 cyclically).
 - Save to .CSV file (with separator choice).
+- Search for a specific term; the cell containing the terms will be highlighted in yellow.
+- If there are errors, they will appear in the status column, and the cell will be highlighted in red.
 
 - Filter option according to the received value. The options are:
 
@@ -191,11 +199,7 @@ Find connected device ID, functions and registers.
   - Equal to: only shows the record that has the same value as the entered value.
 
   - Different from: hides the record if the record value is equal to the entered value.
-
-  - Search for a specific term, the terms will be in yellow.
-    
-  - If there are errors, they will appear in the status column and will be in red.
-
+  
 - Can be set to values: 
   - 16 bits unsigned (default).
   - 16 bits signed.
