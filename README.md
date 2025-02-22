@@ -56,6 +56,8 @@ Search the input and output bytes (in hexadecimal format).
 - Show or hide valid data (useful for discovering occasional communication errors).
 - Show or hide errors.
 - Save to .CSV file (with separator choice)
+- Search for a specific term, the terms will be in yellow.
+- If there are errors, they will appear in the status column and will be in red.
 
   ***
 
@@ -190,6 +192,10 @@ Find connected device ID, functions and registers.
 
   - Different from: hides the record if the record value is equal to the entered value.
 
+  - Search for a specific term, the terms will be in yellow.
+    
+  - If there are errors, they will appear in the status column and will be in red.
+
 - Can be set to values: 
   - 16 bits unsigned (default).
   - 16 bits signed.
@@ -275,6 +281,8 @@ Apply multiplication factor, decimal place and off set to 16-bit values.
   -  Line count written on screen.
 
 - Count of the last packet received.
+
+- Search for a specific term.
 
 #### SPY Mode - Modbus-RTU.
 
