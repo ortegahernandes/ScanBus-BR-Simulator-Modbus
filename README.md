@@ -90,6 +90,20 @@ Note: If active, you can close the hexdump window, and it will continue counting
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_tcp.png)
 
+- Copy Local IP Button:
+  - As the equipment's IP must generally belong to the same subnet as the PC to work, the equipment's IP will have a number close to the local IP.
+- Edit the IP address.
+- Edit TCP/IP port:
+  -The default port for modbus is 502.
+- Set the TCP/IP Protocol used:
+  - TCP/IP (Default) or RTU over TCP/IP
+- Checking for transaction errors:
+  - Used to ensure Frame by frame does not use the previous frame, for very slow networks or networks subject to packet loss it can be disabled.  
+- Timeout:
+  - Determine the server response waiting time, if it exceeds it, consider it an error.
+- ScanRare.
+  - Set the scan rate, the time of each question to the slave.
+
 #### Log:
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_log.png)
