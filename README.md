@@ -65,19 +65,36 @@ Note: If active, you can close the hexdump window, and it will continue counting
   ***
 
 ## Connection and adjustment tab: 
-Serial RTU.
+#### Serial RTU:
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_rtu.png)
 
-TCP/IP.
+- Reescan Port:
+- - Rescan the available serial ports.
+- Serial Port.
+- - Select the serial port.
+- Stopbit bit.
+- - 
+- Delay (Read/Write).
+- - 
+- Baudrate.
+- - 
+- Parity.
+- -
+- Timeout.
+- -
+- ScanRare.
+- - 
+
+#### TCP/IP:
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_tcp.png)
 
-Record log text.
+#### Log:
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_log.png)
 
-Advanced adjustments.
+#### Advanced adjustments:
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_advanced.png)
 
