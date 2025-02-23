@@ -70,21 +70,21 @@ Note: If active, you can close the hexdump window, and it will continue counting
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_rtu.png)
 
 - Reescan Port:
-- - Rescan the available serial ports.
-- Serial Port.
-- - Select the serial port.
-- Stopbit bit.
-- - 
-- Delay (Read/Write).
-- - 
-- Baudrate.
-- - 
+  - Rescan the available serial ports.
+- Serial Port:
+  - Select the serial port.
+- Stopbit bit:
+  - 1 or 2
+- Delay (Read/Write):
+  - If you use more than one table, it is a good idea to set aside time to separate the transmissions.
+- Baudrate: 
+  - Select the communication speed.
 - Parity.
-- -
-- Timeout.
-- -
+  - select parity, none, even and odd.
+- Timeout:
+  - Determine the server response waiting time, if it exceeds it, consider it an error.
 - ScanRare.
-- - 
+  - Set the scan rate, the time of each question to the slave.
 
 #### TCP/IP:
 
