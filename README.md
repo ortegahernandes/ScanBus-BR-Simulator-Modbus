@@ -127,6 +127,12 @@ Keep a log of table activity.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_advanced.png)
 
+- Time to reconnect (TCP/IP only).
+- Read only (does not write data).
+- Limit the maximum size per packet in Holding, if the packet is smaller than the limit nothing will be done, if it is larger it will be divided into smaller packets, useful for equipment that does not support 125 Words of transmission at a time.
+- Limit the maximum size per packet in Analog, if the packet is smaller than the limit nothing will be done, if it is larger it will be divided into smaller packets, useful for equipment that does not support 125 Words of transmission at a time.
+- Disconnects the connection in case of error.
+
 ***
 
 ## 16-Bit Data Reading Screen:
