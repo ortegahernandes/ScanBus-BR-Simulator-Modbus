@@ -65,12 +65,21 @@ Note: If active, you can close the hexdump window, and it will continue counting
   ***
 
 ## Connection and adjustment tab: 
+Serial RTU.
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_rtu.png)
 
-- Serial RTU.
-- TCP/IP.
-- Record log text.
-- Advanced adjustments.
+TCP/IP.
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_tcp.png)
+
+Record log text.
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_log.png)
+
+Advanced adjustments.
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_advanced.png)
 
 ***
 
