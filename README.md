@@ -314,7 +314,9 @@ Individually check which 16-bit registers are active.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/wide_vision_1.png)
 - In the register where there is activity, the address cell will turn red for the time specified in "signaling time".
 
-Apply multiplication factor, decimal place and off set to 16-bit values.
+- Apply multiplication factor, decimal place and off set to 16-bit values.
+
+Note: the minimum scan rate time in the wide vision function is 80ms
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/wide_vision_2.png)
 
