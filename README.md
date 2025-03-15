@@ -98,7 +98,9 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 - Set the TCP/IP Protocol used:
   - TCP/IP (Default) or RTU over TCP/IP
 - Checking for transaction errors:
-  - Used to ensure Frame by frame does not use the previous frame, for very slow networks or networks subject to packet loss it can be disabled.  
+  - Used to ensure Frame by frame does not use the previous frame, for very slow networks or networks subject to packet loss it can be disabled.
+-  Enable or disable TCP/IP autoconnect
+  - !!! Be careful when activating, as you may fall into an infinite loop (connecting and disconnecting) and crash the software.!!! 
 - Timeout:
   - Determine the server response waiting time, if it exceeds it, consider it an error.
 - ScanRare.
@@ -130,10 +132,22 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 - Number selector with or without sign.
 - Single-read button.
 - Button to save a table activity log file.
+- 
+Button to open the "wide vision" function window.
 
 ## 16-bit recording window: 
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_16bits.png)
+- Make recordings in:
+  - Coil (Function 05).
+  - Holding (Function 06).
+  - Multiple coil (Function 15).
+  - Multiple holding (Function 16).
+-
+ - For function 06, values ​​can be in: 
+   - Decimal.
+   - Hexadecimal.
+   - Binary. 
 
 ***
 
@@ -162,6 +176,10 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_32bits.png)
 
+- For function 06 or 16, values ​​can be in: 
+   - Decimal.
+   - Hexadecimal.
+- Optional to send with double sending with function 06 or single sending with function 16 (default). 
 ***
 
 ## 64-Bit Data Reading Screen: 
