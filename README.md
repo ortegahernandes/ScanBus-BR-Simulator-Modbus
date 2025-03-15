@@ -48,7 +48,7 @@ http://www.scanbus.com.br
 ***
 ***
 
-## Hex Dump:
+## Traffic Date:
 Search the input and output bytes (in hexadecimal format).
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Traffic_Data.png)
@@ -107,7 +107,7 @@ Note: If active, you can close the hexdump window, and it will continue counting
 #### Log:
 Keep a log of table activity.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_log.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Log_register.png)
 
 - Checkbox (Write log?).
 - Set the file name:
@@ -125,7 +125,8 @@ Keep a log of table activity.
 
 #### Advanced adjustments:
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_advanced.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_rtu.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_advanced_TCP.png)
 
 - Time to reconnect (TCP/IP only).
 - Read only (does not write data).
