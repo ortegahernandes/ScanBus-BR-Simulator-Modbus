@@ -142,8 +142,10 @@ Button to open the "wide vision" function window.
   - Coil (Function 05).
   - Holding (Function 06).
   - Multiple coil (Function 15).
+    - Until 1998 simultaneous coils. 
   - Multiple holding (Function 16).
--
+    - Up to 123 simultaneous holdings 
+
  - For function 06, values ​​can be in: 
    - Decimal.
    - Hexadecimal.
