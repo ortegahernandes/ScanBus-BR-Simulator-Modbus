@@ -60,7 +60,7 @@ Search the input and output bytes (in hexadecimal format).
 - If there are errors, they will appear in the status column, and the cell will be highlighted in red.
 - Start/Pause button.
   
-Note: If active, you can close the hexdump window, and it will continue counting.
+Note: If active, you can close the Traffic Data window, and it will continue counting.
 
   ***
 
