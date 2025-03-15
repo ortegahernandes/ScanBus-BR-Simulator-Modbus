@@ -48,7 +48,7 @@ http://www.scanbus.com.br
 ***
 ***
 
-## Traffic Date:
+## Traffic Data:
 Search the input and output bytes (in hexadecimal format).
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Traffic_Data.png)
