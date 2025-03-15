@@ -104,24 +104,6 @@ Note: If active, you can close the hexdump window, and it will continue counting
 - ScanRare.
   - Set the scan rate, the time of each question to the slave.
 
-#### Log:
-Keep a log of table activity.
-
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Log_register.png)
-
-- Checkbox (Write log?).
-- Set the file name:
-  - The file in Windows will be saved in the same directory as the executable file, in Linux it can be in the same directory or in the home folder.
-- Extension, choose the type of file to be saved, TXT and CSV (opens in excel). 
-- Separator (SEP), choose the data separator between comma or semicolon.
-- Choose the types of data to collect:
-  - Errors
-  - Date
-  - Time
-  - ID
-  - Function
-  - Addresses   
-
 
 #### Advanced adjustments:
 
@@ -205,6 +187,24 @@ Keep a log of table activity.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_64bits.png)
 
 ***
+
+#### Log:
+Keep a log of table activity.
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Log_register.png)
+
+- Checkbox (Write log?).
+- Set the file name:
+  - The file in Windows will be saved in the same directory as the executable file, in Linux it can be in the same directory or in the home folder.
+- Extension, choose the type of file to be saved, TXT and CSV (opens in excel). 
+- Separator (SEP), choose the data separator between comma or semicolon.
+- Choose the types of data to collect:
+  - Errors
+  - Date
+  - Time
+  - ID
+  - Function
+  - Addresses   
 
 ## Special functions
 
