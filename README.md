@@ -129,7 +129,7 @@ Note: If active, you can close the hexdump window, and it will continue counting
 - Slave/server response times (minimum, current, average and maximum).
 - Number selector with or without sign.
 - Single-read button.
-- Button to save the snapshot to a .CSV file.
+- Button to save a table activity log file.
 
 ## 16-bit recording window: 
 
@@ -145,6 +145,7 @@ Note: If active, you can close the hexdump window, and it will continue counting
 - Receiving status.
 - Receipt count.
 - Slave/server response times (minimum, current, average and maximum).
+- Button to save a table activity log file.
 
 - Format:
   - Unsigned 
@@ -170,6 +171,7 @@ Note: If active, you can close the hexdump window, and it will continue counting
 - Receiving status.
 - Receipt count.
 - Slave/server response times (minimum, current, average and maximum).
+- Button to save a table activity log file.
 
 - Format:
   - Unsigned 
@@ -188,7 +190,7 @@ Note: If active, you can close the hexdump window, and it will continue counting
 
 ***
 
-#### Log:
+#### Log windows:
 Keep a log of table activity.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Log_register.png)
