@@ -101,8 +101,8 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
   - TCP/IP (Default) or RTU over TCP/IP
 - Checking for transaction errors:
   - Used to ensure Frame by frame does not use the previous frame, for very slow networks or networks subject to packet loss it can be disabled.
--  Enable or disable TCP/IP autoconnect
-  - !!! Be careful when activating, as you may fall into an infinite loop (connecting and disconnecting) and crash the software.!!! 
+-  Enable or disable TCP/IP autoconnect:
+   - !!! Be careful when activating, as you may fall into an infinite loop (connecting and disconnecting) and crash the software.!!! 
 - Timeout:
   - Determine the server response waiting time, if it exceeds it, consider it an error.
 - ScanRare.
