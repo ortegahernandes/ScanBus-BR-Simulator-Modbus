@@ -372,10 +372,11 @@ Individually check which 16-bit registers are active.
 - Search for a specific term.
 
 #### SPY Mode - Modbus-RTU.
-
+Find out what data the master device is sending to the slave.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/SPY_Mode_1.png)
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/SPY_Mode_2.png)
 
+It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
 - Mode:
   - Chronological:
     - Displays data on the screen in the order it is captured.
@@ -383,7 +384,7 @@ Individually check which 16-bit registers are active.
     - If the results are identical, they will not be displayed on the screen. The data includes (ID, Function, Address, Quantity/Value).
 
 - Simulate Modbus Slave:
-  - Activates an internal Modbus slave simulator. This simulator responds to any ID, Function, or Address with a register value of zero. It is particularly useful for testing on the master device alone.
+  - Activates an internal Modbus slave simulator. This simulator responds to any ID or an ID specified by you (when non-zero), Function, or Address with a register value of zero. It is particularly useful for testing on the master device alone.
 
 
 - Notes:
