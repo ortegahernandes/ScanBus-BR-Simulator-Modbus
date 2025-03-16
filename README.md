@@ -134,8 +134,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 - Number selector with or without sign.
 - Single-read button.
 - Button to save a table activity log file.
-- 
-Button to open the "wide vision" function window.
+- Button to open the "wide vision" function window.
 
 ## 16-bit recording window: 
 
