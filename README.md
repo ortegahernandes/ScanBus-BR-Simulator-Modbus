@@ -11,6 +11,8 @@ ScanBus-BR is a free Modbus Master / Client simulator software (Freeware).
 
 The ScanBus is PORTABLE, meaning it DOES NOT REQUIRE INSTALLATION and can be used even on pen drives.
 
+ScanBus-BR is NOT limited to Ubuntu and derivatives, it works on practically all the most popular LINUX distributions. Sometimes you just have to install the GTK library.
+
 Free from any advertising or any Adware.
 
 Designed to help developers find errors in slave devices and for anyone who wants to simulate, test and study the Modbus protocol.
