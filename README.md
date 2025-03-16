@@ -381,7 +381,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
   - Chronological:
     - Displays data on the screen in the order it is captured.
   - Filtered:
-    - If the results are identical, they will not be displayed on the screen. The data includes (ID, Function, Address, Quantity/Value).
+    - If the results are identical, i.e. they reappear more than once on the screen, subsequent identical results will not be shown, the data includes (ID, Function, Address, Quantity/Value).
 
 - Simulate Modbus Slave:
   - Activates an internal Modbus slave simulator. This simulator responds to any ID or an ID specified by you (when non-zero), Function, or Address with a register value of zero. It is particularly useful for testing on the master device alone.
