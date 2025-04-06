@@ -169,6 +169,9 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
   - Select recording mode (Global);
     - Function 06 (default).
     - Function 16.
+      
+Note: "Auto simulation" will only work while the window is open, the address that has "auto simulation" will be colored green in the 16-bit table.
+
 ***
 
 ## 32-Bit Data Reading Screen:
