@@ -154,6 +154,23 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 ***
 
+## 16-bit Auto Simulation: 
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Auto_Simulation.png)
+- Make automatic recordings:
+  - adjust the address for auto simulation (multiple independent addresses can be adjusted by simply selecting the desired address, adjusting and enabling it):
+    - Operating modes:
+      - Increment
+      - Decrement
+      - Random
+    - Time adjustment for each recording.
+    - Adjust steps.
+    - Adjust minimum value (accepts negative values).
+    - Set maximum value (accepts negative values).
+  - Select recording mode (Global);
+    - Function 06 (default).
+    - Function 16.
+***
+
 ## 32-Bit Data Reading Screen:
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Screeen_32bits.png)
