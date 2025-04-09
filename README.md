@@ -1,7 +1,7 @@
 # ScanBus-BR Modbus Master/Client Simulator. 
  **For Windows and Linux (64-bit).**
 
-_"The "Swiss Army Knife" software of the Modbus network."_
+_The "Swiss Army Knife" software of the Modbus network.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
 
