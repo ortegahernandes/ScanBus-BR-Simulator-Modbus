@@ -1,7 +1,7 @@
 # ScanBus-BR Modbus Master/Client Simulator. 
  **For Windows and Linux (64-bit).**
 
-_"The most complete GUI (Graphical User Interface) for Linux."_
+_"The "Swiss Army Knife" software of the Modbus network."_
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
 
