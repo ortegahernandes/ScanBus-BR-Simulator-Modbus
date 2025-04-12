@@ -340,7 +340,7 @@ Note:
 
   With the exception of some exotic baudRate.
     
-  The software is capable of checking all network/device RTU combinations, however,depending on the amount of data you put in for scanning, it can be extremely time-consuming. 
+  The software is capable of checking all network/device "Modbus RTU" combinations, however,depending on the amount of data you put in for scanning, it can be extremely time-consuming. 
     
   Each item added simply doubles the scanner time. 
     
