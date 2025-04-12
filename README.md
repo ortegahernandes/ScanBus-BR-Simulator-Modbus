@@ -332,9 +332,14 @@ Find the serial configuration of the connected device
 - BaudRate
 - Parity
 - StopBit
-- ID 
+- ID
+- Function
+- Addresses
 
-You will need to know in advance the function and address that the equipment responds to.
+Note:
+With the exception of some exotic baudRate.
+
+The software is capable of checking all network/device RTU combinations, however,depending on the amount of data you put in for scanning, it can be extremely time-consuming, each item added simply doubles the scanner time, the more information you have about your device or network, the more items NOT existing on your device you can remove,making the scanner faster.
 
 ***
 
