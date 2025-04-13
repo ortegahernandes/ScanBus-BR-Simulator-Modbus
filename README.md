@@ -330,11 +330,16 @@ Find the serial configuration of the connected device
 
 #### Scanner of: 
 - BaudRate
-- Parity
-- StopBit
-- ID
-- Function
-- Addresses
+- Parity:
+  - None, Odd, Even.
+- StopBit:
+  - 1 and 2
+- ID:
+  - from 0 to 255
+- Function:
+  - If "All" is selected, the following functions will be scanned: (01 Coil, 02 Digital, 03 Holding, 04 Analog).
+- Addresses:
+  - from 0 to 65535.
 
 Note:
 
