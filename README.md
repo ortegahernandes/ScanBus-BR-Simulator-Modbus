@@ -7,7 +7,10 @@ _The "Swiss Army Knife" of the Modbus network_.
 
 ## What is ScanBus-BR?
 
-ScanBus-BR is much more than a Modbus Master/Client simulator software. It is a set of tools that will help you solve problems related to the Modbus network. Completely free (Freeware).
+ScanBus-BR is much more than a Modbus Master/Client simulator software. 
+It is a set of tools that will help you solve problems related to the Modbus network. 
+
+Completely free (Freeware).
 
 The ScanBus is PORTABLE, meaning it DOES NOT REQUIRE INSTALLATION and can be used even on pen drives.
 
