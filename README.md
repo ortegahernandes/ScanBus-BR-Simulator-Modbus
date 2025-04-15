@@ -114,7 +114,6 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 #### Advanced adjustments:
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_rtu.png)
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_advanced_TCP.png)
 
 - Time to reconnect (TCP/IP only).
