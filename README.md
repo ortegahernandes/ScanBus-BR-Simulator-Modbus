@@ -270,11 +270,13 @@ with data of:
   - 64-bit Unsigned
   - 64-bit Signed
   - 64-bit Double
-  - with the bit order of:
+With the bit order of:
   - Big endian
   - Little endian
   - Big endian / swap byte
   - Little endian / swap byte
+
+Note: The format Addr item is only for modifying the display of addresses in the table, for adjustment use relative addresses (Base - 0).
 
 
 ## Special functions
