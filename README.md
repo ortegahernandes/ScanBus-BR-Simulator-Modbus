@@ -139,6 +139,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 - Single-read button.
 - Button to save a table activity log file.
 - [Button to open the "wide vision" function window.](#wide-vision-function)
+- [Auto simulation button.](#16-bit-auto-simulation )
   
 ## 16-bit recording window 
 
