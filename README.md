@@ -137,7 +137,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 - Single-read button.
 - Button to save a table activity log file.
 - Button to open the "wide vision" function window.
-
+[Pular para Recursos](#seção-de-recursos)
 ## 16-bit recording window: 
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_16bits.png)
