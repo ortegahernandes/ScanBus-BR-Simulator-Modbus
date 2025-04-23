@@ -261,7 +261,7 @@ Open new tables in floating windows.
 
 Universal tables, in the connection section, click on the new table button, the tables contain settings for viewing registers up to (125 = 16 bits, 64 = 32 bits, 32 = 64 bits), adjustable size windows/tables with fixed hexadecimal values ​​in all modes and with configurable format.
 
-with data of:
+With the Formats of:
   - 16-bit Binary
   - 16-bit Unsigned Decimal
   - 16-bit Signed Decimal
