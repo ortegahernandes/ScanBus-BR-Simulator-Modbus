@@ -136,8 +136,8 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 - Number selector with or without sign.
 - Single-read button.
 - Button to save a table activity log file.
-- [Button to open the "wide vision" function window.](#wide-vision-function:)
-- [Pular para Recursos](#seção-de-recursos)
+- [Button to open the "wide vision" function window.](#wide-vision-function)
+  
 ## 16-bit recording window: 
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_16bits.png)
@@ -368,7 +368,6 @@ Find the device's IP and TCP port.
 You will need to know in advance the function and address that the equipment responds to.
 
 ***
-## Seção de Recursos
 ## Wide vision function
 Individually check which 16-bit registers are active.
 
