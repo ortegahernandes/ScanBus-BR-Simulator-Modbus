@@ -90,7 +90,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
   - Determine the server response waiting time, if it exceeds it, consider it an error.
 - ScanRare.
   - Set the scan rate, the time of each question to the slave.
-  - New Table button, Open new universal tables (16, 32 or 64 bit).
+  - [New Table button, Open new universal tables (16, 32 or 64 bit).](#new-universal-table)
 
 #### TCP/IP:
 
@@ -111,7 +111,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
   - Determine the server response waiting time, if it exceeds it, consider it an error.
 - ScanRare.
   - Set the scan rate, the time of each question to the slave.
-  - New Table button, Open new universal tables (16, 32 or 64 bit).
+  - [New Table button, Open new universal tables (16, 32 or 64 bit).](#new-universal-table)
 
 
 #### Advanced adjustments:
@@ -126,7 +126,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 ***
 
-## 16-Bit Data Reading Screen:
+## 16-Bit Data Reading Screen
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
 
@@ -140,7 +140,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 - Button to save a table activity log file.
 - [Button to open the "wide vision" function window.](#wide-vision-function)
   
-## 16-bit recording window: 
+## 16-bit recording window 
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_16bits.png)
 - Make recordings in:
@@ -158,7 +158,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 ***
 
-## 16-bit Auto Simulation: 
+## 16-bit Auto Simulation 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Auto_Simulation.png)
 - Make automatic recordings:
   - adjust the address for auto simulation (multiple independent addresses can be adjusted by simply selecting the desired address, adjusting and enabling it):
@@ -178,7 +178,7 @@ Note: "Auto simulation" will only work while the window is open, the address tha
 
 ***
 
-## 32-Bit Data Reading Screen:
+## 32-Bit Data Reading Screen
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Screeen_32bits.png)
 
@@ -199,7 +199,7 @@ Note: "Auto simulation" will only work while the window is open, the address tha
   - Big endian / byte swap
   - Little endian / byte swap
 
-## 32-bit recording window: 
+## 32-bit recording window 
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_32bits.png)
 
@@ -209,7 +209,7 @@ Note: "Auto simulation" will only work while the window is open, the address tha
 - Optional to send with double sending with function 06 or single sending with function 16 (default). 
 ***
 
-## 64-Bit Data Reading Screen: 
+## 64-Bit Data Reading Screen 
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Screeen_64bits.png)
 
@@ -229,13 +229,13 @@ Note: "Auto simulation" will only work while the window is open, the address tha
   - Big endian / byte swap
   - Little endian / byte swap
 
-## 64-bit recording window:
+## 64-bit recording window
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_64bits.png)
 
 ***
 
-#### Log windows:
+## Log windows
 Keep a log of table activity.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Log_register.png)
@@ -251,7 +251,29 @@ Keep a log of table activity.
   - Time
   - ID
   - Function
-  - Addresses   
+  - Addresses
+ 
+## New Universal Table
+Open new tables in floating windows.
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Universal_table.png)
+
+Universal tables, in the connection section, click on the new table button, the tables contain settings for viewing registers up to (125 = 16 bits, 64 = 32 bits, 32 = 64 bits), adjustable size windows/tables with fixed hexadecimal values ​​in all modes and with configurable format.
+with data of:
+  - 16-bit Binary
+  - 16-bit Unsigned Decimal
+  - 16-bit Signed Decimal
+  - 32-bit Unsigned
+  - 32-bit Signed
+  - 32-bit Float
+  - 64-bit Unsigned
+  - 64-bit Signed
+  - 64-bit Double
+  - with the bit order of:
+  - Big endian
+  - Little endian
+  - Big endian / swap byte
+  - Little endian / swap byte
+
 
 ## Special functions
 
