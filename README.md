@@ -254,7 +254,9 @@ Keep a log of table activity.
   - Addresses
  
 ## New Universal Table
+
 Open new tables in floating windows.
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Universal_table.png)
 
 Universal tables, in the connection section, click on the new table button, the tables contain settings for viewing registers up to (125 = 16 bits, 64 = 32 bits, 32 = 64 bits), adjustable size windows/tables with fixed hexadecimal values ​​in all modes and with configurable format.
