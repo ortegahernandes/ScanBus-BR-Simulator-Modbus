@@ -88,7 +88,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
   - select parity, none, even and odd.
 - Timeout:
   - Determine the server response waiting time, if it exceeds it, consider it an error.
-- ScanRare.
+- ScanRate.
   - Set the scan rate, the time of each question to the slave.
 
 
@@ -109,7 +109,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
    - !!! Be careful when activating, as you may fall into an infinite loop (connecting and disconnecting) and crash the software.!!! 
 - Timeout:
   - Determine the server response waiting time, if it exceeds it, consider it an error.
-- ScanRare.
+- ScanRate.
   - Set the scan rate, the time of each question to the slave.
 
 
