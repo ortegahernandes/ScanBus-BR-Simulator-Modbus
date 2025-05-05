@@ -111,7 +111,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
   - Determine the server response waiting time, if it exceeds it, consider it an error.
 - ScanRare.
   - Set the scan rate, the time of each question to the slave.
-  - [New Table button, Open new universal tables (16, 32 or 64 bit).](#new-universal-table)
+
 
 
 #### Advanced adjustments:
@@ -126,20 +126,40 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 ***
 
-## 16-Bit Data Reading Screen
+## Data Reading Screen
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
 
-- Two 16-bit tables.
 - Visualization of values received in decimal, hexadecimal and binary simultaneously.
 - Receiving status.
 - Receipt count.
 - Slave/server response times (minimum, current, average and maximum).
-- Number selector with or without sign.
+- Number with or without sign.
+- [New Table button, Open new universal tables (16, 32 or 64 bit).](#new-universal-table)
 - Single-read button.
 - Button to save a table activity log file.
 - [Button to open the "wide vision" function window.](#wide-vision-function)
 - [Auto simulation button.](#16-bit-auto-simulation )
+- With the Formats of:
+  - 16-bit Binary
+  - 16-bit Unsigned Decimal
+  - 16-bit Signed Decimal
+  - 32-bit Unsigned
+  - 32-bit Signed
+  - 32-bit Float
+  - 64-bit Unsigned
+  - 64-bit Signed
+  - 64-bit Double
+    
+With the bit order of:
+  - Big endian
+  - Little endian
+  - Big endian / swap byte
+  - Little endian / swap byte
+    
+Note: The format Addr item is only for modifying the display of addresses in the table, for adjustment use relative addresses (Base - 0).
+
+  ***
   
 ## 16-bit recording window 
 
@@ -156,6 +176,21 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
    - Decimal.
    - Hexadecimal.
    - Binary. 
+
+***
+## 32-bit recording window 
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_32bits.png)
+
+- For function 06 or 16, values ​​can be in: 
+   - Decimal.
+   - Hexadecimal.
+- Optional to send with double sending with function 06 or single sending with function 16 (default). 
+***
+
+## 64-bit recording window
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_64bits.png)
 
 ***
 
@@ -179,63 +214,6 @@ Note: "Auto simulation" will only work while the window is open, the address tha
 
 ***
 
-## 32-Bit Data Reading Screen
-
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Screeen_32bits.png)
-
-- Visualization of values received in decimal or float, hexadecimal and binary simultaneously.
-- Receiving status.
-- Receipt count.
-- Slave/server response times (minimum, current, average and maximum).
-- Button to save a table activity log file.
-
-- Format:
-  - Unsigned 
-  - Signed.
-  - Floating point.
-    
-- Byte order is available: 
-  - Big endian
-  - Little endian
-  - Big endian / byte swap
-  - Little endian / byte swap
-
-## 32-bit recording window 
-
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_32bits.png)
-
-- For function 06 or 16, values ​​can be in: 
-   - Decimal.
-   - Hexadecimal.
-- Optional to send with double sending with function 06 or single sending with function 16 (default). 
-***
-
-## 64-Bit Data Reading Screen 
-
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Screeen_64bits.png)
-
-- Receiving status.
-- Receipt count.
-- Slave/server response times (minimum, current, average and maximum).
-- Button to save a table activity log file.
-
-- Format:
-  - Unsigned 
-  - Signed.
-  - Double.
-    
-- Byte order is available: 
-  - Big endian
-  - Little endian
-  - Big endian / byte swap
-  - Little endian / byte swap
-
-## 64-bit recording window
-
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_64bits.png)
-
-***
-
 ## Log windows
 Keep a log of table activity.
 
@@ -253,6 +231,8 @@ Keep a log of table activity.
   - ID
   - Function
   - Addresses
+    
+ ***
  
 ## New Universal Table
 
@@ -281,6 +261,7 @@ With the bit order of:
 
 Note: The format Addr item is only for modifying the display of addresses in the table, for adjustment use relative addresses (Base - 0).
 
+***
 
 ## Special functions
 
