@@ -137,10 +137,12 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 - Number with or without sign.
 - [New Table button, Open new universal tables (16, 32 or 64 bit).](#new-universal-table)
 - Single-read button.
+- [Auto simulation button.](#16-bit-auto-simulation )
 - Button to save a table activity log file.
 - [Button to open the "wide vision" function window.](#wide-vision-function)
-- [Auto simulation button.](#16-bit-auto-simulation )
-- With the Formats of:
+
+
+The table offers the following number formats:
   - 16-bit Binary
   - 16-bit Unsigned Decimal
   - 16-bit Signed Decimal
@@ -214,7 +216,7 @@ Note: "Auto simulation" will only work while the window is open, the address tha
 
 ***
 
-## Log windows
+## Log. windows
 Keep a log of table activity.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Log_register.png)
