@@ -211,7 +211,7 @@ Note: The format Addr item is only for modifying the display of addresses in the
     - Function 06 (default).
     - Function 16.
       
-Note: "Auto simulation" will only work while the window is open, the address that has "auto simulation" will be colored green in the 16-bit table.
+Note: " Automatic Simulation" will only work while the window is open and the table is set to 16 bits. The address that has "automatic simulation" will be colored green in the table.
 
 ***
 
