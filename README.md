@@ -143,7 +143,6 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 
 The table offers the following number formats:
-  - 16-bit Binary
   - 16-bit Unsigned Decimal
   - 16-bit Signed Decimal
   - 32-bit Unsigned
