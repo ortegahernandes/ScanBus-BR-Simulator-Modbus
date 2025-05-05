@@ -437,3 +437,5 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 
 - Notes:
   - Functions 15 and 16 have a limitation due to the USB converter, which typically splits the packet into 32-byte segments. As a result, packets larger than 32 bytes (approximately 10 registers) may not be detected.
+
+  - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
