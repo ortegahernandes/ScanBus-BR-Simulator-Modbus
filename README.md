@@ -90,7 +90,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
   - Determine the server response waiting time, if it exceeds it, consider it an error.
 - ScanRare.
   - Set the scan rate, the time of each question to the slave.
-  - [New Table button, Open new universal tables (16, 32 or 64 bit).](#new-universal-table)
+
 
 #### TCP/IP:
 
