@@ -157,8 +157,14 @@ With the bit order of:
   - Little endian
   - Big endian / swap byte
   - Little endian / swap byte
+
+Address display format in the following modes: 
+ - Relative (Base-0).
+ - Absolute (Base-1).
+ - Hexadecimal (Base-0).
+ - Hexadecimal (Base-1).
     
-Note: The format Addr item is only for modifying the display of addresses in the table, for adjustment use relative addresses (Base - 0).
+Note: The format Addr item is only for modifying the display of addresses in the table, for adjustment use relative addresses (Base-0).
 
   ***
   
