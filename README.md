@@ -170,7 +170,7 @@ Note: The format Addr item is only for modifying the display of addresses in the
   
 ## 16-bit recording window 
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_16bits.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/write_16bits.png)
 - Make recordings in:
   - Coil (Function 05).
   - Holding (Function 06).
@@ -187,7 +187,7 @@ Note: The format Addr item is only for modifying the display of addresses in the
 ***
 ## 32-bit recording window 
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_32bits.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/write_32bits.png)
 
 - For function 06 or 16, values ​​can be in: 
    - Decimal.
@@ -197,7 +197,7 @@ Note: The format Addr item is only for modifying the display of addresses in the
 
 ## 64-bit recording window
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Recorde_64bits.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/write_64bits.png)
 
 ***
 
