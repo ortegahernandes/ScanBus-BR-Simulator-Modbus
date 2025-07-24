@@ -44,14 +44,31 @@ Note: on some operating systems Linux, it is necessary to install the GTK2 libra
 - Portuguese.
 - Spanish.
 - English.
-  
-***
-***
-# Link Download:
-http://www.scanbus.com.br
 
 ***
+#### Did you like ScanBus-BR ? 
+
+It was created with great care and dedication. 
+
+Your donation allows me to maintain and improve this software free of charge for everyone. 
+
+Any donation is welcome. 
+Thank you for your contribution! 
+
+Rodrigo F. Hernandes
 ***
+
+Donation via Paypal:
+https://www.paypal.com/donate?token=ljckKFu-3Lt87PoOhJA1gubF2l4FwK0BFTfkc9AgKkaieRf6nm4ON0T1x8z2tGHiBlREN_BW34kjZUBF
+***
+Donation via PIX:
+  
+***
+# Link Download:
+
+https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases/
+***
+
 
 ## Traffic Data:
 Search the input and output bytes (in hexadecimal format).
