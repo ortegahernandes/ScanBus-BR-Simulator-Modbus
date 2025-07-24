@@ -72,6 +72,24 @@ https://www.paypal.com/donate?token=ljckKFu-3Lt87PoOhJA1gubF2l4FwK0BFTfkc9AgKkai
 https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases/
 ***
 
+For software questions, update notifications, and bug reports:
+
+WhatsApp Group in Portuguese 
+https://chat.whatsapp.com/D8ZMNuLCYgLK8Eeg8LdmF6
+
+WhatsApp Group in Spanish 
+https://chat.whatsapp.com/ELyflqeX03OJACU6WP76Dz
+
+WhatsApp Group in English 
+https://chat.whatsapp.com/JjndsgL4jXF7VfToQ3cuBN
+
+Telegram Group (All) 
+https://t.me/Scanbus_br
+
+YouTube Channel
+https://www.youtube.com/channel/UCU19Zzi0tI-7OPVz2x3Vh9Q
+
+***
 
 ## Traffic Data:
 Search the input and output bytes (in hexadecimal format).
