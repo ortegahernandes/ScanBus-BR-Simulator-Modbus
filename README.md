@@ -59,7 +59,7 @@ Rodrigo F. Hernandes
 ***
 
 ## Donation via Paypal:
-https://www.paypal.com/donate?token=ljckKFu-3Lt87PoOhJA1gubF2l4FwK0BFTfkc9AgKkaieRf6nm4ON0T1x8z2tGHiBlREN_BW34kjZUBF
+#### ortegahernandes@yahoo.com.br
 ***
 
 ## Donation via PIX:
