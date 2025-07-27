@@ -58,13 +58,13 @@ Thank you for your contribution!
 Rodrigo F. Hernandes
 ***
 
-## Donation via Paypal:
+# Donation via Paypal:
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/QR%20Code.png)
 
 https://www.paypal.com/donate/?hosted_button_id=6EUN9X4VDY88N
 
 
-## Donation via PIX:
+# Donation via PIX:
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Pix_ScanBus-BR.jpeg)
 
   
