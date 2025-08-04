@@ -471,11 +471,15 @@ Find out what data the master device is sending to the slave.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/SPY_Mode_2.png)
 
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
-- Mode:
-  - Chronological:
-    - Displays data on the screen in the order it is captured.
-  - Filtered:
-    - If the results are identical, i.e. they reappear more than once on the screen, subsequent identical results will not be shown, the data includes (ID, Function, Address, Quantity/Value).
+
+- Filters
+   - Search only by ID.
+   - Search only by function.
+   - Mode:
+      - Chronological:
+         - Displays data on the screen in the order it is captured.
+      - Don't Repeat:
+         - If the results are identical, i.e. they reappear more than once on the screen, subsequent identical results will not be shown, the data includes (ID, Function, Address, Quantity/Value).
 
 - Simulate Modbus Slave:
   - Activates an internal Modbus slave simulator. This simulator responds to any ID or an ID specified by you (when non-zero), Function, or Address with a register value of zero. It is particularly useful for testing on the master device alone.
