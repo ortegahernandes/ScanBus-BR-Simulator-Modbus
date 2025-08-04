@@ -45,30 +45,7 @@ Note: on some operating systems Linux, it is necessary to install the GTK2 libra
 - Spanish.
 - English.
 
-***
-#### Did you like ScanBus-BR ? 
 
-It was created with great care and dedication. 
-
-Your donation allows me to maintain and improve this software free of charge for everyone. 
-
-Any donation is welcome. 
-Thank you for your contribution! 
-
-Rodrigo F. Hernandes
-***
-
-# Donation via Paypal:
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/QR%20Code.png)
-
-https://www.paypal.com/donate/?hosted_button_id=6EUN9X4VDY88N
-
-
-# Donation via PIX:
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Pix_ScanBus-BR.jpeg)
-
-  
-***
 # Link Download:
 
 https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases/
@@ -489,3 +466,28 @@ It can be used to discover data sent by the master, for example: what an HMI is 
   - Functions 15 and 16 have a limitation due to the USB converter, which typically splits the packet into 32-byte segments. As a result, packets larger than 32 bytes (approximately 10 registers) may not be detected.
 
   - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
+ 
+***
+#### Did you like ScanBus-BR ? 
+
+It was created with great care and dedication. 
+
+Your donation allows me to maintain and improve this software free of charge for everyone. 
+
+Any donation is welcome. 
+Thank you for your contribution! 
+
+Rodrigo F. Hernandes
+***
+
+# Donation via Paypal:
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/QR%20Code.png)
+
+https://www.paypal.com/donate/?hosted_button_id=6EUN9X4VDY88N
+
+
+# Donation via PIX:
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Pix_ScanBus-BR.jpeg)
+
+  
+***
