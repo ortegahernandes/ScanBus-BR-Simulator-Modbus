@@ -318,7 +318,7 @@ Generates graphs (time x values) with the values ​​received via Modbus.
 
 ***
 
-## Device Scanner: 
+## Device/Network Scanner: 
 Find connected device ID, functions and registers.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_Device.png)
