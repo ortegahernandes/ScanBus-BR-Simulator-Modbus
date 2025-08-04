@@ -449,7 +449,7 @@ Find out what data the master device is sending to the slave.
 
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
 
-- Filters
+- Filters:
    - Search only by ID.
    - Search only by function.
    - Mode:
