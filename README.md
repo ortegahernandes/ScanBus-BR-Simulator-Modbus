@@ -56,10 +56,7 @@ For software questions, update notifications, and bug reports:
 WhatsApp Group in Portuguese 
 https://chat.whatsapp.com/D8ZMNuLCYgLK8Eeg8LdmF6
 
-WhatsApp Group in Spanish 
-https://chat.whatsapp.com/ELyflqeX03OJACU6WP76Dz
-
-WhatsApp Group in English 
+WhatsApp Group International.
 https://chat.whatsapp.com/JjndsgL4jXF7VfToQ3cuBN
 
 Telegram Group (All) 
