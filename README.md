@@ -44,6 +44,7 @@ Note: on some operating systems Linux, it is necessary to install the GTK2 libra
 - Portuguese.
 - Spanish.
 - English.
+- Italian
 
 
 # Link Download:
