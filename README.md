@@ -37,6 +37,10 @@ Errors and exception codes are displayed in the status line and in data traffic.
   
 On Linux, simply extract the file and use it.
 
+### ATTENTION UBUNTU USERS: 
+- Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
+
+
 Note: on some operating systems Linux, it is necessary to install the GTK2 library
 
 ### In languages:
