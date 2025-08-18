@@ -392,6 +392,8 @@ Note:
     
   The more information you have about your device or network, the more items NOT existing on your device you can remove,making the scanner faster.
 
+Attention!!!
+  A scanner in the default configuration takes about four and a half hours to complete; with each item added to the default configuration, the time doubles.
 ***
 
 ## TCP Scanner:
