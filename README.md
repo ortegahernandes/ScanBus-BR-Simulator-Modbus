@@ -376,13 +376,14 @@ Find the serial configuration of the connected device
 - StopBit:
   - 1 and 2
 - ID:
-  - from 0 to 255
+  - from 1 to 255
 - Function:
   - If "All" is selected, the following functions will be scanned: (01 Coil, 02 Digital, 03 Holding, 04 Analog).
 - Addresses:
   - from 0 to 65535.
 
 Note:
+  Use the same connection as the simulator.
 
   With the exception of some exotic baudRate.
     
@@ -391,6 +392,8 @@ Note:
   Each item added simply doubles the scanner time. 
     
   The more information you have about your device or network, the more items NOT existing on your device you can remove,making the scanner faster.
+
+  In this scanner, only truly valid data (valid + exceptions) is accepted, unlike other scanners that consider any Echo/Noise on the network as a valid result.
 
 Attention!!!
 
