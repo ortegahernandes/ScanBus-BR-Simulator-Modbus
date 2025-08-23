@@ -383,6 +383,7 @@ Find the serial configuration of the connected device
   - from 0 to 65535.
 
 Note:
+  
   Use the same connection as the simulator.
 
   With the exception of some exotic baudRate.
