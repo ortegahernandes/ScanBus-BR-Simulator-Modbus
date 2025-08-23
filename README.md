@@ -394,7 +394,7 @@ Note:
 
 Attention!!!
 
-  A scanner in the default configuration takes about four and a half hours to complete; with each item added to the default configuration, the time doubles.
+  The scan takes about two and a half hours to complete at default settings. With each item added to the default settings, the time doubles.
 ***
 
 ## TCP Scanner:
