@@ -1,5 +1,5 @@
 # ScanBus-BR Modbus Simulator Master/Client. 
- ** For Windows and Linux **
+ **For Windows and Linux**
 
 _The "Swiss Army Knife" of the Modbus network_.
 
