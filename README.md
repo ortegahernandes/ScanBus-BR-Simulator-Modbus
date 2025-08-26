@@ -473,7 +473,9 @@ It can be used to discover data sent by the master, for example: what an HMI is 
          - If the results are identical, i.e. they reappear more than once on the screen, subsequent identical results will not be shown, the data includes (ID, Function, Address, Quantity/Value).
 
 - Simulate Modbus Slave:
-  - Activates an internal Modbus slave simulator. This simulator responds to any ID or an ID specified by you (when non-zero), Function, or Address with a register value of zero. It is particularly useful for testing on the master device alone.
+  - Activates an internal Modbus RTU slave simulator.
+  - This simulator responds to any ID (when zero) or to an ID you specify.
+  - It is particularly useful for testing only on the master device.
 
 
 - Notes:
