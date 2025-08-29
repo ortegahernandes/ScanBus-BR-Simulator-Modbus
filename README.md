@@ -120,7 +120,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 - Edit the IP address:
   - IPV4 addresses and DNS addresses are accepted.
     
- *** Note For DNS addresses, DO NOT use (http or Https or any slash at the end) just use the link e.g. scanbus.com.br
+ *** Note For DNS addresses, DO NOT use (http or https or any slash at the end) just use the link e.g. scanbus.com.br
  
 - Edit TCP/IP port:
   -The default port for modbus is 502.
