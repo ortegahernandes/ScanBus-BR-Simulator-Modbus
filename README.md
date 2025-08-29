@@ -119,6 +119,9 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
   - As the equipment's IP must generally belong to the same subnet as the PC to work, the equipment's IP will have a number close to the local IP.
 - Edit the IP address:
   - IPV4 addresses and DNS addresses are accepted.
+    
+ *** Note For DNS addresses, DO NOT use (http or Https or any slash at the end) just use the link e.g. scanbus.com.br
+ 
 - Edit TCP/IP port:
   -The default port for modbus is 502.
 - Set the TCP/IP Protocol used:
