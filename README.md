@@ -422,6 +422,7 @@ You will need to know in advance the function and address that the equipment res
 Note:
 - The scanned device or network must be in the same IP range as the computer.
 
+- To perform the TCP/IP Scanner it is NOT NECESSARY to establish a valid connection, just press the connection button.
 
 ***
 ## Wide vision function
