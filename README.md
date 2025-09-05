@@ -40,6 +40,7 @@ On Linux, simply extract the file and use it.
 ### ATTENTION UBUNTU USERS: 
 - Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
 
+- The images and software were created using Linux Mint (Cinnamon or Xfce). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
 
 Note: on some operating systems Linux, it is necessary to install the GTK2 library
 
