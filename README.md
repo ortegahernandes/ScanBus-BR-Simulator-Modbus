@@ -365,7 +365,7 @@ For 32-bit values the following byte order is available:
 - Little endian / byte swap
     
 Note:
-- 32-bit values ​​use 2-byte wide registers.
+- 32-bit values ​​use 2 word (4 bytes) wide registers.
 
 ***
 
