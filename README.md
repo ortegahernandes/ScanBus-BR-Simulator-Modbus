@@ -484,24 +484,24 @@ It can be used to discover data sent by the master, for example: what an HMI is 
   - It is particularly useful for testing only on the master device.
   - Open Slave Table button.
 
-- Table Slave:
-  - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Table_Slave.png)
-  - Numeric format changer:
-    - 16 bits unsigned.
-    - 16-bit signed.
-    - Write button. Opens a window to write the value.
-    - ID Edit.
-    - Function Edit.
-    - Address Edit.
-    - Editing the number of registers.
+  - Table Slave:
+    - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Table_Slave.png)
+    - Numeric format changer:
+      - 16 bits unsigned.
+      - 16-bit signed.
+      - Write button. Opens a window to write the value.
+      - ID Edit.
+      - Function Edit.
+      - Address Edit.
+      - Editing the number of registers.
       
-- Write slave:      
-  -![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Write_Slave.png)
-  - ID Edit.
-  - Function Edit.
-  - Address Edit.
-  - Value.
-  - Write button or ON OFF buttons (coil or discrete input).
+      - Write slave:      
+        -![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Write_Slave.png)
+        - ID Edit.
+        - Function Edit.
+        - Address Edit.
+        - Value.
+        - Write button or ON OFF buttons (coil or discrete input).
    
       
 - Notes:
