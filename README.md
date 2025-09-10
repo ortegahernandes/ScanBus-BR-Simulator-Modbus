@@ -496,7 +496,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
       - Editing the number of registers.
       
       - Write slave:      
-        -![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Write_Slave.png)
+        - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Write_Slave.png)
         - ID Edit.
         - Function Edit.
         - Address Edit.
