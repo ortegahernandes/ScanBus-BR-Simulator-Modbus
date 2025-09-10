@@ -501,7 +501,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
   - Function Edit.
   - Address Edit.
   - Value.
-  - Write button.
+  - Write button or ON OFF buttons (coil or discrete input).
    
       
 - Notes:
