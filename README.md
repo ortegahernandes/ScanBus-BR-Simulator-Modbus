@@ -482,8 +482,28 @@ It can be used to discover data sent by the master, for example: what an HMI is 
   - Activates an internal Modbus RTU slave simulator.
   - This simulator responds to any ID (when zero) or to an ID you specify.
   - It is particularly useful for testing only on the master device.
+  - Open Slave Table button.
 
-
+- Table Slave:
+  - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Table_Slave.png)
+  - Numeric format changer:
+    - 16 bits unsigned.
+    - 16-bit signed.
+    - Write button. Opens a window to write the value.
+    - ID Edit.
+    - Function Edit.
+    - Address Edit.
+    - Editing the number of registers.
+      
+- Write slave:      
+  -![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Write_Slave.png)
+  - ID Edit.
+  - Function Edit.
+  - Address Edit.
+  - Value.
+  - Write button.
+   
+      
 - Notes:
   - Functions 15 and 16 have a limitation due to the USB converter, which typically splits the packet into 32-byte segments. As a result, packets larger than 32 bytes (approximately 10 registers) may not be detected.
 
