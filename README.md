@@ -507,7 +507,8 @@ It can be used to discover data sent by the master, for example: what an HMI is 
         - Value.
         - Write button or ON OFF buttons (coil or discrete input).
    
-      
+  - Note: The internal slave simulator will always respond to all standard functions (01 Coil, 02 Input discrete, 03 Holding, 04 Input register, 05 Write Coil, 06 Write Holding, 15 Multiple Write Coil, 16 Multiple Write Holding) and register addresses from 0 to 65535 without any configuration.
+          
 - Notes:
   - Functions 15 and 16 have a limitation due to the USB converter, which typically splits the packet into 32-byte segments. As a result, packets larger than 32 bytes (approximately 10 registers) may not be detected.
 
