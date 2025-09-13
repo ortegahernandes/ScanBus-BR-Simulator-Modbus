@@ -44,7 +44,9 @@ On Linux, simply extract the file and use it.
 - The images and software were created using Linux Mint (Cinnamon or Xfce). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
 
 Note: on some operating systems Linux, it is necessary to install the GTK2 library
+
 Lubuntu = sudo apt-get install libgtk2.0-dev
+
 Fedora = sudo dnf install gtk2-devel
 
 ### In languages:
