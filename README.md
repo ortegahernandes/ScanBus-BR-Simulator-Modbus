@@ -493,11 +493,21 @@ It can be used to discover data sent by the master, for example: what an HMI is 
     - Numeric format changer:
       - 16 bits unsigned.
       - 16-bit signed.
-      - Write button. Opens a window to write the value.
-      - ID Edit.
-      - Function Edit.
-      - Address Edit.
-      - Editing the number of registers.
+      - 32-bit unsigned.
+      - 32-bit signed.
+      - 32-bit float.
+        
+    - Byte order:
+      - Big-endian.
+      - Little-endian.
+      - Big-endian / Byte Swap
+      - Little-endian / Byte Swap
+        
+    - Write button. Opens a window to write the value.
+    - ID Edit.
+    - Function Edit.
+    - Address Edit.
+    - Editing the number of registers.
       
       - Write slave:      
         - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Write_Slave.png)
