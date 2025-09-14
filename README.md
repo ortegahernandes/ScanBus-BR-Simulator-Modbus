@@ -490,6 +490,12 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 
   - Table Slave:
     - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Table_Slave.png)
+
+    - ID Edit.
+    - Function Edit.
+    - Address Edit.
+    - Editing the number of registers.
+      
     - Numeric format changer:
       - 16 bits unsigned.
       - 16-bit signed.
@@ -502,13 +508,10 @@ It can be used to discover data sent by the master, for example: what an HMI is 
       - Little-endian.
       - Big-endian / Byte Swap
       - Little-endian / Byte Swap
-        
+     
     - Write button. Opens a window to write the value.
-    - ID Edit.
-    - Function Edit.
-    - Address Edit.
-    - Editing the number of registers.
-      
+    - Clear data button, deletes all received data.
+          
       - Write slave:      
         - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Write_Slave.png)
         - ID Edit.
