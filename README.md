@@ -284,7 +284,7 @@ With the Formats of:
   - 16-bit Signed Decimal
   - 32-bit Unsigned
   - 32-bit Signed
-  - 32-bit Float
+  - 32-bit Float "IEEE754"
   - 64-bit Unsigned
   - 64-bit Signed
   - 64-bit Double
