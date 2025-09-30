@@ -360,7 +360,7 @@ Find connected device ID, functions and registers.
   - 16 bits signed.
   - 32 bits unsigned.
   - 32 bits signed.
-  - 32 bits floating point.
+  - 32 bits floating point "IEEE754".
     
 For 32-bit values the following byte order is available: 
 - Big endian
@@ -501,7 +501,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
       - 16-bit signed.
       - 32-bit unsigned.
       - 32-bit signed.
-      - 32-bit float.
+      - 32-bit float "IEEE754".
         
     - Byte order:
       - Big-endian.
