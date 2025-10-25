@@ -533,9 +533,27 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 ### Find out what data the Slave device is sending to the Master.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY_Slave.png)
 
+- Supports:
+  - Coil (01)
+  - Discrete input (02)
+  - Holding (03)
+  - Register input (04)
+   - Exception codes
+
 
 ### See the complete plot between a Master and a Slave.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY_Merge.png)
+
+ - With support for:
+  - Coil (01)
+  - Discrete input (02)
+  - Holding (03)
+  - Input register (04)
+  - Write coil (05)
+  - Write holding (06)
+  - Multiple write coil (15)
+  - Multiple write holding (16)
+  - Exception codes.
           
 ***
 
