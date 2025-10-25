@@ -521,7 +521,14 @@ It can be used to discover data sent by the master, for example: what an HMI is 
         - Value.
         - Write button or ON OFF buttons (coil or discrete input).
    
-  - Note: The internal slave simulator will always respond to all standard functions (01 Coil, 02 Input discrete, 03 Holding, 04 Input register, 05 Write Coil, 06 Write Holding, 15 Multiple Write Coil, 16 Multiple Write Holding) and register addresses from 0 to 65535 without any configuration.
+  - Notes:
+    - The internal slave simulator will always respond to all standard functions (01 Coil, 02 Input discrete, 03 Holding, 04 Input register, 05 Write Coil, 06 Write Holding, 15 Multiple Write Coil, 16 Multiple Write Holding) and register addresses from 0 to 65535 without any configuration.
+
+    - Functions 15 and 16 have a limitation due to the USB converter, which typically splits the packet into 32-byte segments. As a result, packets larger than 32 bytes (approximately 10 registers) may not be detected.
+
+    - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
+ 
+
  
 ### Find out what data the Slave device is sending to the Master.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY_Slave.png)
@@ -530,11 +537,6 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 ### See the complete plot between a Master and a Slave.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY_Merge.png)
           
-- Notes:
-  - Functions 15 and 16 have a limitation due to the USB converter, which typically splits the packet into 32-byte segments. As a result, packets larger than 32 bytes (approximately 10 registers) may not be detected.
-
-  - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
- 
 ***
 
 ### Did you like ScanBus-BR ? 
