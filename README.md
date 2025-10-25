@@ -545,15 +545,15 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY_Merge.png)
 
  - With support for:
-  - Coil (01)
-  - Discrete input (02)
-  - Holding (03)
-  - Input register (04)
-  - Write coil (05)
-  - Write holding (06)
-  - Multiple write coil (15)
-  - Multiple write holding (16)
-  - Exception codes.
+    - Coil (01)
+    - Discrete input (02)
+    - Holding (03)
+    - Input register (04)
+    - Write coil (05)
+    - Write holding (06)
+    - Multiple write coil (15)
+    - Multiple write holding (16)
+    - Exception codes.
           
 ***
 
