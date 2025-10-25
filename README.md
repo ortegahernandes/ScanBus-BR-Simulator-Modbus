@@ -466,10 +466,12 @@ Individually check which 16-bit registers are active.
 
 - Search for a specific term.
 
-#### SPY Mode - Modbus-RTU.
-Find out what data the master device is sending to the slave.
-![ScanBus-BR]https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY.png)
+#### Sniffer(SPY) - Modbus-RTU.
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY.png)
+
+Find out what data the master device is sending to the slave.
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY_Master.png)
 
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
 
