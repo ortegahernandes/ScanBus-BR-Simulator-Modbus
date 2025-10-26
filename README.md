@@ -3,7 +3,8 @@
 
 _The "Swiss Army Knife" of the Modbus network_.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Scanbus-BR-linux.png)
+
 
 ## What is ScanBus-BR?
 
@@ -81,7 +82,7 @@ https://www.youtube.com/channel/UCU19Zzi0tI-7OPVz2x3Vh9Q
 ## Traffic Data:
 Search the input and output bytes (in hexadecimal format).
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Traffic_Data.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Traffic_Data.png)
 #### Options:
 - Show or hide valid data (useful for discovering occasional communication errors).
 - Show or hide errors.
@@ -97,7 +98,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 ## Connection and adjustment tab: 
 #### Serial RTU:
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_rtu.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/menu_rtu.png)
 
 - Reescan Port:
   - Rescan the available serial ports.
@@ -119,7 +120,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 #### TCP/IP:
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_tcp.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/menu_tcp.png)
 
 - Copy Local IP Button:
   - As the equipment's IP must generally belong to the same subnet as the PC to work, the equipment's IP will have a number close to the local IP.
@@ -145,7 +146,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 #### Advanced adjustments:
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/menu_advanced_TCP.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/menu_advanced_TCP.png)
 
 - Time to reconnect (TCP/IP only).
 - Read only (does not write data).
@@ -157,7 +158,7 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 ## Data Reading Screen
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scanbus-BR-linux.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Scanbus-BR-linux.png)
 
 - Visualization of values received in decimal, hexadecimal and binary simultaneously.
 - Receiving status.
@@ -199,7 +200,7 @@ Note: The format Addr item is only for modifying the display of addresses in the
   
 ## 16-bit recording window 
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/write_16bits.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/write_16bits.png)
 - Make recordings in:
   - Coil (Function 05).
   - Holding (Function 06).
@@ -216,7 +217,7 @@ Note: The format Addr item is only for modifying the display of addresses in the
 ***
 ## 32-bit recording window 
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/write_32bits.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/write_32bits.png)
 
 - For function 06 or 16, values ​​can be in: 
    - Decimal.
@@ -226,12 +227,12 @@ Note: The format Addr item is only for modifying the display of addresses in the
 
 ## 64-bit recording window
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/write_64bits.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/write_64bits.png)
 
 ***
 
 ## 16-bit Auto Simulation 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Auto_Simulation.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Auto_Simulation.png)
 - Make automatic recordings:
   - adjust the address for auto simulation (multiple independent addresses can be adjusted by simply selecting the desired address, adjusting and enabling it):
     - Operating modes:
@@ -253,7 +254,7 @@ Note: " Automatic Simulation" will only work while the window is open and the ta
 ## Log. windows
 Keep a log of table activity.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Log_register.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Log_register.png)
 
 - Checkbox (Write log?).
 - Set the file name:
@@ -274,7 +275,7 @@ Keep a log of table activity.
 
 Open new tables in floating windows.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Universal_table.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Universal_table.png)
 
 Universal tables, in the connection section, click on the new table button, the tables contain settings for viewing registers up to (125 = 16 bits, 64 = 32 bits, 32 = 64 bits), adjustable size windows/tables with fixed hexadecimal values ​​in all modes and with configurable format.
 
@@ -304,8 +305,8 @@ Note: The format Addr item is only for modifying the display of addresses in the
 ### Time graph:
 Generates graphs (time x values) with the values ​​received via Modbus.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Graphic_time_1.png)
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Graphic_time_2.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Graphic_time_1.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Graphic_time_2.png)
 
 #### Available up to 8 lines with the following configuration:
 - Thread colors 
@@ -316,7 +317,7 @@ Generates graphs (time x values) with the values ​​received via Modbus.
 - line width 
 - Points on the line
   
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Graphic_time_3.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Graphic_time_3.png)
 
 #### Chart options:
 - Background color adjustment
@@ -332,7 +333,7 @@ Generates graphs (time x values) with the values ​​received via Modbus.
 ## Device/Network Scanner: 
 Find connected device ID, functions and registers.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_Device.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Scan_Device.png)
 
 #### Options:
 - Display only valid data (Avoid filling the table with rows only reporting invalid data, e.g. registers with timeout).
@@ -376,7 +377,7 @@ Note:
 ## Serial RTU Scanner:
 Find the serial configuration of the connected device
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_RTU.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Scan_RTU.png)
 
 #### Scanner of: 
 - BaudRate
@@ -413,7 +414,7 @@ Attention!!!
 ## TCP Scanner:
 Find the device's IP and TCP port.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/Scan_TCP.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Scan_TCP.png)
 
 #### Scanner of: 
 - IP (TCP)
@@ -431,17 +432,17 @@ Note:
 ## Wide vision function
 Individually check which 16-bit registers are active.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR/blob/main/wide_vision_1.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/wide_vision_1.png)
 - In the register where there is activity, the address cell will turn red for the time specified in "signaling time".
 
 ***
 
 ## Serial Tools (Sniffer "SPY" / Terminal).
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Sniffer_SPY.png)
 
 ### Simple serial terminal (decimal , hexadecimal and text).
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Terminal_serial.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Terminal_serial.png)
 
 - FDTI chip?:
   - For correct operation when using converters with these chips and using the "lines per frame" function.
@@ -470,7 +471,7 @@ Individually check which 16-bit registers are active.
 
 
 ### Sniffer (SPY) - Find out what data the master device is sending to the slave.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY_Master.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Sniffer_SPY_Master.png)
 
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
 
@@ -490,7 +491,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
   - Open Slave Table button.
 
   - Table Slave:
-    - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Table_Slave.png)
+    - ![ScanBus-BR](https://scanbus.com.br/imagens/Table_Slave.png)
 
     - ID Edit.
     - Function Edit.
@@ -514,7 +515,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
     - Clear data button, deletes all received data.
           
       - Write slave:      
-        - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Write_Slave.png)
+        - ![ScanBus-BR](https://scanbus.com.br/imagens/Write_Slave.png)
         - ID Edit.
         - Function Edit.
         - Address Edit.
@@ -531,7 +532,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 
  
 ### Sniffer (SPY) - Find out what data the Slave device is sending to the Master.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY_Slave.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Sniffer_SPY_Slave.png)
 
 - Supports:
   - Coil (01)
@@ -542,7 +543,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 
 
 ### Sniffer (SPY) -  See the complete plot between a Master and a Slave.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Sniffer_SPY_Merge.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/Sniffer_SPY_Merge.png)
 
  - With support for:
     - Coil (01)
@@ -570,13 +571,13 @@ Rodrigo F. Hernandes
 ***
 
 # Donation via Paypal:
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/QR%20Code.png)
+![ScanBus-BR](https://scanbus.com.br/imagens/QR%20Code.png)
 
 https://www.paypal.com/donate/?hosted_button_id=6EUN9X4VDY88N
 
 
 # Donation via PIX:
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Pix_ScanBus-BR.jpeg)
+![ScanBus-BR](https://scanbus.com.br/imagens/Pix_ScanBus-BR.jpeg)
 
   
 ***
