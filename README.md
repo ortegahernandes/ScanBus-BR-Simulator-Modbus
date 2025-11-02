@@ -432,7 +432,6 @@ Individually check which 16-bit registers are active.
 ***
 
 ## Sniffer "SPY" / Terminal.
-![ScanBus-BR](https://scanbus.com.br/imagens/Sniffer_SPY.png)
 
 ### Simple serial terminal (decimal , hexadecimal and text).
 
