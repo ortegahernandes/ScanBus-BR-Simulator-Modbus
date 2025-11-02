@@ -57,12 +57,6 @@ On Linux, simply extract the file and use it.
 - English.
 - Italian
 
-
-# Link Download:
-
-https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases/
-***
-
 For software questions, update notifications, and bug reports:
 
 WhatsApp Group in Portuguese 
@@ -437,7 +431,7 @@ Individually check which 16-bit registers are active.
 
 ***
 
-## Serial Tools (Sniffer "SPY" / Terminal).
+## Sniffer "SPY" / Terminal.
 ![ScanBus-BR](https://scanbus.com.br/imagens/Sniffer_SPY.png)
 
 ### Simple serial terminal (decimal , hexadecimal and text).
@@ -470,7 +464,7 @@ Individually check which 16-bit registers are active.
 - Search for a specific term.
 
 
-### Sniffer (SPY) - Find out what data the master device is sending to the slave.
+### Sniffer "SPY" - Find out what data the master device is sending to the slave.
 ![ScanBus-BR](https://scanbus.com.br/imagens/Sniffer_SPY_Master.png)
 
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
@@ -531,7 +525,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
  
 
  
-### Sniffer (SPY) - Find out what data the Slave device is sending to the Master.
+### Sniffer "SPY" - Find out what data the Slave device is sending to the Master.
 ![ScanBus-BR](https://scanbus.com.br/imagens/Sniffer_SPY_Slave.png)
 
 - Supports:
@@ -542,7 +536,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
    - Exception codes
 
 
-### Sniffer (SPY) -  See the complete plot between a Master and a Slave.
+### Sniffer "SPY" -  See the complete plot between a Master and a Slave.
 ![ScanBus-BR](https://scanbus.com.br/imagens/Sniffer_SPY_Merge.png)
 
  - With support for:
