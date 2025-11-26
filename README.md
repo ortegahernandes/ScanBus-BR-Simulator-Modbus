@@ -1,4 +1,4 @@
-# ScanBus-BR Modbus Simulator Master/Client. 
+# ScanBus-BR Modbus Simulator Master/Client and Sniffer Modbus RTU. 
  **For Windows and Linux**
 
 _The "Swiss Army Knife" of the Modbus network_.
