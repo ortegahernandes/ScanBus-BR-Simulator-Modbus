@@ -468,15 +468,6 @@ Individually check which 16-bit registers are active.
 
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
 
-- Filters:
-   - Search only by ID.
-   - Search only by function.
-   - Mode:
-      - Chronological:
-         - Displays data on the screen in the order it is captured.
-      - Don't Repeat:
-         - If the results are identical, i.e. they reappear more than once on the screen, subsequent identical results will not be shown, the data includes (ID, Function, Address, Quantity/Value).
-
 - Simulate Modbus Slave:
   - Activates an internal Modbus RTU slave simulator.
   - This simulator responds to any ID (when zero) or to an ID you specify.
