@@ -187,10 +187,7 @@ Address display format in the following modes:
  - Relative (Base-0).
  - Absolute (Base-1).
  - Hexadecimal (Base-0).
- - Hexadecimal (Base-1).
-    
-Note: The format Addr item is only for modifying the display of addresses in the table, for adjustment use relative addresses (Base-0).
-
+  
   ***
   
 ## 16-bit recording window 
@@ -290,8 +287,6 @@ With the bit order of:
   - Little endian
   - Big endian / swap byte
   - Little endian / swap byte
-
-Note: The format Addr item is only for modifying the display of addresses in the table, for adjustment use relative addresses (Base - 0).
 
 ***
 
@@ -421,9 +416,8 @@ You will need to know in advance the function and address that the equipment res
 Note:
 - The scanned device or network must be in the same IP range as the computer.
 
-- To perform the TCP/IP Scanner it is NOT NECESSARY to establish a valid connection, just press the connection button.
-
 ***
+
 ## Wide vision function
 Individually check which 16-bit registers are active.
 
