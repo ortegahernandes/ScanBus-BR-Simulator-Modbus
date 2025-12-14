@@ -3,7 +3,7 @@
 
 _The "Swiss Army Knife" of the Modbus network_.
 
-![ScanBus-BR](https://scanbus.com.br/imagens/Scanbus-BR-linux.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Auto_Simulation.png)
 
 
 ## What is ScanBus-BR?
