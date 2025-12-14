@@ -140,7 +140,8 @@ Note: If active, you can close the Traffic Data window, and it will continue cou
 
 #### Advanced adjustments:
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/menu_advanced_TCP.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Modbus_Definition_RTU.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Modbus_Definition_TCP.png)
 
 - Time to reconnect (TCP/IP only).
 - Read only (does not write data).
