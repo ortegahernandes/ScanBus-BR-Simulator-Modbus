@@ -543,7 +543,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 ***
 
 ### Sniffer "SPY" - Table for analyzing Modbus RTU data reception.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
 
 
 
