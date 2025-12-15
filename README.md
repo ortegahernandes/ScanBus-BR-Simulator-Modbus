@@ -43,7 +43,6 @@ On Linux, simply extract the file and use it.
 - This project includes a precompiled Linux binary (ELF).
 Because it is new and not widely downloaded, Chrome may warn that the file is uncommon.
 This is expected and does not indicate malware.
-The full source code is available in this repository.
 
 - The images and software were created using Linux Mint (Cinnamon or Xfce). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
 
