@@ -489,6 +489,7 @@ Individually check which 16-bit registers are active.
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
 
 - Simulate Modbus Slave:
+- ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Filter_Slave_Save_Sniffer.png)
   - Activates an internal Modbus RTU slave simulator.
   - This slave simulator can have 3 different behaviors depending on the selection:
     - Respond to all IDs (Except, ID = 0).
