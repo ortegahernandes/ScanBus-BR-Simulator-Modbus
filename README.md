@@ -14,13 +14,14 @@ SmartScreen images in Portuguese; you can modify the text in your language.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Windows%20smartscreen%2002.png)
 
 - Why doesn't ScanBus-BR have a digital signature?
-To be recognized by Windows, a digital signature is required. I distribute ScanBus-BR completely free of charge (Freeware) and voluntarily. ScanBus-BR does not generate a fixed income for me at the moment, and I do not have any resources to pay for a digital signature.
+  
+   - To be recognized by Windows, a digital signature is required. I distribute ScanBus-BR completely free of charge (Freeware) and voluntarily. ScanBus-BR does not generate a fixed income for me at the moment, and I do not have any resources to pay for a digital signature.
 
 - How to run ScanBus-BR?
 
-Click on:
-More Information
-Run anyway
+   - Click on:
+      - More Information
+      - Run anyway
 
 ### !!!!!! ATTENTION LINUX USERS !!!!!!!!: 
 
