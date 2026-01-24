@@ -6,6 +6,42 @@ _The "Swiss Army Knife" of the Modbus network_.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scanbus-BR-linux.png)
 
 
+### !!!!!!! ATTENTION WINDOWS USERS!!!!!!!!: 
+
+SmartScreen images in Portuguese; you can modify the text in your language.
+
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Windows%20smartscreen%2001.png)
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Windows%20smartscreen%2002.png)
+
+- Why doesn't ScanBus-BR have a digital signature?
+To be recognized by Windows, a digital signature is required. I distribute ScanBus-BR completely free of charge (Freeware) and voluntarily. ScanBus-BR does not generate a fixed income for me at the moment, and I do not have any resources to pay for a digital signature.
+
+- How to run ScanBus-BR?
+
+Click on:
+More Information
+Run anyway
+
+### !!!!!! ATTENTION LINUX USERS !!!!!!!!: 
+
+- This project includes a precompiled Linux binary (ELF).
+Because it is new and not widely downloaded, Chrome may warn that the file is uncommon.
+This is expected and does not indicate malware.
+
+- The images and software were created using Linux Mint (Cinnamon or Xfce). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
+
+  
+### !!!!!!! ATTENTION UBUNTU USERS !!!!!!!!: 
+- Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
+
+
+
+### Note: on some operating systems Linux, it is necessary to install the GTK2 library:
+
+- Lubuntu , Kubuntu = sudo apt-get install libgtk2.0-dev
+
+- Fedora = sudo dnf install gtk2-devel
+
 ## What is ScanBus-BR?
 
 ScanBus-BR is much more than a Modbus Master/Client simulator software. 
@@ -37,26 +73,6 @@ Errors and exception codes are displayed in the status line and in data traffic.
 - Linux "Various" (64-bit).
   
 On Linux, simply extract the file and use it.
-
-### ATTENTION LINUX USERS: 
-
-- This project includes a precompiled Linux binary (ELF).
-Because it is new and not widely downloaded, Chrome may warn that the file is uncommon.
-This is expected and does not indicate malware.
-
-- The images and software were created using Linux Mint (Cinnamon or Xfce). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
-
-  
-### ATTENTION UBUNTU USERS: 
-- Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
-
-
-
-### Note: on some operating systems Linux, it is necessary to install the GTK2 library:
-
-- Lubuntu , Kubuntu = sudo apt-get install libgtk2.0-dev
-
-- Fedora = sudo dnf install gtk2-devel
 
 ### In languages:
 
