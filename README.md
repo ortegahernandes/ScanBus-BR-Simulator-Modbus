@@ -490,7 +490,11 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 
 - Simulate Modbus Slave:
   - Activates an internal Modbus RTU slave simulator.
-  - This simulator responds to any ID (when zero) or to an ID you specify.
+  - This slave simulator can have 3 different behaviors depending on the selection:
+    - Respond to all IDs (Except, ID = 0).
+    - Respond to only one ID (Only, ID = 1 to 255).
+    - Reject only one ID (Except, ID = 1 to 255).
+    
   - It is particularly useful for testing only on the master device.
   - Open Slave Table button.
 
