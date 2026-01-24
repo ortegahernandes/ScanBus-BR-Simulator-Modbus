@@ -15,7 +15,7 @@ SmartScreen images in Portuguese; you can modify the text in your language.
 
 - Why doesn't ScanBus-BR have a digital signature?
   
-   - To be recognized by Windows, a digital signature is required. I distribute ScanBus-BR completely free of charge (Freeware) and voluntarily. ScanBus-BR does not generate a fixed income for me at the moment, and I do not have any resources to pay for a digital signature.
+   - To be recognized by Windows, a digital signature is required. I distribute ScanBus-BR for free (Freeware) and on a voluntary basis. ScanBus-BR does not generate any income and I do not have the resources to pay for a digital signature.
 
 - How to run ScanBus-BR?
 
