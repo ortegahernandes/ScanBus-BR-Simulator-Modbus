@@ -522,7 +522,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
      
     - Save button: Saves the table values ​​for all (ID, Function, Addresses), the file size is approximately 160Mb.
     - Open button: Opens the saved file of table values.
-    - Delete button: Deletes all values ​​from the table.
+    - Clear button: Deletes all values ​​from the table.
     - Write button: Opens a window to enter the value.
           
       - Write slave:      
