@@ -6,7 +6,7 @@ _The "Swiss Army Knife" of the Modbus network_.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scanbus-BR-linux.png)
 
 
-### !!!!!!! ATTENTION WINDOWS USERS!!!!!!!!: 
+### !!! ATTENTION WINDOWS USERS !!!: 
 
 SmartScreen images in Portuguese; you can modify the text in your language.
 
@@ -23,7 +23,7 @@ SmartScreen images in Portuguese; you can modify the text in your language.
       - More Information
       - Run anyway
 
-### !!!!!! ATTENTION LINUX USERS !!!!!!!!: 
+### !!! ATTENTION LINUX USERS !!!: 
 
 - This project includes a precompiled Linux binary (ELF).
 Because it is new and not widely downloaded, Chrome may warn that the file is uncommon.
@@ -32,7 +32,7 @@ This is expected and does not indicate malware.
 - The images and software were created using Linux Mint (Cinnamon or Xfce). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
 
   
-### !!!!!!! ATTENTION UBUNTU USERS !!!!!!!!: 
+### !!! ATTENTION UBUNTU USERS !!!: 
 - Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
 
 
