@@ -520,8 +520,10 @@ It can be used to discover data sent by the master, for example: what an HMI is 
       - Big-endian / Byte Swap
       - Little-endian / Byte Swap
      
-    - Write button. Opens a window to write the value.
-    - Clear data button, deletes all received data.
+    - Save button: Saves the table values ​​for all (ID, Function, Addresses), the file size is approximately 160Mb.
+    - Open button: Opens the saved file of table values.
+    - Delete button: Deletes all values ​​from the table.
+    - Write button: Opens a window to enter the value.
           
       - Write slave:      
         - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Write_Slave.png)
