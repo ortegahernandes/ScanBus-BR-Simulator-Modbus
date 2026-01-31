@@ -5,6 +5,7 @@ _The "Swiss Army Knife" of the Modbus network_.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scanbus-BR-linux.png)
 
+### ATTENTION THIS SOFTWARE IS DISTRIBUTED COMPLETELY VOLUNTARILY. USE IT IF YOU WISH.
 
 ### !!! ATTENTION WINDOWS USERS !!!: 
 
