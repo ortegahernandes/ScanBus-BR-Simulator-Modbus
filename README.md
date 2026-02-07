@@ -30,7 +30,7 @@ SmartScreen images in Portuguese; you can modify the text in your language.
 Because it is new and not widely downloaded, Chrome may warn that the file is uncommon.
 This is expected and does not indicate malware.
 
-- The images and software were created using Linux Mint (Cinnamon or Xfce). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
+- The images and software were created using Linux Mint (Cinnamon ,Xfce or Mate). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
 
   
 ### !!! ATTENTION UBUNTU USERS !!!: 
