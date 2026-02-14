@@ -451,6 +451,7 @@ Individually check which 16-bit registers are active.
 - In the register where there is activity, the address cell will turn red for the time specified in "signaling time".
 
 ***
+## ATTENTION, THE ITEM BELOW ONLY WORKS WITH CONVERTERS WITH A CH340 CHIP.
 
 ## Sniffer "SPY" / Terminal.
 
