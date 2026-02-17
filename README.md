@@ -451,7 +451,6 @@ Individually check which 16-bit registers are active.
 - In the register where there is activity, the address cell will turn red for the time specified in "signaling time".
 
 ***
-## ATTENTION, THE ITEM BELOW ONLY WORKS WITH CONVERTERS WITH A CH340 CHIP.
 
 ## Sniffer "SPY" / Terminal.
 
@@ -542,8 +541,6 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 
     - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
  
-
- 
 ### Sniffer "SPY" - Find out what data the Slave device is sending to the Master.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Slave.png)
 
@@ -573,8 +570,6 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 
 ### Sniffer "SPY" - Table for analyzing Modbus RTU data reception.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
-
-
 
 
 
