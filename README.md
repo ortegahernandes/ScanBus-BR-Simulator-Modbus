@@ -552,7 +552,8 @@ It can be used to discover data sent by the master, for example: what an HMI is 
    - Exception codes
 
 
-### Sniffer "SPY" -  See the complete plot between a Master and a Slave.
+### Merge Table:
+Shows the requests from the Master and the responses from the slaves.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Merge.png)
 
  - With support for:
@@ -568,7 +569,9 @@ It can be used to discover data sent by the master, for example: what an HMI is 
           
 ***
 
-### Sniffer "SPY" - Table for analyzing Modbus RTU data reception.
+### Parse-Modbus Table
+Shows each unique value on the network; if there are repetitions, they are added to the count (Cont).
+
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
 
 
