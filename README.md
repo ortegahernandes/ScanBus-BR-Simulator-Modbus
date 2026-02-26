@@ -572,7 +572,7 @@ Shows the requests from the Master and the responses from the slaves.
 ***
 
 #### Parse-Modbus Table
-Shows each unique value on the network; if there are repetitions, they are added to the count (Cont).
+Shows each unique value on the network; if there are repetitions, they are added to the count.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
 
