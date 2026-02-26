@@ -346,7 +346,7 @@ Generates graphs (time x values) with the values ​​received via Modbus.
 
 ***
 
-## Device/Network Scanner: 
+### Device/Network Scanner: 
 Find connected device ID, functions and registers.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scan_Device.png)
@@ -427,7 +427,7 @@ Attention!!!
   The scan takes about two and a half hours to complete at default settings. With each item added to the default settings, the time doubles.
 ***
 
-## TCP Scanner:
+### TCP Scanner:
 Find the device's IP and TCP port.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scan_TCP.png)
@@ -452,9 +452,9 @@ Individually check which 16-bit registers are active.
 
 ***
 
-## Sniffer "SPY" / Terminal.
+### Sniffer "SPY" / Terminal.
 
-### Simple serial terminal (decimal , hexadecimal and text).
+#### Simple serial terminal (decimal , hexadecimal and text).
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
 
@@ -484,7 +484,8 @@ Individually check which 16-bit registers are active.
 - Search for a specific term.
 
 
-### Sniffer "SPY" - Find out what data the master device is sending to the slave.
+#### Master Table: 
+Shows the requests sent by the Master.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Master.png)
 
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
@@ -541,7 +542,8 @@ It can be used to discover data sent by the master, for example: what an HMI is 
 
     - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
  
-### Sniffer "SPY" - Find out what data the Slave device is sending to the Master.
+#### Slave Table: 
+Shows the responses sent by the slaves.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Slave.png)
 
 - Supports:
@@ -552,7 +554,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
    - Exception codes
 
 
-### Merge Table:
+#### Merge Table:
 Shows the requests from the Master and the responses from the slaves.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Merge.png)
 
@@ -569,7 +571,7 @@ Shows the requests from the Master and the responses from the slaves.
           
 ***
 
-### Parse-Modbus Table
+#### Parse-Modbus Table
 Shows each unique value on the network; if there are repetitions, they are added to the count (Cont).
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
