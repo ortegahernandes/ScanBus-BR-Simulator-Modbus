@@ -455,7 +455,6 @@ Individually check which 16-bit registers are active.
 ### Sniffer "SPY" / Terminal.
 
 #### Simple serial terminal (decimal , hexadecimal and text).
-
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
 
 - FDTI chip?:
@@ -484,12 +483,7 @@ Individually check which 16-bit registers are active.
 - Search for a specific term.
 
 
-#### Master Table: 
-Shows the requests sent by the Master.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Master.png)
-
-It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
-
+#### Table settings:
 - Simulate Modbus Slave:
 - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Filter_Slave_Save_Sniffer.png)
   - Activates an internal Modbus RTU slave simulator.
@@ -541,7 +535,13 @@ It can be used to discover data sent by the master, for example: what an HMI is 
     - Functions 15 and 16 have a limitation due to the USB converter, which typically splits the packet into 32-byte segments. As a result, packets larger than 32 bytes (approximately 10 registers) may not be detected.
 
     - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
- 
+
+#### Master Table: 
+Shows the requests sent by the Master.
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Master.png)
+
+It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
+
 #### Slave Table: 
 Shows the responses sent by the slaves.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Slave.png)
@@ -568,15 +568,13 @@ Shows the requests from the Master and the responses from the slaves.
     - Multiple write coil (15)
     - Multiple write holding (16)
     - Exception codes.
-          
-***
 
 #### Parse-Modbus Table
 Shows each unique value on the network; if there are repetitions, they are added to the count.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
 
-
+***
 
 ### Did you like ScanBus-BR ? 
 
@@ -588,7 +586,6 @@ Any donation is welcome.
 Thank you for your contribution! 
 
 Rodrigo F. Hernandes
-***
 
 # Donation via Paypal:
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/QR%20Code.png)
