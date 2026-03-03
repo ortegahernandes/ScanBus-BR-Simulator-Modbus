@@ -566,6 +566,9 @@ Shows the requests from the Master and the responses from the slaves.
     - Multiple write coil (15)
     - Multiple write holding (16)
     - Exception codes.
+      
+    - Note: The generated file can be analyzed by ChatGPT or DeepSeek; preferably include additional information such as the baud rate and the type of communication (RS485).
+      
 
 #### Parse-Modbus Table
 Shows each unique value on the network; if there are repetitions, they are added to the count.
