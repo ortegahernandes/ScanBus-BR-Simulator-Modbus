@@ -575,6 +575,8 @@ Shows each unique value on the network; if there are repetitions, they are added
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
 
+#### Warning: If you are using USB/RS485 converters with an FTDI chip, adjust the converter timing in the Windows device manager to 1ms.
+
 ***
 
 ### Did you like ScanBus-BR ? 
