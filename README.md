@@ -566,7 +566,7 @@ Shows the responses sent by the slaves.
     - Write coil (05)
     - Write holding (06)
     - Multiple write coil (15)
-    - Multiple write holding (16) When the number of registers is greater than 12, the slave data does not appear; this is a temporary limit.
+    - Multiple write holding (16) When the number of registers is greater than 12 in function 16, the slave data does not appear; this is a temporary limit.
 
 #### Merge Table:
 
@@ -582,7 +582,7 @@ Shows the requests from the Master and the responses from the slaves.
     - Write coil (05)
     - Write holding (06)
     - Multiple write coil (15)
-    - Multiple write holding (16) When the number of registers is greater than 12, the slave data does not appear; this is a temporary limit.
+    - Multiple write holding (16) When the number of registers is greater than 12 in function 16, the slave data does not appear; this is a temporary limit.
       
       
     - Note: The generated file can be analyzed by ChatGPT or DeepSeek; preferably include additional information such as the baud rate and the type of communication (RS485).
@@ -593,6 +593,17 @@ Shows the requests from the Master and the responses from the slaves.
 Shows each unique value on the network; if there are repetitions, they are added to the count.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
+
+- With support for:
+    - Exception codes.
+    - Coil (01)
+    - Discrete input (02)
+    - Holding (03)
+    - Input register (04)
+    - Write coil (05)
+    - Write holding (06)
+    - Multiple write coil (15)
+    - Multiple write holding (16) When the number of registers is greater than 12 in function 16, the slave data does not appear; this is a temporary limit.
 
 #### Warning: If you are using USB/RS485 converters with an FTDI chip, adjust the converter timing in the Windows device manager to 1ms.
 
