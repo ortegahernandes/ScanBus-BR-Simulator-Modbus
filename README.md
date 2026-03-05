@@ -484,6 +484,7 @@ Individually check which 16-bit registers are active.
 
 
 #### Table settings:
+
 - Simulate Modbus Slave:
 - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Filter_Slave_Save_Sniffer.png)
   - Activates an internal Modbus RTU slave simulator.
@@ -540,23 +541,8 @@ Shows the requests sent by the Master.
 
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
 
-#### Slave Table: 
-Shows the responses sent by the slaves.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Slave.png)
-
-- Supports:
-  - Coil (01)
-  - Discrete input (02)
-  - Holding (03)
-  - Register input (04)
-   - Exception codes
-
-
-#### Merge Table:
-Shows the requests from the Master and the responses from the slaves.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Merge.png)
-
- - With support for:
+With support for:
+    - Exception codes.
     - Coil (01)
     - Discrete input (02)
     - Holding (03)
@@ -564,13 +550,46 @@ Shows the requests from the Master and the responses from the slaves.
     - Write coil (05)
     - Write holding (06)
     - Multiple write coil (15)
-    - Multiple write holding (16)
+    - Multiple write holding (16) 
+    
+#### Slave Table: 
+
+Shows the responses sent by the slaves.
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Slave.png)
+
+- With support for:
     - Exception codes.
+    - Coil (01)
+    - Discrete input (02)
+    - Holding (03)
+    - Input register (04)
+    - Write coil (05)
+    - Write holding (06)
+    - Multiple write coil (15)
+    - Multiple write holding (16) When the number of registers is greater than 12, the slave data does not appear; this is a temporary limit.
+
+#### Merge Table:
+
+Shows the requests from the Master and the responses from the slaves.
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Merge.png)
+
+ - With support for:
+    - Exception codes.
+    - Coil (01)
+    - Discrete input (02)
+    - Holding (03)
+    - Input register (04)
+    - Write coil (05)
+    - Write holding (06)
+    - Multiple write coil (15)
+    - Multiple write holding (16) When the number of registers is greater than 12, the slave data does not appear; this is a temporary limit.
+      
       
     - Note: The generated file can be analyzed by ChatGPT or DeepSeek; preferably include additional information such as the baud rate and the type of communication (RS485).
       
 
-#### Parse-Modbus Table
+#### Parse-Modbus Table:
+
 Shows each unique value on the network; if there are repetitions, they are added to the count.
 
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
