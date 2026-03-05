@@ -541,7 +541,7 @@ Shows the requests sent by the Master.
 
 It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
 
-With support for:
+- With support for:
     - Exception codes.
     - Coil (01)
     - Discrete input (02)
