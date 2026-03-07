@@ -565,8 +565,9 @@ Shows the responses sent by the slaves.
     - Input register (04)
     - Write coil (05)
     - Write holding (06)
-    - Multiple write coil (15)
-    - Multiple write holding (16) When the number of registers is greater than 12 in function 16, the slave data does not appear; this is a temporary limit.
+    - Partial support (with limitations):
+      - Multiple write coil (15)
+      - Multiple write holding (16)
 
 #### Merge Table:
 
@@ -581,8 +582,9 @@ Shows the requests from the Master and the responses from the slaves.
     - Input register (04)
     - Write coil (05)
     - Write holding (06)
-    - Multiple write coil (15)
-    - Multiple write holding (16) When the number of registers is greater than 12 in function 16, the slave data does not appear; this is a temporary limit.
+    - Partial support (with limitations):
+      - Multiple write coil (15)
+      - Multiple write holding (16)
       
       
     - Note: The generated file can be analyzed by ChatGPT or DeepSeek; preferably include additional information such as the baud rate and the type of communication (RS485).
@@ -602,8 +604,9 @@ Shows each unique value on the network; if there are repetitions, they are added
     - Input register (04)
     - Write coil (05)
     - Write holding (06)
-    - Multiple write coil (15)
-    - Multiple write holding (16) When the number of registers is greater than 12 in function 16, the slave data does not appear; this is a temporary limit.
+    - Partial support (with limitations):
+      - Multiple write coil (15)
+      - Multiple write holding (16)
 
 #### Warning: If you are using USB/RS485 converters with an FTDI chip, adjust the converter timing in the Windows device manager to 1ms.
 
