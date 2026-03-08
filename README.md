@@ -486,6 +486,24 @@ Individually check which 16-bit registers are active.
 
 - LED "Merge Buffer Full": Indicates that the Merged analysis table has reached its data limit.
 
+- LED "AT": Indicates activity on the serial port.
+  - The AT LED also indicates the connection status according to its color:
+  - Blue = Never connected
+  - Yellow = Connection problem
+  - Red = Connected / inactive for more than 250ms.
+  - Green = Activity < 250ms.
+  - Black = Disconnected.
+ 
+- LED "TX": Indicates that it has received data from a Modbus RTU Master.
+
+- LED "RX": Indicates that it has received data from a Modbus RTU Slave.
+
+- Connect/Disconnect Button: Connects and disconnects the serial port. Note: To use Modbus RTU analysis, remember to select the "Enable" item below.
+
+- Clear Button: Clears all data from the table/terminal.
+
+
+
 #### Simple serial terminal (decimal , hexadecimal and text).
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
 
