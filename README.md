@@ -455,6 +455,8 @@ Individually check which 16-bit registers are active.
 
 ### Sniffer "SPY" / Terminal.
 
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Menu_Sniffer.png)
+
 #### Simple serial terminal (decimal , hexadecimal and text).
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
 
