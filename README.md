@@ -480,7 +480,6 @@ Individually check which 16-bit registers are active.
 
  - Modbus Terminal: Leave selected if you are going to perform analysis on a Modbus network. The results that appear in the terminal will be after the CRC with frame handling. If you are going to use the serial terminal for other devices, you can uncheck it.
 
-If you are going to use the serial terminal for other devices, you can uncheck it.
 #### Simple serial terminal (decimal , hexadecimal and text).
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
 
