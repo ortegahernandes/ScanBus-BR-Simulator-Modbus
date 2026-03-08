@@ -455,15 +455,34 @@ Individually check which 16-bit registers are active.
 
 ### Sniffer "SPY" / Terminal.
 
+
+#### Serial connection menu.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Menu_Sniffer.png)
 
-#### Simple serial terminal (decimal , hexadecimal and text).
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
+- Rescan button: Lists available serial ports, useful if you have connected the USB/serial converter after opening the software.
+
+- COM Port: Select the COM port to which your network/device is connected.
+
+- Virtual Port (Linux only): Displays internal ports.
+
+- Data Bit: Select according to the device/network to be analyzed; note: if using Modbus RTU, always use 8.
+
+- Stop Bit: Select according to your network/device.
+
+- Parity: Select according to your network/device.
+
+- Baud Rate: Select according to your network/device.
 
 - FDTI chip?:
-  - For correct operation when using converters with these chips and using the "lines per frame" function.
+   - For correct operation when using converters with these chips and using the "lines per frame" function.
     The COM port is ignored, and the device that is not in use will be connected.
     Only for Windows version, Linux is not supported at the moment.
+
+ - Modbus Terminal: Leave selected if you are going to perform analysis on a Modbus network. The results that appear in the terminal will be after the CRC with frame handling. If you are going to use the serial terminal for other devices, you can uncheck it.
+
+If you are going to use the serial terminal for other devices, you can uncheck it.
+#### Simple serial terminal (decimal , hexadecimal and text).
+![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
 
 - Dec/HEX/Text:
   - Select whether the read and written bytes are in decimal , hexadecimal or Text (ASCII).
