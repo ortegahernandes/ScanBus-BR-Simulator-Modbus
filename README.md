@@ -480,6 +480,12 @@ Individually check which 16-bit registers are active.
 
  - Modbus Terminal: Leave selected if you are going to perform analysis on a Modbus network. The results that appear in the terminal will be after the CRC with frame handling. If you are going to use the serial terminal for other devices, you can uncheck it.
 
+- LED "Master Buffer Full": Indicates that the Master's analysis table has reached its data limit.
+
+- LED "Slave Buffer Full": Indicates that the Slave's analysis table has reached its data limit.
+
+- LED "Merge Buffer Full": Indicates that the Merged analysis table has reached its data limit.
+
 #### Simple serial terminal (decimal , hexadecimal and text).
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
 
