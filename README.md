@@ -496,7 +496,7 @@ Individually check which 16-bit registers are active.
   - It is particularly useful for testing only on the master device.
   - Open Slave Table button.
 
-  - Table Slave:
+  - Editable slave table:
     - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Table_Slave.png)
 
     - ID Edit.
@@ -535,7 +535,7 @@ Individually check which 16-bit registers are active.
 
     - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
 
-#### Master Table: 
+#### Master Table analysis: 
 Shows the requests sent by the Master.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Master.png)
 
@@ -552,7 +552,7 @@ It can be used to discover data sent by the master, for example: what an HMI is 
     - Multiple write coil (15)
     - Multiple write holding (16) 
     
-#### Slave Table: 
+#### Slave Table analysis: 
 
 Shows the responses sent by the slaves.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Slave.png)
@@ -569,7 +569,7 @@ Shows the responses sent by the slaves.
       - Multiple write coil (15)
       - Multiple write holding (16)
 
-#### Merge Table:
+#### Merge Table analysis:
 
 Shows the requests from the Master and the responses from the slaves.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Merge.png)
