@@ -7,6 +7,25 @@ _The "Swiss Army Knife" of the Modbus network_.
 
 ### ATTENTION THIS SOFTWARE IS DISTRIBUTED COMPLETELY VOLUNTARILY. USE IT IF YOU WISH.
 
+### !!! ATTENTION LINUX USERS !!!: 
+
+- This project includes a precompiled Linux binary (ELF).
+Because it is new and not widely downloaded, Chrome may warn that the file is uncommon.
+This is expected and does not indicate malware.
+
+- The images and software were created using Linux Mint (Cinnamon ,Xfce or Mate). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
+
+  
+### !!! ATTENTION UBUNTU USERS !!!: 
+- Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
+
+
+### Note: on some operating systems Linux, it is necessary to install the GTK2 library:
+
+- Lubuntu , Kubuntu, Debian = sudo apt-get install libgtk2.0-dev
+
+- Fedora = sudo dnf install gtk2-devel
+
 ### !!! ATTENTION WINDOWS USERS !!!: 
 
 SmartScreen images in Portuguese; you can modify the text in your language.
@@ -24,25 +43,7 @@ SmartScreen images in Portuguese; you can modify the text in your language.
       - More Information
       - Run anyway
 
-### !!! ATTENTION LINUX USERS !!!: 
 
-- This project includes a precompiled Linux binary (ELF).
-Because it is new and not widely downloaded, Chrome may warn that the file is uncommon.
-This is expected and does not indicate malware.
-
-- The images and software were created using Linux Mint (Cinnamon ,Xfce or Mate). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
-
-  
-### !!! ATTENTION UBUNTU USERS !!!: 
-- Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
-
-
-
-### Note: on some operating systems Linux, it is necessary to install the GTK2 library:
-
-- Lubuntu , Kubuntu = sudo apt-get install libgtk2.0-dev
-
-- Fedora = sudo dnf install gtk2-devel
 
 ## What is ScanBus-BR?
 
