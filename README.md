@@ -15,16 +15,16 @@ This is expected and does not indicate malware.
 
 - The images and software were created using Linux Mint (Cinnamon ,Xfce or Mate). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
 
-  
-### !!! ATTENTION UBUNTU USERS !!!: 
-- Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
-
-
-### Note: on some operating systems Linux, it is necessary to install the GTK2 library:
+ #### Note: on some operating systems Linux, it is necessary to install the GTK2 library:
 
 - Lubuntu , Kubuntu, Debian = sudo apt-get install libgtk2.0-dev
 
 - Fedora = sudo dnf install gtk2-devel
+
+  
+### !!! ATTENTION UBUNTU USERS !!!: 
+- Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
+
 
 ### !!! ATTENTION WINDOWS USERS !!!: 
 
