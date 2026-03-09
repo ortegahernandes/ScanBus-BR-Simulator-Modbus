@@ -473,11 +473,6 @@ Individually check which 16-bit registers are active.
 
 - Baud Rate: Select according to your network/device.
 
-- FDTI chip?:
-   - For correct operation when using converters with these chips and using the "lines per frame" function.
-    The COM port is ignored, and the device that is not in use will be connected.
-    Only for Windows version, Linux is not supported at the moment.
-
  - Modbus Terminal: Leave selected if you are going to perform analysis on a Modbus network. The results that appear in the terminal will be after the CRC with frame handling. If you are going to use the serial terminal for other devices, you can uncheck it.
 
 - LED "Master Buffer Full": Indicates that the Master's analysis table has reached its data limit.
@@ -503,12 +498,16 @@ Individually check which 16-bit registers are active.
 - Clear Button: Clears all data from the table/terminal.
 
 
-
 #### Simple serial terminal (decimal , hexadecimal and text).
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
 
 - Dec/HEX/Text:
   - Select whether the read and written bytes are in decimal , hexadecimal or Text (ASCII).
+ 
+- FDTI chip?:
+   - For correct operation when using converters with these chips and using the "lines per frame" function.
+    The COM port is ignored, and the device that is not in use will be connected.
+    Only for Windows version, Linux is not supported at the moment.
     
 - Lines per frame : 
   - Each received packet is skipped by one line.
