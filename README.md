@@ -483,11 +483,11 @@ Individually check which 16-bit registers are active.
 
 - LED "AT": Indicates activity on the serial port.
   - The AT LED also indicates the connection status according to its color:
-  - Blue = Never connected
-  - Yellow = Connection problem
-  - Red = Connected / inactive for more than 250ms.
-  - Green = Activity < 250ms.
-  - Black = Disconnected.
+    - Blue = Never connected
+    - Yellow = Connection problem
+    - Red = Connected / inactive for more than 250ms.
+    - Green = Activity < 250ms.
+    - Black = Disconnected.
  
 - LED "TX": Indicates that it has received data from a Modbus RTU Master.
 
