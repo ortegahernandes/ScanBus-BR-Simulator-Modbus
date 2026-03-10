@@ -455,6 +455,8 @@ Individually check which 16-bit registers are active.
 
 ### Sniffer "SPY" / Terminal.
 
+#### Note: since the analysis is done via an RS485 line, there is no separation between transmitters and receivers. Therefore, in very rare cases, false positives may occur despite the filters in the programming.
+
 
 #### Serial connection menu.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Menu_Sniffer.png)
