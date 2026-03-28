@@ -581,39 +581,7 @@ Individually check which 16-bit registers are active.
 
     - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
 
-#### Master Table analysis: 
-Shows the requests sent by the Master.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Master.png)
 
-It can be used to discover data sent by the master, for example: what an HMI is sending to a PLC. It can also be used to debug equipment/software that you are programming as a master to validate the data sent by it.
-
-- With support for:
-    - Exception codes.
-    - Coil (01)
-    - Discrete input (02)
-    - Holding (03)
-    - Input register (04)
-    - Write coil (05)
-    - Write holding (06)
-    - Multiple write coil (15)
-    - Multiple write holding (16) 
-    
-#### Slave Table analysis: 
-
-Shows the responses sent by the slaves.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Slave.png)
-
-- With support for:
-    - Exception codes.
-    - Coil (01)
-    - Discrete input (02)
-    - Holding (03)
-    - Input register (04)
-    - Write coil (05)
-    - Write holding (06)
-    - Partial support (with limitations):
-      - Multiple write coil (15)
-      - Multiple write holding (16)
 
 #### Merge Table analysis:
 
