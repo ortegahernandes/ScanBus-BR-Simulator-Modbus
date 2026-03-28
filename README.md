@@ -588,6 +588,8 @@ Individually check which 16-bit registers are active.
 Shows the requests from the Master and the responses from the slaves.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Merge.png)
 
+- Use the filters if you want only master or slave, only one ID, or only one function.
+  
  - With support for:
     - Exception codes.
     - Coil (01)
@@ -599,10 +601,10 @@ Shows the requests from the Master and the responses from the slaves.
     - Partial support (with limitations):
       - Multiple write coil (15)
       - Multiple write holding (16)
-      
-      
-    - Note: The generated file can be analyzed by ChatGPT or DeepSeek; preferably include additional information such as the baud rate and the type of communication (RS485).
-      
+
+    - Note:
+      - The generated file can be analyzed by ChatGPT or DeepSeek; preferably include additional information such as the baud rate and the type of communication (RS485).
+      - The best results in networking were obtained with the USB/RS485 converters with CH340 or CH343 chips.
 
 #### Parse-Modbus Table:
 
