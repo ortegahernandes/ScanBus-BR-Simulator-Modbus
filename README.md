@@ -457,6 +457,8 @@ Individually check which 16-bit registers are active.
 
 #### Note: since the analysis is done via an RS485 line, there is no separation between transmitters and receivers. Therefore, in very rare cases, false positives may occur despite the filters in the programming.
 
+### ATTENTION, THE BEST RESULTS WERE OBTAINED WITH CONVERTERS WITH THE CH340/CH343 CHIP.
+
 
 #### Serial connection menu.
 ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Menu_Sniffer.png)
@@ -505,11 +507,6 @@ Individually check which 16-bit registers are active.
 
 - Dec/HEX/Text:
   - Select whether the read and written bytes are in decimal , hexadecimal or Text (ASCII).
- 
-- FDTI chip?:
-   - For correct operation when using converters with these chips and using the "lines per frame" function.
-    The COM port is ignored, and the device that is not in use will be connected.
-    Only for Windows version, Linux is not supported at the moment.
     
 - Lines per frame : 
   - Each received packet is skipped by one line.
