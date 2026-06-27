@@ -580,10 +580,6 @@ Individually check which 16-bit registers are active.
   - Notes:
     - The internal slave simulator will always respond to all standard functions (01 Coil, 02 Input discrete, 03 Holding, 04 Input register, 05 Write Coil, 06 Write Holding, 15 Multiple Write Coil, 16 Multiple Write Holding) and register addresses from 0 to 65535 without any configuration.
 
-    - When functions 5 or 6 occur, they may appear duplicated, as the slave's response is the same as the master's question.
-
-
-
 #### Merge Table analysis:
 
 Shows the requests from the Master and the responses from the slaves.
@@ -626,7 +622,7 @@ Shows each unique value on the network; if there are repetitions, they are added
       - Multiple write holding (16)
 
 #### Warning: If you are using USB/RS485 converters with an FTDI chip, adjust the converter timing in the Windows device manager to 1ms.
-
+The best results in networking were obtained with the USB/RS485 converters with CH340 or CH343 chips.
 ***
 
 ### Did you like ScanBus-BR ? 
