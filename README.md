@@ -477,27 +477,33 @@ Individually check which 16-bit registers are active.
 
 - Baud Rate: Select according to your network/device.
 
- - Modbus Terminal: Leave selected if you are going to perform analysis on a Modbus network / device. The results that appear in the terminal will be after the CRC with frame handling. If you are going to use the serial terminal for other devices, you can uncheck it.
-
-- LED "Master Buffer Full": Indicates that the Master's analysis table has reached its data limit.
-
-- LED "Slave Buffer Full": Indicates that the Slave's analysis table has reached its data limit.
-
-- LED "Merge Buffer Full": Indicates that the Merged analysis table has reached its data limit.
+- LED "Buffer Full": Indicates that the Merged analysis table has reached its data limit.
 
 - LED "AT": Indicates activity on the serial port.
   - The AT LED also indicates the connection status according to its color:
     - Blue = Never connected
     - Yellow = Connection problem
     - Red = Connected / inactive for more than 250ms.
-    - Green = Activity < 250ms.
-    - Black = Disconnected.
+    - Green / Black = Activity.
+    - Aqua = Disconnected.
  
 - LED "TX": Indicates that it has received data from a Modbus RTU Master.
 
 - LED "RX": Indicates that it has received data from a Modbus RTU Slave.
 
+- With the Real Time button enabled:
+  - You will see updates on the screen every 50 received data points or if no data is received for 100 ms'
+  - 'Occasional data loss or misalignment between master and slave may occur'
+   
+- With the Real Time button disabled:
+  -  You will only see the data when the buffer is full or when data collection is stopped'
+  -  Data loss or misalignment between master and slave is extremely rare'
+
+- The disabled mode "Real Time" is extremely useful for saving the .CSV file for external analysis.'
+- Note: best results are achieved with converters using CH340/CH343 chips.'; 
+
 - Connect/Disconnect Button: Connects and disconnects the serial port. Note: To use Modbus RTU analysis, remember to select the "Enable" item below.
+  - Note: If you are using the serial terminal for non-Modbus data, leave the "Enable" option disabled.
 
 - Clear Button: Clears all data from the table/terminal.
 
