@@ -537,11 +537,9 @@ Individually check which 16-bit registers are active.
 - Simulate Modbus Slave:
 - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Filter_Slave_Save_Sniffer.png)
   - Activates an internal Modbus RTU slave simulator.
-  - This slave simulator can have 3 different behaviors depending on the selection:
-    - Respond to all IDs (Except, ID = 0).
-    - Respond to only one ID (Only, ID = 1 to 255).
-    - Reject only one ID (Except, ID = 1 to 255).
-    
+  
+  - Using the "Select ID" button, you can enable or disable slave IDs; by default, all are enabled.
+     
   - It is particularly useful for testing only on the master device.
   - Open Slave Table button.
 
