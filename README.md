@@ -497,7 +497,7 @@ Individually check which 16-bit registers are active.
    
 - With the Real Time button disabled:
   -  You will only see the data when the buffer is full or when data collection is stopped'
-  -  Data loss or misalignment between master and slave is extremely rare'
+  -  Data loss or misalignment between "master and slave" is extremely rare'
 
 - The disabled mode "Real Time" is extremely useful for saving the .CSV file for external analysis.'
 - Note: best results are achieved with converters using CH340/CH343 chips.'; 
