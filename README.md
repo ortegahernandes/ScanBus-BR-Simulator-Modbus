@@ -493,7 +493,7 @@ Individually check which 16-bit registers are active.
 
 - With the Real Time button enabled:
   - You will see updates on the screen every 50 received data points or if no data is received for 100 ms'
-  - 'Occasional data loss or misalignment between master and slave may occur'
+  - 'Occasional data loss or misalignment between "master and slave" may occur'
    
 - With the Real Time button disabled:
   -  You will only see the data when the buffer is full or when data collection is stopped'
