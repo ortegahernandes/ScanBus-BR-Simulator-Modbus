@@ -506,6 +506,9 @@ Individually check which 16-bit registers are active.
   - Note: If you are using the serial terminal for non-Modbus data, leave the "Enable" option disabled.
 
 - Clear Button: Clears all data from the table/terminal.
+  
+- A/B reversal detector for RS485 networks.
+  - Detects if the A/B wires connected to the ScanBus-BR are swapped.
 
 
 #### Simple serial terminal (decimal , hexadecimal and text).
