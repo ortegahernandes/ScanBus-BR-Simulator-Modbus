@@ -509,6 +509,7 @@ Individually check which 16-bit registers are active.
   
 - A/B reversal detector for RS485 networks.
   - Detects if the A/B wires connected to the ScanBus-BR are swapped.
+  - Valid only for Modbus RTU data.
 
 
 #### Simple serial terminal (decimal , hexadecimal and text).
