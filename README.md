@@ -544,6 +544,27 @@ Individually check which 16-bit registers are active.
   - Activates an internal Modbus RTU slave simulator.
   
   - Using the "Select ID" button, you can enable or disable slave IDs; by default, all are enabled.
+    - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Slave_ID.png)
+      - "Select all IDs" button, fill all IDs.
+      - "Deselect all IDs" button; removes all IDs.
+  - Error simulation:
+    -  ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Error_simulations.png)
+      - Responds with an incorrect ID.
+      - Responds with an incorrect CRC.
+      - Responds with an exception code based on the selection.
+        - None
+        - 01 Illegal Function
+        - 02 Illegal Data Address
+        - 03 Illegal Data Value
+        - 04 Slave Device Failure
+        - 05 Acknowledge
+        - 06 Slave Device Busy
+        - 07 Negative Acknowledge
+        - 08 Memory Parity Error
+        - 0A (10) Gateway Path Unavailable
+        - 0B (11) Gateway Target Device Failed to Respond
+      - Responds with a delay
+      
      
   - It is particularly useful for testing only on the master device.
   - Open Slave Table button.
