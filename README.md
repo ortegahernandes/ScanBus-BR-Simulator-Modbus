@@ -1,675 +1,1715 @@
-# ScanBus-BR Modbus Simulator Master/Client and Sniffer Modbus RTU. 
- **For Windows and Linux**
+# ScanBus-BR - Modbus Master Simulator, TCP Client and RTU Sniffer
 
-_The "Swiss Army Knife" of the Modbus network_.
+### **Free Modbus Toolkit for Windows and Linux**
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scanbus-BR-linux.png)
+> **The Swiss Army Knife for Modbus Networks**
 
-### ATTENTION THIS SOFTWARE IS DISTRIBUTED COMPLETELY VOLUNTARILY. USE IT IF YOU WISH.
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scanbus-BR-linux.png" width="900">
+</p>
 
-### !!! ATTENTION LINUX USERS !!!: 
+ScanBus-BR is a **free**, **portable**, and feature-rich toolkit designed for professionals working with the Modbus protocol.
 
-- This project includes a precompiled Linux binary (ELF).
-Because it is new and not widely downloaded, Chrome may warn that the file is uncommon.
-This is expected and does not indicate malware.
+Unlike conventional Modbus simulators, ScanBus-BR combines multiple engineering tools into a single application, making it ideal for commissioning, diagnostics, troubleshooting, reverse engineering, protocol learning, and embedded firmware development.
 
-- The images and software were created using Linux Mint (Cinnamon ,Xfce or Mate). Depending on the distro/theme or appearance, the items may appear distorted or even hidden on the sides. For example, in Xubuntu, the items are misaligned.
+The software is distributed as **Freeware**, contains **no advertisements**, **no bundled software**, and **requires no installation**.
 
- #### Note: on some operating systems Linux, it is necessary to install the GTK2 library:
+Simply extract the ZIP file and start using it.
 
-- Lubuntu , Kubuntu, Debian = sudo apt-get install libgtk2.0-dev
+---
 
-- Fedora = sudo dnf install gtk2-devel
+# Main Features
 
-  
-### !!! ATTENTION UBUNTU USERS !!!: 
-- Do not drag the file to the desktop; it will not work there. Use it in the download folder or any other folder.
+* ✔ Modbus RTU Master
+* ✔ Modbus TCP Client
+* ✔ Modbus RTU over TCP
+* ✔ Integrated Modbus RTU Sniffer
+* ✔ Modbus Slave Simulator
+* ✔ Device Scanner
+* ✔ Serial RTU Scanner
+* ✔ TCP/IP Scanner
+* ✔ Traffic Analyzer
+* ✔ Communication Diagnostics
+* ✔ Exception Response Simulation
+* ✔ Time Graph
+* ✔ Universal Register Tables
+* ✔ Activity Logging
+* ✔ CRC Validation
+* ✔ Multiple Numeric Formats
+* ✔ Portable Application
+* ✔ Windows and Linux Support
+* ✔ Completely Free
 
+---
 
-### !!! ATTENTION WINDOWS USERS !!!: 
+# Supported Protocols
 
-SmartScreen images in Portuguese; you can modify the text in your language.
+* Modbus RTU (Serial)
+* Modbus TCP/IP
+* Modbus RTU over TCP/IP
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Windows%20smartscreen%2001.png)
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Windows%20smartscreen%2002.png)
+---
 
-- Why doesn't ScanBus-BR have a digital signature?
-  
-   - To be recognized by Windows, a digital signature is required. I distribute ScanBus-BR for free (Freeware) and on a voluntary basis. ScanBus-BR does not generate any income and I do not have the resources to pay for a digital signature.
+# Supported Operating Systems
 
-- How to run ScanBus-BR?
+* Windows 7 (64-bit)
+* Windows 10 (64-bit)
+* Windows 11 (64-bit)
+* Linux (64-bit)
 
-   - Click on:
-      - More Information
-      - Run anyway
+Most Linux distributions are supported.
 
+In most cases, simply extract the archive and run the executable.
 
+---
 
-## What is ScanBus-BR?
+# Available Languages
 
-ScanBus-BR is much more than a Modbus Master/Client simulator software. 
-It is a set of tools that will help you solve problems related to the Modbus network. 
+* English
+* Portuguese
+* Spanish
+* Italian
 
-Completely free (Freeware).
+---
 
-The ScanBus is PORTABLE, meaning it DOES NOT REQUIRE INSTALLATION and can be used even on pen drives.
+# Download
 
-ScanBus-BR is **NOT** limited to Ubuntu and derivatives; it works on virtually all popular Linux distributions, just extract and run. On rare occasions, it is enough to install the GTK2 library.
+The latest version is always available from the GitHub Releases page.
 
-Free from any advertising or any Adware.
+https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases
 
-Designed to help developers find errors in slave devices and for anyone who wants to simulate, test and study the Modbus protocol.
+The software is distributed as a portable ZIP package.
 
-You will hardly find another free or even paid software that will provide you with as many features as ScanBus-BR
+No installation is required.
 
-Errors and exception codes are displayed in the status line and in data traffic.
+---
 
-### Available protocols:
+# What is ScanBus-BR?
 
-- RTU(serial)
-- TCP/IP
-- RTU over TCP/IP
+ScanBus-BR is much more than a Modbus Master or TCP Client.
 
-### Operating systems:
+It is a complete toolkit that integrates several professional utilities into a single application, allowing engineers and developers to analyze, simulate, monitor and troubleshoot Modbus communication networks.
 
-- Windows 7, 10 and 11 (64 bits).
-- Linux "Various" (64-bit).
-  
-On Linux, simply extract the file and use it.
+Whether you need to test a PLC, validate firmware, analyze serial traffic or reverse engineer an industrial device, ScanBus-BR provides dedicated tools to simplify the job.
 
-### In languages:
+Error conditions, Modbus exception responses and communication diagnostics are displayed in real time, making troubleshooting significantly easier.
 
-- Portuguese.
-- Spanish.
-- English.
-- Italian
+---
 
-For software questions, update notifications, and bug reports:
+# Why choose ScanBus-BR?
 
-WhatsApp Group in Portuguese 
+Unlike many free and commercial Modbus applications, ScanBus-BR offers a complete collection of diagnostic tools within a single executable.
+
+Some of its most notable capabilities include:
+
+* Integrated RTU Sniffer
+* Internal Modbus Slave Simulator
+* Device and Network Scanner
+* Serial Configuration Scanner
+* TCP/IP Scanner
+* Traffic Data Analyzer
+* Universal Register Tables
+* Time Graph Generator
+* Automatic Register Simulation
+* Communication Logging
+* Exception Response Simulation
+
+These features make ScanBus-BR suitable for:
+
+* Industrial Automation
+* PLC Commissioning
+* Embedded Systems Development
+* Industrial Maintenance
+* Protocol Learning
+* Reverse Engineering
+* Technical Support
+* Educational Use
+
+---
+
+# Linux Users
+
+## Chrome Download Warning
+
+This project includes a precompiled Linux executable (ELF).
+
+Because the binary is relatively new and has not yet accumulated a large download history, Google Chrome may display a warning indicating that the file is uncommon.
+
+This warning is expected and **does not indicate malware**.
+
+---
+
+## GTK2 Dependency
+
+Some Linux distributions require the GTK2 library.
+
+### Debian / Ubuntu / Kubuntu / Lubuntu
+
+```bash
+sudo apt-get install libgtk2.0-dev
+```
+
+### Fedora
+
+```bash
+sudo dnf install gtk2-devel
+```
+
+---
+
+## Ubuntu Users
+
+Do **not** drag the executable directly onto the Desktop before running it.
+
+Instead, execute it from the Downloads folder or any other regular directory.
+
+---
+
+## Linux Appearance
+
+The application was developed and tested using Linux Mint (Cinnamon, XFCE and MATE).
+
+Depending on the desktop environment or GTK theme, minor interface alignment differences may occur.
+
+These visual differences do not affect functionality.
+
+---
+
+# Windows Users
+
+## SmartScreen Warning
+
+Since ScanBus-BR is distributed free of charge and does not include a commercial code-signing certificate, Windows SmartScreen may display a security warning when running the application for the first time.
+
+The screenshots below are shown in Portuguese, but the procedure is identical in all supported Windows languages.
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Windows%20smartscreen%2001.png">
+</p>
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Windows%20smartscreen%2002.png">
+</p>
+
+### Why isn't ScanBus-BR digitally signed?
+
+Obtaining a trusted code-signing certificate requires an annual subscription.
+
+Since ScanBus-BR is developed and distributed entirely free of charge, there is currently no funding available to purchase and maintain a commercial digital certificate.
+
+---
+
+### Running ScanBus-BR
+
+If Windows SmartScreen is displayed:
+
+1. Click **More info**
+2. Click **Run anyway**
+
+After the first execution, Windows will remember your choice.
+
+---
+
+# Community
+
+If you have questions, suggestions, bug reports or simply want to discuss Modbus, feel free to join one of the communities below.
+
+### WhatsApp (Portuguese)
+
 https://chat.whatsapp.com/D8ZMNuLCYgLK8Eeg8LdmF6
 
-WhatsApp Group International.
+### WhatsApp (International)
+
 https://chat.whatsapp.com/JjndsgL4jXF7VfToQ3cuBN
 
-Telegram Group (All) 
+### Telegram
+
 https://t.me/Scanbus_br
 
-YouTube Channel
+### YouTube
+
 https://www.youtube.com/channel/UCU19Zzi0tI-7OPVz2x3Vh9Q
 
-***
+---
 
-## Traffic Data:
-Search the input and output bytes (in hexadecimal format).
+Continue reading to discover all the tools available in ScanBus-BR.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Traffic_Data.png)
-#### Options:
-- Show or hide valid data (useful for discovering occasional communication errors).
-- Show or hide errors.
-- Save to .CSV file (with separator choice)
-- Search for a specific term; the cell containing the terms will be highlighted in yellow.
-- If there are errors, they will appear in the status column, and the cell will be highlighted in red.
-- Start/Pause button.
-  
-Note: If active, you can close the Traffic Data window, and it will continue counting.
+# Traffic Data Analyzer
 
-  ***
+The **Traffic Data Analyzer** provides a real-time view of all Modbus communication exchanged between the master and the connected device.
 
-## Connection and adjustment tab: 
-#### Serial RTU:
+It is particularly useful for diagnosing intermittent communication problems, validating data integrity, and recording communication sessions for later analysis.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/menu_rtu.png)
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Traffic_Data.png">
+</p>
 
-- Reescan Port:
-  - Rescan the available serial ports.
-- Serial Port:
-  - Select the serial port.
-- Stopbit bit:
-  - 1 or 2
-- Delay (Read/Write):
-  - If you use more than one table, it is a good idea to set aside time to separate the transmissions.
-- Baudrate: 
-  - Select the communication speed.
-- Parity.
-  - select parity, none, even and odd.
-- Timeout:
-  - Determine the server response waiting time, if it exceeds it, consider it an error.
-- ScanRate.
-  - Set the scan rate, the time of each question to the slave.
+## Features
+
+- Display only valid communication frames.
+- Display only communication errors.
+- Export captured data to CSV format.
+- Select the CSV separator (comma or semicolon).
+- Search for hexadecimal values or text.
+- Automatic highlighting of search results.
+- Error highlighting directly in the table.
+- Start and Pause data acquisition at any time.
+
+> **Note**
+>
+> The Traffic Data window may be closed while acquisition continues in the background.
+
+---
+
+# Connection Settings
+
+ScanBus-BR supports both **Serial Modbus RTU** and **Modbus TCP/IP** communication.
+
+Connection parameters can be configured independently for each protocol.
+
+---
+
+# Serial Modbus RTU
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/menu_rtu.png">
+</p>
+
+## Available Settings
+
+### Rescan Ports
+
+Refreshes the list of available serial ports.
+
+Useful when a USB/RS485 converter is connected after ScanBus-BR has already been started.
+
+---
+
+### Serial Port
+
+Select the serial interface connected to the Modbus network.
+
+---
+
+### Baud Rate
+
+Choose the communication speed supported by the connected device.
+
+---
+
+### Parity
+
+Supported modes:
+
+- None
+- Even
+- Odd
+
+---
+
+### Stop Bits
+
+Supported values:
+
+- 1
+- 2
+
+---
+
+### Read / Write Delay
+
+Adds a delay between Modbus requests.
+
+This option is useful when communicating with slower devices or when multiple tables are active simultaneously.
+
+---
+
+### Timeout
+
+Maximum waiting time for a device response.
+
+If no response is received before the timeout expires, the request is considered failed.
+
+---
+
+### Scan Rate
+
+Defines how frequently ScanBus-BR polls the connected device.
+
+Lower values provide faster updates but increase communication traffic.
+
+---
+
+# Modbus TCP/IP
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/menu_tcp.png">
+</p>
+
+## Copy Local IP
+
+Copies the computer's local IP address.
+
+This is useful because industrial devices are usually configured within the same subnet.
+
+---
+
+### Server Address
+
+Supports:
+
+- IPv4 addresses
+- Host names (DNS)
+
+> **Note**
+>
+> When using DNS or slow Internet connections, increase the timeout value if the connection cannot be established.
+
+---
+
+### TCP Port
+
+The default Modbus TCP port is:
+
+```
+
+502
+
+```
+
+Any custom port may also be used.
+
+---
+
+### Communication Protocol
+
+Supported options:
+
+- Modbus TCP/IP
+- Modbus RTU over TCP/IP
+
+---
+
+### Transaction Verification
+
+Verifies transaction identifiers to ensure that every received response belongs to the corresponding request.
+
+For unreliable or high-latency networks, this verification can optionally be disabled.
+
+---
+
+### Auto Connect
+
+Automatically reconnects whenever communication is interrupted.
+
+> **Warning**
+>
+> Incorrect configuration may create an endless reconnect loop.
+
+---
+
+### Timeout
+
+Maximum waiting time for server responses.
+
+---
+
+### Scan Rate
+
+Defines the polling interval for TCP communication.
+
+---
+
+# Advanced Communication Settings
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Modbus_Definition_RTU.png">
+</p>
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Modbus_Definition_TCP.png">
+</p>
+
+The Advanced Settings window provides additional control over communication behavior.
+
+## Available Options
+
+### Automatic Reconnection
+
+Reconnect automatically after communication loss.
+
+(TCP/IP only.)
+
+---
+
+### Read Only Mode
+
+Disables every write command.
+
+Useful when monitoring production systems where accidental writes must be prevented.
+
+---
+
+### Maximum Holding Register Packet Size
+
+Some Modbus devices cannot process the standard maximum of **125 registers** in a single request.
+
+ScanBus-BR automatically splits large requests into smaller packets.
+
+---
+
+### Maximum Input Register Packet Size
+
+Applies the same packet fragmentation to Input Register requests.
+
+---
+
+### Disconnect on Communication Error
+
+Automatically closes the connection after a communication failure.
+
+This can simplify recovery in unstable networks.
+
+---
+
+# Data Reading Screen
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scanbus-BR-linux.png">
+</p>
+
+The main reading window provides continuous monitoring of Modbus registers.
+
+Values are updated automatically according to the configured scan rate.
+
+---
+
+## Available Information
+
+- Current register values
+- Communication status
+- Total received packets
+- Current response time
+- Minimum response time
+- Average response time
+- Maximum response time
+
+---
+
+## Numeric Display Formats
+
+The same register can be viewed in multiple formats.
+
+Supported formats include:
+
+- 16-bit Unsigned Integer
+- 16-bit Signed Integer
+- 32-bit Unsigned Integer
+- 32-bit Signed Integer
+- IEEE754 Floating Point
+- 64-bit Unsigned Integer
+- 64-bit Signed Integer
+- IEEE754 Double Precision
+
+---
+
+## Byte Order
+
+Every numeric format supports:
+
+- Big Endian
+- Little Endian
+- Big Endian + Byte Swap
+- Little Endian + Byte Swap
+
+---
+
+## Address Display Modes
+
+Addresses may be displayed as:
+
+- Relative Address (Base 0)
+- Absolute Address (Base 1)
+- Hexadecimal Address
+
+---
+
+## Toolbar
+
+The toolbar provides quick access to several functions.
+
+- Create a new Universal Table.
+- Perform a single read operation.
+- Open the Automatic Simulation window.
+- Save communication logs.
+- Open the Wide Vision tool.
 
 
-#### TCP/IP:
+# Register Write Windows
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/menu_tcp.png)
+ScanBus-BR provides dedicated write windows for **16-bit**, **32-bit**, and **64-bit** values, allowing data to be written in the most appropriate format for each application.
 
-- Copy Local IP Button:
-  - As the equipment's IP must generally belong to the same subnet as the PC to work, the equipment's IP will have a number close to the local IP.
-- Edit the IP address:
-  - IPV4 addresses and DNS addresses are accepted.
-    
- *** Note : In DNS or very slow connections, if a connection is not established, try increasing the timeout.
- 
-- Edit TCP/IP port:
-  -The default port for modbus is 502.
-- Set the TCP/IP Protocol used:
-  - TCP/IP (Default) or RTU over TCP/IP
-- Checking for transaction errors:
-  - Used to ensure Frame by frame does not use the previous frame, for very slow networks or networks subject to packet loss it can be disabled.
--  Enable or disable TCP/IP autoconnect:
-   - !!! Be careful when activating, as you may fall into an infinite loop (connecting and disconnecting) and crash the software.!!! 
-- Timeout:
-  - Determine the server response waiting time, if it exceeds it, consider it an error.
-- ScanRate.
-  - Set the scan rate, the time of each question to the slave.
+The available options automatically adapt according to the selected Modbus function.
 
+---
 
+# 16-bit Write Window
 
-#### Advanced adjustments:
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/write_16bits.png">
+</p>
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Modbus_Definition_RTU.png)
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Modbus_Definition_TCP.png)
+The 16-bit write window supports all standard Modbus write functions.
 
-- Time to reconnect (TCP/IP only).
-- Read only (does not write data).
-- Limit the maximum size per packet in Holding, if the packet is smaller than the limit nothing will be done, if it is larger it will be divided into smaller packets, useful for equipment that does not support 125 Words of transmission at a time.
-- Limit the maximum size per packet in Analog, if the packet is smaller than the limit nothing will be done, if it is larger it will be divided into smaller packets, useful for equipment that does not support 125 Words of transmission at a time.
-- Disconnects the connection in case of error.
+## Supported Functions
 
-***
+- Function 05 — Write Single Coil
+- Function 06 — Write Single Holding Register
+- Function 15 — Write Multiple Coils
+- Function 16 — Write Multiple Holding Registers
 
-## Data Reading Screen
+### Maximum Write Size
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scanbus-BR-linux.png)
+| Function | Maximum |
+|----------|---------|
+| Multiple Coils | 1998 Coils |
+| Multiple Holding Registers | 123 Registers |
 
-- Visualization of values received in decimal, hexadecimal and binary simultaneously.
-- Receiving status.
-- Receipt count.
-- Slave/server response times (minimum, current, average and maximum).
-- Number with or without sign.
-- [New Table button, Open new universal tables (16, 32 or 64 bit).](#new-universal-table)
-- Single-read button.
-- [Auto simulation button.](#16-bit-auto-simulation )
-- Button to save a table activity log file.
-- [Button to open the "wide vision" function window.](#wide-vision-function)
+---
 
+## Value Formats
 
-The table offers the following number formats:
-  - 16-bit Unsigned Decimal
-  - 16-bit Signed Decimal
-  - 32-bit Unsigned
-  - 32-bit Signed
-  - 32-bit Float "IEEE754"
-  - 64-bit Unsigned
-  - 64-bit Signed
-  - 64-bit Double
-    
-With the bit order of:
-  - Big endian
-  - Little endian
-  - Big endian / swap byte
-  - Little endian / swap byte
+Single register values may be entered as:
 
-Address display format in the following modes: 
- - Relative (Base-0).
- - Absolute (Base-1).
- - Hexadecimal (Base-0).
-  
-  ***
-  
-## 16-bit recording window 
+- Decimal
+- Hexadecimal
+- Binary
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/write_16bits.png)
-- Make recordings in:
-  - Coil (Function 05).
-  - Holding (Function 06).
-  - Multiple coil (Function 15).
-    - Until 1998 simultaneous coils. 
-  - Multiple holding (Function 16).
-    - Up to 123 simultaneous holdings 
+This greatly simplifies debugging and firmware validation.
 
- - For function 06, values ​​can be in: 
-   - Decimal.
-   - Hexadecimal.
-   - Binary. 
+---
 
-***
-## 32-bit recording window 
+# 32-bit Write Window
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/write_32bits.png)
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/write_32bits.png">
+</p>
 
-- For function 06 or 16, values ​​can be in: 
-   - Decimal.
-   - Hexadecimal.
-- Optional to send with double sending with function 06 or single sending with function 16 (default). 
-***
+The 32-bit write window is intended for devices that store values across two consecutive Holding Registers.
 
-## 64-bit recording window
+Supported formats include:
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/write_64bits.png)
+- Unsigned Integer
+- Signed Integer
+- IEEE754 Floating Point
 
-***
+Values may be entered in:
 
-## 16-bit Auto Simulation 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Auto_Simulation.png)
-- Make automatic recordings:
-  - adjust the address for auto simulation (multiple independent addresses can be adjusted by simply selecting the desired address, adjusting and enabling it):
-    - Operating modes:
-      - Increment
-      - Decrement
-      - Random
-    - Time adjustment for each recording.
-    - Adjust steps.
-    - Adjust minimum value (accepts negative values).
-    - Set maximum value (accepts negative values).
-  - Select recording mode (Global);
-    - Function 06 (default).
-    - Function 16.
-      
-Note: " Automatic Simulation" will only work while the window is open and the table is set to 16 bits. The address that has "automatic simulation" will be colored green in the table.
+- Decimal
+- Hexadecimal
 
-***
+---
 
-## Log. windows
-Keep a log of table activity.
+## Transmission Modes
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Log_register.png)
+Two write methods are available:
 
-- Checkbox (Write log?).
-- Set the file name:
-  - The file in Windows will be saved in the same directory as the executable file, in Linux it can be in the same directory or in the home folder.
-- Extension, choose the type of file to be saved, TXT and CSV (opens in excel). 
-- Separator (SEP), choose the data separator between comma or semicolon.
-- Choose the types of data to collect:
-  - Errors
-  - Date
-  - Time
-  - ID
-  - Function
-  - Addresses
-    
- ***
- 
-## New Universal Table
+### Function 06
 
-Open new tables in floating windows.
+Writes each register individually.
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Universal_table.png)
+This option offers maximum compatibility with older devices.
 
-Universal tables, in the connection section, click on the new table button, the tables contain settings for viewing registers up to (125 = 16 bits, 64 = 32 bits, 32 = 64 bits), adjustable size windows/tables with fixed hexadecimal values ​​in all modes and with configurable format.
+---
 
-With the Formats of:
-  - 16-bit Binary
-  - 16-bit Unsigned Decimal
-  - 16-bit Signed Decimal
-  - 32-bit Unsigned
-  - 32-bit Signed
-  - 32-bit Float "IEEE754"
-  - 64-bit Unsigned
-  - 64-bit Signed
-  - 64-bit Double
-    
-With the bit order of:
-  - Big endian
-  - Little endian
-  - Big endian / swap byte
-  - Little endian / swap byte
+### Function 16
 
-***
+Writes both registers in a single Modbus command.
 
-## Special functions
+This is the default and recommended option whenever supported by the target device.
 
-### Time graph:
-Generates graphs (time x values) with the values ​​received via Modbus.
+---
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Graphic_time_1.png)
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Graphic_time_2.png)
+# 64-bit Write Window
 
-#### Available up to 8 lines with the following configuration:
-- Thread colors 
-- Multiplication Factor
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/write_64bits.png">
+</p>
+
+The 64-bit write window allows writing values stored across four consecutive Holding Registers.
+
+Supported formats include:
+
+- Unsigned 64-bit Integer
+- Signed 64-bit Integer
+- IEEE754 Double Precision
+
+All byte-order options available throughout ScanBus-BR are supported.
+
+---
+
+# Automatic Register Simulation
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Auto_Simulation.png">
+</p>
+
+The Automatic Simulation tool continuously writes values to selected Holding Registers.
+
+It is especially useful for:
+
+- PLC testing
+- HMI development
+- SCADA validation
+- Embedded firmware testing
+- Communication stress testing
+
+---
+
+## Simulation Modes
+
+Each configured register may operate independently using one of the following modes:
+
+- Increment
+- Decrement
+- Random
+
+---
+
+## Adjustable Parameters
+
+Each simulated register supports:
+
+- Independent address selection
+- Write interval
+- Step value
+- Minimum value
+- Maximum value
+
+Negative values are fully supported.
+
+---
+
+## Write Function
+
+The simulator can operate using:
+
+- Function 06 (Write Single Register)
+- Function 16 (Write Multiple Registers)
+
+Function 16 is recommended whenever the target device supports it.
+
+---
+
+> **Important**
+>
+> Automatic Simulation is available only while the simulation window remains open.
+>
+> Registers configured for automatic updates are highlighted in **green** within the main table.
+
+---
+
+# Communication Log
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Log_register.png">
+</p>
+
+The integrated logging system records communication activity for later analysis.
+
+Logs can be generated automatically during communication with the Modbus device.
+
+---
+
+## Log Options
+
+- Enable or disable logging
+- Select the output filename
+- TXT output
+- CSV output
+- Select comma or semicolon separator
+
+---
+
+## Recorded Information
+
+The log may include:
+
+- Date
+- Time
+- Device ID
+- Function Code
+- Register Address
+- Communication Errors
+
+---
+
+## File Location
+
+### Windows
+
+The log is stored in the same directory as the ScanBus-BR executable.
+
+### Linux
+
+Depending on the distribution, the file may be stored either beside the executable or inside the user's Home directory.
+
+---
+
+# Universal Tables
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Universal_table.png">
+</p>
+
+Universal Tables provide an independent floating window for monitoring additional Modbus registers.
+
+Multiple Universal Tables may be opened simultaneously.
+
+Each table operates independently from the main window.
+
+---
+
+## Supported Register Sizes
+
+- 125 × 16-bit Registers
+- 64 × 32-bit Values
+- 32 × 64-bit Values
+
+---
+
+## Supported Numeric Formats
+
+- Binary
+- Unsigned Integer
+- Signed Integer
+- IEEE754 Float
+- IEEE754 Double
+
+---
+
+## Byte Ordering
+
+Every Universal Table supports:
+
+- Big Endian
+- Little Endian
+- Big Endian + Byte Swap
+- Little Endian + Byte Swap
+
+---
+
+## Advantages
+
+Universal Tables are ideal when monitoring several unrelated memory regions simultaneously.
+
+Each window can use different:
+
+- Address
+- Format
+- Byte Order
+- Register Size
+
+This greatly simplifies diagnostics in complex PLCs and embedded devices.
+
+---
+
+# Time Graph
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Graphic_time_1.png">
+</p>
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Graphic_time_2.png">
+</p>
+
+The Time Graph tool plots Modbus register values over time.
+
+It is particularly useful for observing trends, oscillations, and dynamic system behavior.
+
+---
+
+## Graph Features
+
+Up to **8 independent traces** may be displayed simultaneously.
+
+Each trace supports:
+
+- Custom caption
+- Multiplication factor
 - Offset
-- Caption
-- LINE style
-- line width 
-- Points on the line
-  
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Graphic_time_3.png)
-
-#### Chart options:
-- Background color adjustment
-- Grid color adjustment
-- Gridline Adjustment
-- Maximum value (manual)
-- Minimum value (manual)
-- Auto graph limit adjustment (automatic)
-- Time adjustment
-
-***
-
-### Device/Network Scanner: 
-Find connected device ID, functions and registers.
-
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scan_Device.png)
-
-#### Options:
-- Display only valid data (Avoid filling the table with rows only reporting invalid data, e.g. registers with timeout).
-- Show exception (exception indicates that the device ID exists but something is wrongly configured).
-- Stop when found (when a valid register is found, the scan ends).
-- Stop at the end (when it reaches the value of Id = 255, finish the scan, otherwise it will return to ID 1 cyclically).
-- Save to .CSV file (with separator choice).
-- Search for a specific term; the cell containing the terms will be highlighted in yellow.
-- If there are errors, they will appear in the status column, and the cell will be highlighted in red.
+- Line width
+- Line style
+- Marker points
 
-- Filter option according to the received value. The options are:
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Graphic_time_3.png">
+</p>
 
-  - All: regardless of the record value, shows the record as long as it is valid.
+---
 
-  - Greater than: only shows results when the record has a value greater than the entered value.
+## Display Options
 
-  - Less than: only shows results when the record has a value less than the entered value.
+The graph appearance can be customized through:
 
-  - Equal to: only shows the record that has the same value as the entered value.
+- Background Color
+- Grid Color
+- Grid Visibility
+- Automatic Scale
+- Manual Minimum
+- Manual Maximum
+- Time Scale
 
-  - Different from: hides the record if the record value is equal to the entered value.
-  
-- Can be set to values: 
-  - 16 bits unsigned (default).
-  - 16 bits signed.
-  - 32 bits unsigned.
-  - 32 bits signed.
-  - 32 bits floating point "IEEE754".
-    
-For 32-bit values the following byte order is available: 
-- Big endian
-- Little endian
-- Big endian / byte swap
-- Little endian / byte swap
-    
-Note:
-- 32-bit values ​​use 2 word (4 bytes) wide registers.
+These settings allow the graph to be optimized for both slow-changing variables and high-speed signals.
 
-***
+---
 
-## Serial RTU Scanner:
-Find the serial configuration of the connected device
+# Network Scanners
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scan_RTU.png)
+One of the strongest features of ScanBus-BR is its collection of built-in scanners.
 
-#### Scanner of: 
-- BaudRate
-- Parity:
-  - None, Odd, Even.
-- StopBit:
-  - 1 and 2
-- ID:
-  - from 1 to 255
-- Function:
-  - If "All" is selected, the following functions will be scanned: (01 Coil, 02 Digital, 03 Holding, 04 Analog).
-- Addresses:
-  - from 0 to 65535.
+Instead of manually testing each Modbus address or communication parameter, the scanners automate the discovery process, significantly reducing commissioning and troubleshooting time.
 
-Note:
-  
-  Use the same connection as the simulator.
+---
 
-  With the exception of some exotic baudRate.
-    
-  The software is capable of checking all network/device "Modbus RTU" combinations, however,depending on the amount of data you put in for scanning, it can be extremely time-consuming. 
-    
-  Each item added simply doubles the scanner time. 
-    
-  The more information you have about your device or network, the more items NOT existing on your device you can remove,making the scanner faster.
+# Device / Network Scanner
 
-  In this scanner, only truly valid data (valid + exceptions) is accepted, unlike other scanners that consider any Echo/Noise on the network as a valid result.
+Automatically discovers valid Modbus devices, supported functions and accessible registers.
 
-Attention!!!
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scan_Device.png">
+</p>
 
-  The scan takes about two and a half hours to complete at default settings. With each item added to the default settings, the time doubles.
-***
+The scanner is especially useful when little or no documentation is available for the target equipment.
 
-### TCP Scanner:
-Find the device's IP and TCP port.
+Typical applications include:
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scan_TCP.png)
+- PLC commissioning
+- Reverse engineering
+- Industrial maintenance
+- Device validation
+- Unknown equipment analysis
 
-#### Scanner of: 
-- IP (TCP)
-- Port
-- ID 
+---
 
-You will need to know in advance the function and address that the equipment responds to.
+## Features
 
-Note:
-- The scanned device or network must be in the same IP range as the computer.
+- Automatic Device ID scanning
+- Function Code scanning
+- Register Address scanning
+- CSV export
+- Search tool
+- Error highlighting
+- Exception code detection
+- Register value filtering
 
-***
+---
 
-## Wide vision function
-Individually check which 16-bit registers are active.
+## Display Options
 
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/wide_vision_1.png)
-- In the register where there is activity, the address cell will turn red for the time specified in "signaling time".
+### Show Only Valid Data
 
-***
+Displays only successful Modbus responses.
 
-### Sniffer "SPY" / Terminal.
+This prevents the table from being filled with timeout or communication error messages.
 
-#### Note: since the analysis is done via an RS485 line, there is no separation between transmitters and receivers. Therefore, in very rare cases, false positives may occur despite the filters in the programming.
+---
 
-### ATTENTION, THE BEST RESULTS WERE OBTAINED WITH CONVERTERS WITH THE CH340/CH343 CHIP.
+### Show Exceptions
 
+Displays Modbus Exception Responses.
 
-#### Serial connection menu.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Menu_Sniffer.png)
+An exception usually indicates that the device exists but the requested register or function is invalid.
 
-- Rescan button: Lists available serial ports, useful if you have connected the USB/serial converter after opening the software.
+---
 
-- COM Port: Select the COM port to which your network/device is connected.
+### Stop When Found
 
-- Virtual Port (Linux only): Displays internal ports.
+Stops the scan immediately after locating the first valid register.
 
-- Data Bit: Select according to the device/network to be analyzed; note: if using Modbus RTU, always use 8.
+Ideal for quickly identifying unknown devices.
 
-- Stop Bit: Select according to your network/device.
+---
 
-- Parity: Select according to your network/device.
+### Stop at End
 
-- Baud Rate: Select according to your network/device.
+Stops automatically after scanning Device ID 255.
 
-- LED "Buffer Full": Indicates that the Merged analysis table has reached its data limit.
+When disabled, the scanner continuously repeats the search.
 
-- LED "AT": Indicates activity on the serial port.
-  - The AT LED also indicates the connection status according to its color:
-    - Blue = Never connected
-    - Yellow = Connection problem
-    - Red = Connected / inactive for more than 250ms.
-    - Green / Black = Activity.
-    - Aqua = Disconnected.
- 
-- LED "TX": Indicates that it has received data from a Modbus RTU Master.
-
-- LED "RX": Indicates that it has received data from a Modbus RTU Slave.
-
-- Real Time visualization:
-  - With the "Real Time visualization" enabled:
-    - You will see updates on the screen every 50 received data points or if no data is received for 100 ms'
-    - 'Occasional data loss or misalignment between "master and slave" may occur'
-   
-  - With the "Real Time visualization" disabled:
-    -  You will only see the data when the buffer is full or when data collection is stopped'
-    -  Data loss or misalignment between "master and slave" is extremely rare'
-
-  - The disabled mode "Real Time visualization" is extremely useful for saving the .CSV file for external analysis.'
-  - Note: best results are achieved with converters using CH340/CH343 chips.'; 
-
-- Connect/Disconnect Button: Connects and disconnects the serial port. Note: To use Modbus RTU analysis, remember to select the "Enable" item below.
-  - Note: If you are using the serial terminal for non-Modbus data, leave the "Enable" option disabled.
-
-- Clear Button: Clears all data from the table/terminal.
-  
-- A/B reversal detector for RS485 networks.
-  - Detects if the A/B wires connected to the ScanBus-BR are swapped.
-  - Valid only for Modbus RTU data.
-
-
-#### Simple serial terminal (decimal , hexadecimal and text).
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png)
-
-- Dec/HEX/Text:
-  - Select whether the read and written bytes are in decimal , hexadecimal or Text (ASCII).
-    
-- Lines per frame : 
-  - Each received packet is skipped by one line.
-    For FTDI chips, select the FTDI Chip? function before connecting (support for Windows only).
-
-- Show Sent:
-  - Shows the bytes sent on the screen.
- 
-- Separator:
-  - Place any character separating the Bytes
- 
-- Line counter:
-  -  Line count written on screen.
-
-- Count of the last packet received.
-
-- Search for a specific term.
-
-
-#### Table settings:
-
-- Simulate Modbus Slave:
-- ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Filter_Slave_Save_Sniffer.png)
-  - Activates an internal Modbus RTU slave simulator.
-  
-  - Using the "Select ID" button, you can enable or disable slave IDs; by default, all are enabled.
-    - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Slave_ID.png)
-      - "Select all IDs" button, fill all IDs.
-      - "Deselect all IDs" button; removes all IDs.
-  - Error simulation:
-    -  ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Error_simulations.png)
-      - Responds with an incorrect ID.
-      - Responds with an incorrect CRC.
-      - Responds with an exception code based on the selection.
-        - None
-        - 01 Illegal Function
-        - 02 Illegal Data Address
-        - 03 Illegal Data Value
-        - 04 Slave Device Failure
-        - 05 Acknowledge
-        - 06 Slave Device Busy
-        - 07 Negative Acknowledge
-        - 08 Memory Parity Error
-        - 0A (10) Gateway Path Unavailable
-        - 0B (11) Gateway Target Device Failed to Respond
-      - Responds with a delay
-      
-     
-  - It is particularly useful for testing only on the master device.
-  - Open Slave Table button.
-
-  - Editable slave table:
-    - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Table_Slave.png)
-
-    - ID Edit.
-    - Function Edit.
-    - Address Edit.
-    - Editing the number of registers.
-      
-    - Numeric format changer:
-      - 16 bits unsigned.
-      - 16-bit signed.
-      - 32-bit unsigned.
-      - 32-bit signed.
-      - 32-bit float "IEEE754".
-        
-    - Byte order:
-      - Big-endian.
-      - Little-endian.
-      - Big-endian / Byte Swap
-      - Little-endian / Byte Swap
-     
-    - Save button: Saves the table values ​​for all (ID, Function, Addresses), the file size is approximately 160Mb.
-    - Open button: Opens the saved file of table values.
-    - Clear button: Deletes all values ​​from the table.
-    - Write button: Opens a window to enter the value.
-          
-      - Write slave:      
-        - ![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Write_Slave.png)
-        - ID Edit.
-        - Function Edit.
-        - Address Edit.
-        - Value.
-        - Write button or ON OFF buttons (coil or discrete input).
-   
-  - Notes:
-    - The internal slave simulator will always respond to all standard functions (01 Coil, 02 Input discrete, 03 Holding, 04 Input register, 05 Write Coil, 06 Write Holding, 15 Multiple Write Coil, 16 Multiple Write Holding) and register addresses from 0 to 65535 without any configuration.
-
-#### Merge Table analysis:
-
-Shows the requests from the Master and the responses from the slaves.
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Merge.png)
-
-- Use the filters if you want only master or slave, only one ID, or only one function.
-  
- - With support for:
-    - Exception codes.
-    - Coil (01)
-    - Discrete input (02)
-    - Holding (03)
-    - Input register (04)
-    - Write coil (05)
-    - Write holding (06)
-    - Partial support (with limitations):
-      - Multiple write coil (15)
-      - Multiple write holding (16)
-
-    - Note:
-      - The generated file can be analyzed by ChatGPT or DeepSeek; preferably include additional information such as the baud rate and the type of communication (RS485).
-      - The best results in networking were obtained with the USB/RS485 converters with CH340 or CH343 chips.
-
-#### Parse-Modbus Table:
-
-Shows each unique value on the network; if there are repetitions, they are added to the count.
-
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png)
-
-- With support for:
-    - Exception codes.
-    - Coil (01)
-    - Discrete input (02)
-    - Holding (03)
-    - Input register (04)
-    - Write coil (05)
-    - Write holding (06)
-    - Partial support (with limitations):
-      - Multiple write coil (15)
-      - Multiple write holding (16)
-
-#### Warning: If you are using USB/RS485 converters with an FTDI chip, adjust the converter timing in the Windows device manager to 1ms.
-The best results in networking were obtained with the USB/RS485 converters with CH340 or CH343 chips.
-***
-
-### Did you like ScanBus-BR ? 
-
-It was created with great care and dedication. 
-
-Your donation allows me to maintain and improve this software free of charge for everyone. 
-
-Any donation is welcome. 
-Thank you for your contribution! 
-
-Rodrigo F. Hernandes
-
-# Donation via Paypal:
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/QR%20Code.png)
+---
+
+### CSV Export
+
+Exports all discovered information for later analysis.
+
+The separator may be configured as:
+
+- Comma
+- Semicolon
+
+---
+
+### Search
+
+Search for any text or numeric value within the results table.
+
+Matching entries are automatically highlighted.
+
+---
+
+# Value Filters
+
+The scanner can filter results according to the received register value.
+
+Available filters include:
+
+- All Values
+- Greater Than
+- Less Than
+- Equal To
+- Different From
+
+---
+
+## Supported Data Formats
+
+- 16-bit Unsigned
+- 16-bit Signed
+- 32-bit Unsigned
+- 32-bit Signed
+- IEEE754 Floating Point
+
+---
+
+## Supported Byte Orders
+
+- Big Endian
+- Little Endian
+- Big Endian + Byte Swap
+- Little Endian + Byte Swap
+
+---
+
+> **Note**
+>
+> Every 32-bit value occupies two consecutive Holding Registers.
+
+---
+
+# Serial RTU Scanner
+
+Automatically searches for the serial communication parameters required to communicate with an unknown Modbus RTU device.
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scan_RTU.png">
+</p>
+
+Instead of manually trying dozens of communication combinations, ScanBus-BR performs the process automatically.
+
+---
+
+## Search Parameters
+
+The scanner can automatically test:
+
+- Baud Rate
+- Parity
+- Stop Bits
+- Slave ID
+- Function Code
+- Register Address
+
+---
+
+## Supported Parity
+
+- None
+- Even
+- Odd
+
+---
+
+## Supported Stop Bits
+
+- 1
+- 2
+
+---
+
+## Function Scan
+
+Select a single Modbus function or allow ScanBus-BR to search using all standard read functions:
+
+- Function 01 – Read Coils
+- Function 02 – Read Discrete Inputs
+- Function 03 – Read Holding Registers
+- Function 04 – Read Input Registers
+
+---
+
+## Address Range
+
+Registers from:
+
+0
+
+to
+
+65535
+
+may be scanned.
+
+---
+
+## How It Works
+
+The scanner systematically combines all selected communication parameters until valid Modbus responses are received.
+
+Unlike many generic serial scanners, ScanBus-BR validates complete Modbus frames, including CRC verification.
+
+This greatly reduces false positives caused by electrical noise or random serial traffic.
+
+---
+
+## Performance Considerations
+
+The default configuration requires approximately **2.5 hours** to complete.
+
+Each additional parameter added to the search approximately doubles the scanning time.
+
+To improve performance:
+
+- Limit the Baud Rate list whenever possible.
+- Limit the Device ID range.
+- Limit the Register Address range.
+- Select only the required Function Codes.
+
+The more information you already know about the target device, the faster the scan will complete.
+
+---
+
+# TCP/IP Scanner
+
+Automatically searches for Modbus TCP devices within the local network.
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scan_TCP.png">
+</p>
+
+The TCP Scanner is useful when the IP address of a Modbus device is unknown.
+
+---
+
+## Search Parameters
+
+- IP Address
+- TCP Port
+- Device ID
+
+---
+
+## Requirements
+
+Before running the scan, you should already know:
+
+- A valid Modbus Function Code
+- A valid Register Address
+
+These parameters are used to verify whether each detected device responds correctly.
+
+---
+
+## Important Notes
+
+The target device must belong to the same IP subnet as the computer running ScanBus-BR.
+
+Scanning multiple subnets is not supported.
+
+---
+
+# Wide Vision
+
+The Wide Vision tool makes it easy to identify register activity across large memory areas.
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/wide_vision_1.png">
+</p>
+
+Instead of continuously monitoring individual values, Wide Vision highlights every register that changes over time.
+
+This is particularly useful when reverse engineering unknown equipment.
+
+---
+
+## Features
+
+- Real-time activity monitoring
+- Automatic change detection
+- Adjustable highlight duration
+- Visual indication of changing registers
+
+Whenever a register changes, its address is highlighted in **red** for the configured signaling time.
+
+This makes dynamic values immediately visible without requiring constant observation.
+
+---
+
+# Modbus RTU Sniffer (SPY)
+
+The integrated **RTU Sniffer** is one of the flagship features of ScanBus-BR.
+
+Instead of acting as a Modbus Master, the Sniffer passively monitors communication between an existing Master and one or more Slave devices.
+
+This makes it an invaluable tool for troubleshooting, reverse engineering, firmware validation and protocol analysis.
+
+---
+
+## Important Notes
+
+Since communication is monitored directly from the RS485 bus, the software must determine which frames belong to the Master and which belong to the Slave.
+
+Although several validation algorithms are used, extremely rare false detections may still occur.
+
+For the highest reliability, USB/RS485 converters based on the **CH340** or **CH343** chipsets are strongly recommended.
+
+---
+
+# Serial Connection
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Menu_Sniffer.png">
+</p>
+
+## Available Controls
+
+### Rescan
+
+Refreshes the list of available serial ports.
+
+Useful when the USB converter is connected after ScanBus-BR has already been started.
+
+---
+
+### COM Port
+
+Selects the serial interface connected to the RS485 network.
+
+---
+
+### Virtual Port (Linux)
+
+Displays internal virtual serial devices available under Linux.
+
+---
+
+### Data Bits
+
+Select the number of data bits.
+
+For Modbus RTU this value should always be **8**.
+
+---
+
+### Stop Bits
+
+Supports:
+
+- 1
+- 2
+
+---
+
+### Parity
+
+Supported options:
+
+- None
+- Even
+- Odd
+
+---
+
+### Baud Rate
+
+Select the baud rate used by the monitored network.
+
+---
+
+# Status LEDs
+
+Several LEDs provide immediate information about communication status.
+
+## Buffer Full
+
+Indicates that the Merge Table has reached its maximum capacity.
+
+---
+
+## AT
+
+Indicates serial communication status.
+
+Color meanings:
+
+| Color | Meaning |
+|--------|----------|
+| Blue | Never connected |
+| Yellow | Connection problem |
+| Red | Connected but inactive |
+| Green | Active communication |
+| Aqua | Disconnected |
+
+---
+
+## TX
+
+Indicates data transmitted by the Modbus Master.
+
+---
+
+## RX
+
+Indicates data transmitted by the Modbus Slave.
+
+---
+
+# Real-Time Visualization
+
+Two acquisition modes are available.
+
+## Real-Time Enabled
+
+The display updates every:
+
+- 50 received frames
+
+or
+
+- 100 ms without new data
+
+This mode offers immediate feedback but may occasionally produce minor misalignment between transmitted and received frames.
+
+---
+
+## Real-Time Disabled
+
+Frames are displayed only when:
+
+- the capture buffer becomes full
+
+or
+
+- acquisition is stopped manually.
+
+This mode minimizes frame misalignment and is recommended when generating CSV files for offline analysis.
+
+---
+
+# Additional Functions
+
+## Connect / Disconnect
+
+Starts or stops communication capture.
+
+When using the serial terminal for non-Modbus traffic, the Modbus decoder may remain disabled.
+
+---
+
+## Clear
+
+Removes all captured frames.
+
+---
+
+## RS485 A/B Detection
+
+Automatically detects whether the RS485 A and B wires are reversed.
+
+Available only for Modbus RTU communication.
+
+---
+
+# Serial Terminal
+
+The integrated terminal can also be used independently of the Modbus decoder.
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Terminal_serial.png">
+</p>
+
+## Display Formats
+
+Incoming and outgoing data may be displayed as:
+
+- Decimal
+- Hexadecimal
+- ASCII Text
+
+---
+
+## Terminal Options
+
+- Display transmitted bytes
+- Custom byte separator
+- Packet line spacing
+- Packet counter
+- Line counter
+- Search function
+
+When using FTDI converters under Windows, selecting **FTDI Mode** improves packet separation accuracy.
+
+---
+
+# Internal Modbus Slave Simulator
+
+One of the most unique features of ScanBus-BR is the built-in Modbus RTU Slave Simulator.
+
+Instead of requiring external hardware, ScanBus-BR can emulate an entire Modbus Slave device directly inside the Sniffer.
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Filter_Slave_Save_Sniffer.png">
+</p>
+
+This feature is extremely useful during:
+
+- PLC development
+- HMI testing
+- SCADA validation
+- Firmware debugging
+- Master software development
+
+---
+
+## Slave ID Selection
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Slave_ID.png">
+</p>
+
+Individual Slave IDs may be enabled or disabled.
+
+Available commands:
+
+- Select All IDs
+- Clear All IDs
+
+---
+
+# Error Simulation
+
+The Slave Simulator can intentionally generate communication errors.
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Error_simulations.png">
+</p>
+
+Supported simulations:
+
+- Invalid Slave ID
+- Invalid CRC
+- Communication Delay
+
+It can also generate every standard Modbus Exception Response.
+
+Supported exception codes:
+
+| Code | Description |
+|------|-------------|
+| 01 | Illegal Function |
+| 02 | Illegal Data Address |
+| 03 | Illegal Data Value |
+| 04 | Slave Device Failure |
+| 05 | Acknowledge |
+| 06 | Slave Device Busy |
+| 07 | Negative Acknowledge |
+| 08 | Memory Parity Error |
+| 0A | Gateway Path Unavailable |
+| 0B | Gateway Target Device Failed to Respond |
+
+---
+
+# Editable Slave Memory
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Table_Slave.png">
+</p>
+
+The simulated Slave memory can be edited interactively.
+
+Supported formats:
+
+- 16-bit Unsigned
+- 16-bit Signed
+- 32-bit Unsigned
+- 32-bit Signed
+- IEEE754 Float
+
+Supported byte orders:
+
+- Big Endian
+- Little Endian
+- Big Endian + Byte Swap
+- Little Endian + Byte Swap
+
+Available commands:
+
+- Save Memory
+- Load Memory
+- Clear Memory
+- Edit Values
+
+---
+
+# Manual Register Editing
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Write_Slave.png">
+</p>
+
+Registers may be edited individually.
+
+Supported operations include:
+
+- Device ID
+- Function Code
+- Register Address
+- Register Value
+- Coil ON/OFF
+
+---
+
+> **Note**
+>
+> The internal simulator automatically supports all standard Modbus functions (01, 02, 03, 04, 05, 06, 15 and 16) for every address between **0** and **65535**.
+
+---
+
+# Merge Table
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Merge.png">
+</p>
+
+The Merge Table reconstructs complete Modbus transactions by combining Master requests and Slave responses.
+
+This allows communication to be analyzed exactly as it occurred.
+
+Supported functions:
+
+- Read Coils
+- Read Discrete Inputs
+- Read Holding Registers
+- Read Input Registers
+- Write Single Coil
+- Write Single Register
+- Partial support for Functions 15 and 16
+
+Supported filters include:
+
+- Master only
+- Slave only
+- Device ID
+- Function Code
+
+CSV files generated by the Merge Table can be analyzed using AI tools such as ChatGPT for troubleshooting and protocol interpretation.
+
+---
+
+# Parse Table
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Sniffer_SPY_Parse.png">
+</p>
+
+The Parse Table groups identical Modbus transactions together.
+
+Instead of displaying repeated frames individually, identical messages are counted and summarized.
+
+This greatly simplifies long captures.
+
+---
+
+## FTDI Users
+
+If your USB/RS485 converter uses an FTDI chipset, set the **USB Latency Timer** to **1 ms** in the Windows Device Manager.
+
+For the best overall performance, CH340 and CH343 converters remain the recommended option.
+
+---
+
+# Support the Project ❤️
+
+ScanBus-BR is developed as an independent project and is distributed completely **free of charge**.
+
+There are:
+
+- No advertisements
+- No paid version
+- No subscriptions
+- No hidden features
+- No bundled software
+
+The project is maintained during my free time with the goal of helping engineers, technicians, students and automation professionals.
+
+If ScanBus-BR has helped you solve a problem or saved you valuable development time, consider supporting the project.
+
+Every contribution helps fund future improvements and new features.
+
+---
+
+# Donate via PayPal
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/QR%20Code.png" width="300">
+</p>
 
 https://www.paypal.com/donate/?hosted_button_id=6EUN9X4VDY88N
 
+---
 
-# Donation via PIX:
-![ScanBus-BR](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Pix_ScanBus-BR.jpeg)
+# Donate via PIX (Brazil)
 
-  
-***
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Pix_ScanBus-BR.jpeg" width="300">
+</p>
+
+Thank you for helping keep ScanBus-BR free for everyone.
+
+---
+
+# Community
+
+Questions, suggestions and bug reports are always welcome.
+
+## WhatsApp (Portuguese)
+
+https://chat.whatsapp.com/D8ZMNuLCYgLK8Eeg8LdmF6
+
+---
+
+## WhatsApp (International)
+
+https://chat.whatsapp.com/JjndsgL4jXF7VfToQ3cuBN
+
+---
+
+## Telegram
+
+https://t.me/Scanbus_br
+
+---
+
+## YouTube
+
+https://www.youtube.com/channel/UCU19Zzi0tI-7OPVz2x3Vh9Q
+
+---
+
+# Reporting Bugs
+
+If you find a bug, please include as much information as possible.
+
+Useful information includes:
+
+- Operating System
+- Windows or Linux version
+- ScanBus-BR version
+- Communication type (RTU, TCP or RTU over TCP)
+- Baud Rate
+- Parity
+- Stop Bits
+- Device model
+- Screenshots
+- Log files
+- CSV captures
+
+The more information you provide, the easier it will be to reproduce and fix the issue.
+
+---
+
+# Suggestions
+
+Suggestions for new features are always appreciated.
+
+Many of the current ScanBus-BR features were originally proposed by users.
+
+Feel free to share your ideas.
+
+---
+
+# Contributing
+
+Although ScanBus-BR is currently maintained by a single developer, contributions are always welcome.
+
+You can contribute by:
+
+- Reporting bugs
+- Suggesting new features
+- Improving translations
+- Testing new releases
+- Sharing the project
+- Supporting development through donations
+
+---
+
+# Why ScanBus-BR?
+
+ScanBus-BR was created to provide a professional-quality Modbus toolkit that is freely available to everyone.
+
+It combines tools that are often distributed across multiple commercial applications into a single portable program.
+
+The project continues to evolve with every release, driven by user feedback and real-world industrial applications.
+
+---
+
+# Acknowledgements
+
+Special thanks to every user who:
+
+- Reported bugs
+- Suggested improvements
+- Tested beta versions
+- Shared the software
+- Supported the project
+
+Your feedback has been essential to the continuous evolution of ScanBus-BR.
+
+---
+
+# License
+
+ScanBus-BR is distributed as **Freeware**.
+
+You are free to download and use the software for personal, educational and commercial purposes.
+
+The software is provided **"as is"**, without any warranty.
+
+Please refer to the LICENSE file for additional information if one is provided with the project.
+
+---
+
+# About the Author
+
+**Rodrigo F. Hernandes**
+
+Automation enthusiast and software developer passionate about industrial communication protocols.
+
+The goal of ScanBus-BR is to make Modbus testing, diagnostics and troubleshooting easier for everyone.
+
+---
+
+# If ScanBus-BR was useful...
+
+⭐ Consider giving this repository a **Star** on GitHub.
+
+Sharing the project with friends and colleagues also helps it reach more people.
+
+Thank you for using ScanBus-BR!
+
+Happy coding! 🚀
+```
+
+
+
