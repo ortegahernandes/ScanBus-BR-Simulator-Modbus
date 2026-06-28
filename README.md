@@ -491,16 +491,17 @@ Individually check which 16-bit registers are active.
 
 - LED "RX": Indicates that it has received data from a Modbus RTU Slave.
 
-- With the Real Time button enabled:
-  - You will see updates on the screen every 50 received data points or if no data is received for 100 ms'
-  - 'Occasional data loss or misalignment between "master and slave" may occur'
+- Real Time visualization:
+  - With the "Real Time visualization" enabled:
+    - You will see updates on the screen every 50 received data points or if no data is received for 100 ms'
+    - 'Occasional data loss or misalignment between "master and slave" may occur'
    
-- With the Real Time button disabled:
-  -  You will only see the data when the buffer is full or when data collection is stopped'
-  -  Data loss or misalignment between "master and slave" is extremely rare'
+  - With the "Real Time visualization" disabled:
+    -  You will only see the data when the buffer is full or when data collection is stopped'
+    -  Data loss or misalignment between "master and slave" is extremely rare'
 
-- The disabled mode "Real Time" is extremely useful for saving the .CSV file for external analysis.'
-- Note: best results are achieved with converters using CH340/CH343 chips.'; 
+  - The disabled mode "Real Time visualization" is extremely useful for saving the .CSV file for external analysis.'
+  - Note: best results are achieved with converters using CH340/CH343 chips.'; 
 
 - Connect/Disconnect Button: Connects and disconnects the serial port. Note: To use Modbus RTU analysis, remember to select the "Enable" item below.
   - Note: If you are using the serial terminal for non-Modbus data, leave the "Enable" option disabled.
