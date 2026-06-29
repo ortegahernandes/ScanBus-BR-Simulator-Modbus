@@ -1686,8 +1686,6 @@ You are free to download and use the software for personal, educational and comm
 
 The software is provided **"as is"**, without any warranty.
 
-Please refer to the LICENSE file for additional information if one is provided with the project.
-
 ---
 
 # About the Author
