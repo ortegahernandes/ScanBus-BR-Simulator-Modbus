@@ -1358,8 +1358,6 @@ Incoming and outgoing data may be displayed as:
 - Line counter
 - Search function
 
-When using FTDI converters under Windows, selecting **FTDI Mode** improves packet separation accuracy.
-
 ---
 
 # Internal Modbus Slave Simulator
