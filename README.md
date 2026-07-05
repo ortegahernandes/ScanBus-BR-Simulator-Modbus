@@ -154,16 +154,6 @@ Instead, execute it from the Downloads folder or any other regular directory.
 
 ---
 
-## Linux Appearance
-
-The application was developed and tested using Linux Mint (Cinnamon, XFCE and MATE).
-
-Depending on the desktop environment or GTK theme, minor interface alignment differences may occur.
-
-These visual differences do not affect functionality.
-
----
-
 # Windows Users
 
 ## SmartScreen Warning
