@@ -139,21 +139,10 @@ This warning is expected and **does not indicate malware**.
 
 ---
 
-## GTK2 Dependency
+## Fedora KDE users:
 
-Some Linux distributions require the GTK2 library.
-
-### Debian / Ubuntu / Kubuntu / Lubuntu
-
-```bash
-sudo apt-get install libgtk2.0-dev
-```
-
-### Fedora
-
-```bash
-sudo dnf install gtk2-devel
-```
+For reasons currently unknown, you must run the Sniffer as root; 
+however, you can use the simulator as a normal user after granting access to the dialout group.
 
 ---
 
