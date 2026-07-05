@@ -197,7 +197,7 @@ If you have questions, suggestions, bug reports or simply want to discuss Modbus
 
 https://chat.whatsapp.com/D8ZMNuLCYgLK8Eeg8LdmF6
 
-### WhatsApp (International)
+### WhatsApp (English / Español)
 
 https://chat.whatsapp.com/JjndsgL4jXF7VfToQ3cuBN
 
