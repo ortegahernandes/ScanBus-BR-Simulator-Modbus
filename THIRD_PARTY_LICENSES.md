@@ -74,10 +74,3 @@ ScanBus-BR is an independent software project.
 
 All trademarks, product names and company names mentioned in this software or documentation are the property of their respective owners.
 
----
-
-# Acknowledgements
-
-The author would like to express sincere gratitude to the developers and maintainers of the Free and Open Source Software community whose work has made this project possible.
-
-Their dedication, knowledge and commitment to open software are deeply appreciated.
