@@ -68,7 +68,7 @@ No ownership is claimed over any third-party software included or referenced by 
 
 # Copyright
 
-Copyright © 2023–2026 Rodrigo Hernandes.
+Copyright © 2021–2026 Rodrigo Hernandes.
 
 ScanBus-BR is an independent software project.
 
