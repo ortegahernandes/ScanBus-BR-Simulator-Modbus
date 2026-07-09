@@ -1,11 +1,5 @@
 # Third-Party Software and Licenses
 
-**ScanBus-BR Simulator Modbus** is built using several Free and Open Source Software (FOSS) projects. We gratefully acknowledge the developers and maintainers whose work makes this project possible.
-
-This document summarizes the principal third-party components used by ScanBus-BR and their respective licenses.
-
----
-
 # Third-Party Components
 
 | Component                           | License                                 |
