@@ -24,7 +24,7 @@
 
 ScanBus-BR uses the Open Source edition of Qt 5 through the Lazarus Qt5 interface (Qt5Pas).
 
-Qt libraries are distributed in accordance with their respective Open Source licenses.
+Qt libraries are distributed in accordance with their respective Open Source licenses (LGPL v3).
 
 ---
 
