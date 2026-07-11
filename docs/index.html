@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,10 +13,10 @@ content="ScanBus-BR is a free and portable Modbus toolkit for Windows and Linux.
 
 <meta name="theme-color" content="#09110d">
 
-<!-- FAVICON -->
-<link rel="icon"
-      type="image/png"
-      href="https://raw.githubusercontent.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/main/Imagens/Logo.png">
+<link
+    rel="icon"
+    type="image/png"
+    href="https://raw.githubusercontent.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/main/Imagens/Logo.png">
 
 <style>
 
@@ -22,22 +24,21 @@ content="ScanBus-BR is a free and portable Modbus toolkit for Windows and Linux.
     --green: #20b66a;
     --green-light: #47dc8e;
     --green-dark: #12834b;
-
     --dark: #09110d;
     --dark-2: #0e1a13;
     --dark-3: #14231a;
-
     --surface: #ffffff;
     --background: #f5f8f6;
-
     --text: #18251d;
     --muted: #66736b;
     --border: #dce6df;
-
     --max-width: 1200px;
 }
 
-/* RESET */
+
+/* =========================================================
+   RESET
+========================================================= */
 
 * {
     box-sizing: border-box;
@@ -105,9 +106,6 @@ header {
     gap: 30px;
 }
 
-
-/* BRAND + LOGO */
-
 .brand {
     display: flex;
     align-items: center;
@@ -118,7 +116,6 @@ header {
 
     font-size: 1.35rem;
     font-weight: 800;
-    letter-spacing: -.02em;
 }
 
 .brand-logo {
@@ -131,26 +128,21 @@ header {
 
     border: 1px solid rgba(255,255,255,.12);
 
-    box-shadow:
-        0 4px 14px rgba(0,0,0,.35);
+    box-shadow: 0 4px 14px rgba(0,0,0,.35);
 }
 
 .brand span {
     color: var(--green-light);
 }
 
-
-/* NAVIGATION */
-
 nav {
     display: flex;
     align-items: center;
-    gap: 26px;
+    gap: 24px;
 }
 
 nav a {
     color: #cbd7cf;
-
     text-decoration: none;
 
     font-size: .92rem;
@@ -180,7 +172,6 @@ nav a:hover {
 
 .hero {
     position: relative;
-
     overflow: hidden;
 
     padding: 105px 0 80px;
@@ -188,7 +179,6 @@ nav a:hover {
     color: white;
 
     background:
-
         radial-gradient(
             circle at 75% 15%,
             rgba(32,182,106,.24),
@@ -208,9 +198,6 @@ nav a:hover {
         );
 }
 
-
-/* BACKGROUND GRID */
-
 .hero::before {
     content: "";
 
@@ -220,7 +207,6 @@ nav a:hover {
     opacity: .16;
 
     background-image:
-
         linear-gradient(
             rgba(255,255,255,.05) 1px,
             transparent 1px
@@ -244,39 +230,27 @@ nav a:hover {
 
 .hero-content {
     position: relative;
-
     z-index: 1;
-
     text-align: center;
 }
 
-
-/* HERO BADGE */
-
 .eyebrow {
     display: inline-flex;
-
     align-items: center;
-
     gap: 8px;
 
     margin-bottom: 24px;
 
     padding: 7px 15px;
 
-    border:
-        1px solid
-        rgba(71,220,142,.3);
-
+    border: 1px solid rgba(71,220,142,.3);
     border-radius: 999px;
 
-    background:
-        rgba(71,220,142,.08);
+    background: rgba(71,220,142,.08);
 
     color: var(--green-light);
 
     font-size: .86rem;
-
     font-weight: 700;
 }
 
@@ -288,28 +262,16 @@ nav a:hover {
 
     border-radius: 50%;
 
-    background:
-        var(--green-light);
+    background: var(--green-light);
 
-    box-shadow:
-        0 0 12px
-        var(--green-light);
+    box-shadow: 0 0 12px var(--green-light);
 }
-
-
-/* HERO TITLE */
 
 .hero h1 {
     max-width: 1000px;
-
     margin: auto;
 
-    font-size:
-        clamp(
-            3rem,
-            7vw,
-            5.8rem
-        );
+    font-size: clamp(3rem, 7vw, 5.8rem);
 
     line-height: 1.02;
 
@@ -323,18 +285,11 @@ nav a:hover {
 .hero-description {
     max-width: 790px;
 
-    margin:
-        27px auto
-        34px;
+    margin: 27px auto 34px;
 
     color: #bdcbc2;
 
-    font-size:
-        clamp(
-            1.05rem,
-            2vw,
-            1.22rem
-        );
+    font-size: clamp(1.05rem, 2vw, 1.22rem);
 }
 
 
@@ -344,25 +299,19 @@ nav a:hover {
 
 .buttons {
     display: flex;
-
     justify-content: center;
-
     flex-wrap: wrap;
-
     gap: 13px;
 }
 
 .btn {
     display: inline-flex;
-
     align-items: center;
-
     justify-content: center;
 
     min-height: 50px;
 
-    padding:
-        0 23px;
+    padding: 0 23px;
 
     border-radius: 8px;
 
@@ -377,174 +326,117 @@ nav a:hover {
 }
 
 .btn:hover {
-    transform:
-        translateY(-2px);
+    transform: translateY(-2px);
 }
 
 .btn-primary {
-    background:
-        var(--green);
-
+    background: var(--green);
     color: white;
 
-    box-shadow:
-        0 12px 35px
-        rgba(32,182,106,.22);
+    box-shadow: 0 12px 35px rgba(32,182,106,.22);
 }
 
 .btn-primary:hover {
-    background:
-        var(--green-light);
+    background: var(--green-light);
 }
 
 .btn-secondary {
     color: white;
 
-    border:
-        1px solid
-        #526158;
+    border: 1px solid #526158;
 
-    background:
-        rgba(255,255,255,.035);
+    background: rgba(255,255,255,.035);
 }
 
 .btn-secondary:hover {
-    border-color:
-        #829188;
-
-    background:
-        rgba(255,255,255,.07);
+    border-color: #829188;
+    background: rgba(255,255,255,.07);
 }
-
-
-/* TRUST ROW */
 
 .trust-row {
     margin-top: 32px;
 
     display: flex;
-
     justify-content: center;
-
     flex-wrap: wrap;
 
-    gap:
-        8px 22px;
+    gap: 8px 22px;
 
-    color:
-        #91a197;
+    color: #91a197;
 
-    font-size:
-        .88rem;
+    font-size: .88rem;
 }
 
 .trust-row span::before {
     content: "✓";
 
-    color:
-        var(--green-light);
+    color: var(--green-light);
 
-    margin-right:
-        7px;
+    margin-right: 7px;
 }
-
-
-/* HERO SCREENSHOT */
 
 .hero-window {
     position: relative;
 
-    max-width:
-        1080px;
+    max-width: 1080px;
 
-    margin:
-        70px auto 0;
+    margin: 70px auto 0;
 
-    padding:
-        8px;
+    padding: 8px;
 
-    border:
-        1px solid
-        #35463c;
+    border: 1px solid #35463c;
 
-    border-radius:
-        15px;
+    border-radius: 15px;
 
-    background:
-        #18251d;
+    background: #18251d;
 
-    box-shadow:
-        0 40px 100px
-        rgba(0,0,0,.5);
+    box-shadow: 0 40px 100px rgba(0,0,0,.5);
 }
 
 .hero-window img {
-    display:
-        block;
-
-    width:
-        100%;
-
-    border-radius:
-        9px;
+    display: block;
+    width: 100%;
+    border-radius: 9px;
 }
 
 
 /* =========================================================
-   PRODUCT SUMMARY
+   INTRO STRIP
 ========================================================= */
 
 .intro-strip {
-    padding:
-        28px 0;
+    padding: 28px 0;
 
-    background:
-        white;
+    background: white;
 
-    border-bottom:
-        1px solid
-        var(--border);
+    border-bottom: 1px solid var(--border);
 }
 
 .intro-items {
-    display:
-        grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .intro-item {
-    padding:
-        10px 25px;
+    padding: 10px 25px;
 
-    text-align:
-        center;
+    text-align: center;
 
-    border-right:
-        1px solid
-        var(--border);
+    border-right: 1px solid var(--border);
 }
 
 .intro-item:last-child {
-    border-right:
-        0;
+    border-right: 0;
 }
 
 .intro-item strong {
-    display:
-        block;
-
-    font-size:
-        1.05rem;
+    display: block;
+    font-size: 1.05rem;
 }
 
 .intro-item span {
-    color:
-        var(--muted);
-
-    font-size:
-        .88rem;
+    color: var(--muted);
+    font-size: .88rem;
 }
 
 
@@ -553,68 +445,47 @@ nav a:hover {
 ========================================================= */
 
 section {
-    padding:
-        95px 0;
+    padding: 95px 0;
 }
 
 .section-heading {
-    max-width:
-        760px;
+    max-width: 760px;
 
-    margin:
-        0 auto 55px;
+    margin: 0 auto 55px;
 
-    text-align:
-        center;
+    text-align: center;
 }
 
 .section-kicker {
-    display:
-        block;
+    display: block;
 
-    margin-bottom:
-        10px;
+    margin-bottom: 10px;
 
-    color:
-        var(--green-dark);
+    color: var(--green-dark);
 
-    font-size:
-        .78rem;
+    font-size: .78rem;
 
-    font-weight:
-        800;
+    font-weight: 800;
 
-    letter-spacing:
-        .13em;
+    letter-spacing: .13em;
 
-    text-transform:
-        uppercase;
+    text-transform: uppercase;
 }
 
 .section-heading h2 {
-    font-size:
-        clamp(
-            2rem,
-            4vw,
-            3.2rem
-        );
+    font-size: clamp(2rem, 4vw, 3.2rem);
 
-    line-height:
-        1.12;
+    line-height: 1.12;
 
-    letter-spacing:
-        -.035em;
+    letter-spacing: -.035em;
 }
 
 .section-heading p {
-    margin-top:
-        16px;
+    margin-top: 16px;
 
-    color:
-        var(--muted);
+    color: var(--muted);
 
-    font-size:
-        1.05rem;
+    font-size: 1.05rem;
 }
 
 
@@ -623,29 +494,21 @@ section {
 ========================================================= */
 
 .features-grid {
-    display:
-        grid;
+    display: grid;
 
-    grid-template-columns:
-        repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
-    gap:
-        20px;
+    gap: 20px;
 }
 
 .feature-card {
-    padding:
-        28px;
+    padding: 28px;
 
-    background:
-        white;
+    background: white;
 
-    border:
-        1px solid
-        var(--border);
+    border: 1px solid var(--border);
 
-    border-radius:
-        14px;
+    border-radius: 14px;
 
     transition:
         transform .25s,
@@ -654,63 +517,43 @@ section {
 }
 
 .feature-card:hover {
-    transform:
-        translateY(-4px);
+    transform: translateY(-4px);
 
-    border-color:
-        rgba(32,182,106,.45);
+    border-color: rgba(32,182,106,.45);
 
-    box-shadow:
-        0 18px 45px
-        rgba(19,49,31,.08);
+    box-shadow: 0 18px 45px rgba(19,49,31,.08);
 }
 
 .feature-icon {
-    width:
-        45px;
+    width: 45px;
+    height: 45px;
 
-    height:
-        45px;
+    margin-bottom: 18px;
 
-    margin-bottom:
-        18px;
+    display: grid;
+    place-items: center;
 
-    display:
-        grid;
+    border-radius: 10px;
 
-    place-items:
-        center;
+    background: rgba(32,182,106,.1);
 
-    border-radius:
-        10px;
+    color: var(--green-dark);
 
-    background:
-        rgba(32,182,106,.1);
+    font-size: 1.2rem;
 
-    color:
-        var(--green-dark);
-
-    font-size:
-        1.2rem;
-
-    font-weight:
-        900;
+    font-weight: 900;
 }
 
 .feature-card h3 {
-    margin-bottom:
-        8px;
+    margin-bottom: 8px;
 
-    font-size:
-        1.1rem;
+    font-size: 1.1rem;
 }
 
 .feature-card p {
-    color:
-        var(--muted);
+    color: var(--muted);
 
-    font-size:
-        .94rem;
+    font-size: .94rem;
 }
 
 
@@ -719,175 +562,121 @@ section {
 ========================================================= */
 
 .showcase {
-    background:
-        var(--dark);
+    background: var(--dark);
 
-    color:
-        white;
+    color: white;
 }
 
-.showcase
-.section-kicker {
-    color:
-        var(--green-light);
+.showcase .section-kicker {
+    color: var(--green-light);
 }
 
-.showcase
-.section-heading p {
-    color:
-        #a9b8ae;
+.showcase .section-heading p {
+    color: #a9b8ae;
 }
 
 .tool {
-    display:
-        grid;
+    display: grid;
 
-    grid-template-columns:
-        .82fr 1.35fr;
+    grid-template-columns: .82fr 1.35fr;
 
-    gap:
-        65px;
+    gap: 65px;
 
-    align-items:
-        center;
+    align-items: center;
 
-    padding:
-        75px 0;
+    padding: 75px 0;
 
-    border-top:
-        1px solid
-        rgba(255,255,255,.08);
+    border-top: 1px solid rgba(255,255,255,.08);
 }
 
 .tool:first-of-type {
-    border-top:
-        0;
+    border-top: 0;
 
-    padding-top:
-        10px;
+    padding-top: 10px;
 }
 
 .tool.reverse {
-    grid-template-columns:
-        1.35fr .82fr;
+    grid-template-columns: 1.35fr .82fr;
 }
 
-.tool.reverse
-.tool-copy {
-    order:
-        2;
+.tool.reverse .tool-copy {
+    order: 2;
 }
 
-.tool.reverse
-.tool-media {
-    order:
-        1;
+.tool.reverse .tool-media {
+    order: 1;
 }
 
 .tool-number {
-    display:
-        block;
+    display: block;
 
-    margin-bottom:
-        15px;
+    margin-bottom: 15px;
 
-    color:
-        var(--green-light);
+    color: var(--green-light);
 
-    font-size:
-        .78rem;
+    font-size: .78rem;
 
-    font-weight:
-        800;
+    font-weight: 800;
 
-    letter-spacing:
-        .13em;
+    letter-spacing: .13em;
 }
 
 .tool h3 {
-    margin-bottom:
-        16px;
+    margin-bottom: 16px;
 
-    font-size:
-        clamp(
-            1.8rem,
-            3vw,
-            2.6rem
-        );
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
 
-    line-height:
-        1.12;
+    line-height: 1.12;
 
-    letter-spacing:
-        -.03em;
+    letter-spacing: -.03em;
 }
 
 .tool-copy > p {
-    color:
-        #aebdb3;
+    color: #aebdb3;
 }
 
 .tool-list {
-    margin-top:
-        23px;
+    margin-top: 23px;
 
-    display:
-        grid;
+    display: grid;
 
-    gap:
-        9px;
+    gap: 9px;
 
-    list-style:
-        none;
+    list-style: none;
 }
 
 .tool-list li {
-    color:
-        #c2cec6;
+    color: #c2cec6;
 }
 
 .tool-list li::before {
-    content:
-        "✓";
+    content: "✓";
 
-    margin-right:
-        9px;
+    margin-right: 9px;
 
-    color:
-        var(--green-light);
+    color: var(--green-light);
 
-    font-weight:
-        900;
+    font-weight: 900;
 }
 
 .tool-media {
-    padding:
-        7px;
+    padding: 7px;
 
-    border:
-        1px solid
-        #33443a;
+    border: 1px solid #33443a;
 
-    border-radius:
-        13px;
+    border-radius: 13px;
 
-    background:
-        #17231b;
+    background: #17231b;
 
-    box-shadow:
-        0 28px 70px
-        rgba(0,0,0,.32);
+    box-shadow: 0 28px 70px rgba(0,0,0,.32);
 }
 
 .tool-media img {
-    display:
-        block;
+    display: block;
 
-    width:
-        100%;
+    width: 100%;
 
-    border-radius:
-        7px;
+    border-radius: 7px;
 }
 
 
@@ -896,50 +685,37 @@ section {
 ========================================================= */
 
 .use-cases {
-    background:
-        white;
+    background: white;
 }
 
 .use-grid {
-    display:
-        grid;
+    display: grid;
 
-    grid-template-columns:
-        repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 
-    gap:
-        15px;
+    gap: 15px;
 }
 
 .use-item {
-    padding:
-        24px;
+    padding: 24px;
 
-    border:
-        1px solid
-        var(--border);
+    border: 1px solid var(--border);
 
-    border-radius:
-        12px;
+    border-radius: 12px;
 
-    background:
-        var(--background);
+    background: var(--background);
 }
 
 .use-item strong {
-    display:
-        block;
+    display: block;
 
-    margin-bottom:
-        5px;
+    margin-bottom: 5px;
 }
 
 .use-item p {
-    color:
-        var(--muted);
+    color: var(--muted);
 
-    font-size:
-        .9rem;
+    font-size: .9rem;
 }
 
 
@@ -948,96 +724,67 @@ section {
 ========================================================= */
 
 .platform-grid {
-    display:
-        grid;
+    display: grid;
 
-    grid-template-columns:
-        1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 
-    gap:
-        22px;
+    gap: 22px;
 
-    max-width:
-        900px;
+    max-width: 900px;
 
-    margin:
-        auto;
+    margin: auto;
 }
 
 .platform-card {
-    position:
-        relative;
+    position: relative;
 
-    overflow:
-        hidden;
+    overflow: hidden;
 
-    padding:
-        38px;
+    padding: 38px;
 
-    background:
-        white;
+    background: white;
 
-    border:
-        1px solid
-        var(--border);
+    border: 1px solid var(--border);
 
-    border-radius:
-        15px;
+    border-radius: 15px;
 }
 
 .platform-card::after {
-    content:
-        "";
+    content: "";
 
-    position:
-        absolute;
+    position: absolute;
 
-    width:
-        130px;
+    width: 130px;
+    height: 130px;
 
-    height:
-        130px;
+    right: -45px;
+    top: -45px;
 
-    right:
-        -45px;
+    border-radius: 50%;
 
-    top:
-        -45px;
-
-    border-radius:
-        50%;
-
-    background:
-        rgba(32,182,106,.07);
+    background: rgba(32,182,106,.07);
 }
 
 .platform-card h3 {
-    margin-bottom:
-        8px;
+    margin-bottom: 8px;
 
-    font-size:
-        1.5rem;
+    font-size: 1.5rem;
 }
 
 .platform-card p {
-    color:
-        var(--muted);
+    color: var(--muted);
 }
 
 .languages {
-    margin-top:
-        28px;
+    margin-top: 28px;
 
-    text-align:
-        center;
+    text-align: center;
 
-    color:
-        var(--muted);
+    color: var(--muted);
 }
 
 .languages strong {
-    color:
-        var(--text);
+    color: var(--text);
 }
 
 
@@ -1046,83 +793,163 @@ section {
 ========================================================= */
 
 .community {
-    background:
-        #eef4f0;
+    background: #eef4f0;
 }
 
 .community-box {
-    max-width:
-        900px;
+    max-width: 900px;
 
-    margin:
-        auto;
+    margin: auto;
 
-    padding:
-        48px;
+    padding: 48px;
 
-    text-align:
-        center;
+    text-align: center;
 
-    background:
-        white;
+    background: white;
 
-    border:
-        1px solid
-        var(--border);
+    border: 1px solid var(--border);
 
-    border-radius:
-        18px;
+    border-radius: 18px;
 }
 
 .community-description {
-    margin-top:
-        12px;
+    margin-top: 12px;
 
-    color:
-        var(--muted);
+    color: var(--muted);
 }
 
 .community-links {
-    margin-top:
-        25px;
+    margin-top: 25px;
 
-    display:
-        flex;
+    display: flex;
 
-    justify-content:
-        center;
+    justify-content: center;
 
-    flex-wrap:
-        wrap;
+    flex-wrap: wrap;
 
-    gap:
-        10px;
+    gap: 10px;
 }
 
 .community-links a {
-    padding:
-        10px 16px;
+    padding: 10px 16px;
 
-    border:
-        1px solid
-        var(--border);
+    border: 1px solid var(--border);
 
-    border-radius:
-        8px;
+    border-radius: 8px;
 
-    text-decoration:
-        none;
+    text-decoration: none;
 
-    font-weight:
-        700;
+    font-weight: 700;
 }
 
 .community-links a:hover {
-    border-color:
-        var(--green);
+    border-color: var(--green);
 
-    color:
-        var(--green-dark);
+    color: var(--green-dark);
+}
+
+
+/* =========================================================
+   SUPPORT / DONATION
+========================================================= */
+
+.support {
+    background: var(--background);
+}
+
+.support-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 24px;
+
+    max-width: 900px;
+
+    margin: auto;
+}
+
+.support-card {
+    padding: 38px;
+
+    text-align: center;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    transition:
+        transform .25s,
+        box-shadow .25s,
+        border-color .25s;
+}
+
+.support-card:hover {
+    transform: translateY(-4px);
+
+    border-color: rgba(32,182,106,.45);
+
+    box-shadow: 0 18px 45px rgba(19,49,31,.08);
+}
+
+.support-icon {
+    width: 60px;
+    height: 60px;
+
+    margin: 0 auto 20px;
+
+    display: grid;
+    place-items: center;
+
+    border-radius: 50%;
+
+    background: rgba(32,182,106,.1);
+
+    color: var(--green-dark);
+
+    font-size: 1.2rem;
+
+    font-weight: 900;
+}
+
+.support-card h3 {
+    margin-bottom: 10px;
+
+    font-size: 1.4rem;
+}
+
+.support-card p {
+    margin-bottom: 24px;
+
+    color: var(--muted);
+}
+
+.support-card .btn {
+    width: 100%;
+}
+
+.pix-image {
+    display: block;
+
+    width: 220px;
+
+    max-width: 100%;
+
+    margin: 20px auto 0;
+
+    border-radius: 12px;
+}
+
+.support-thanks {
+    max-width: 700px;
+
+    margin: 35px auto 0;
+
+    text-align: center;
+
+    color: var(--muted);
 }
 
 
@@ -1131,20 +958,15 @@ section {
 ========================================================= */
 
 .download {
-    position:
-        relative;
+    position: relative;
 
-    overflow:
-        hidden;
+    overflow: hidden;
 
-    text-align:
-        center;
+    text-align: center;
 
-    color:
-        white;
+    color: white;
 
     background:
-
         radial-gradient(
             circle at 50% 0,
             rgba(32,182,106,.24),
@@ -1154,53 +976,36 @@ section {
         var(--dark);
 }
 
-.download
-.section-kicker {
-    color:
-        var(--green-light);
+.download .section-kicker {
+    color: var(--green-light);
 }
 
 .download h2 {
-    max-width:
-        760px;
+    max-width: 760px;
 
-    margin:
-        auto;
+    margin: auto;
 
-    font-size:
-        clamp(
-            2.4rem,
-            5vw,
-            4rem
-        );
+    font-size: clamp(2.4rem, 5vw, 4rem);
 
-    line-height:
-        1.08;
+    line-height: 1.08;
 
-    letter-spacing:
-        -.045em;
+    letter-spacing: -.045em;
 }
 
 .download-description {
-    max-width:
-        680px;
+    max-width: 680px;
 
-    margin:
-        20px auto 30px;
+    margin: 20px auto 30px;
 
-    color:
-        #b2c0b7;
+    color: #b2c0b7;
 }
 
 .download-note {
-    margin-top:
-        22px;
+    margin-top: 22px;
 
-    color:
-        #829188;
+    color: #829188;
 
-    font-size:
-        .85rem;
+    font-size: .85rem;
 }
 
 
@@ -1209,86 +1014,62 @@ section {
 ========================================================= */
 
 footer {
-    padding:
-        38px 0;
+    padding: 38px 0;
 
-    background:
-        #060b08;
+    background: #060b08;
 
-    color:
-        #849188;
+    color: #849188;
 }
 
 .footer-inner {
-    display:
-        flex;
+    display: flex;
 
-    justify-content:
-        space-between;
+    justify-content: space-between;
 
-    gap:
-        25px;
+    gap: 25px;
 
-    align-items:
-        center;
+    align-items: center;
 }
 
 .footer-brand {
-    display:
-        flex;
+    display: flex;
 
-    align-items:
-        center;
+    align-items: center;
 
-    gap:
-        10px;
+    gap: 10px;
 
-    color:
-        white;
+    color: white;
 
-    font-weight:
-        800;
+    font-weight: 800;
 }
 
 .footer-logo {
-    width:
-        36px;
+    width: 36px;
+    height: 36px;
 
-    height:
-        36px;
+    object-fit: cover;
 
-    object-fit:
-        cover;
-
-    border-radius:
-        8px;
+    border-radius: 8px;
 }
 
 .footer-links {
-    display:
-        flex;
+    display: flex;
 
-    flex-wrap:
-        wrap;
+    flex-wrap: wrap;
 
-    gap:
-        20px;
+    gap: 20px;
 }
 
 .footer-links a {
-    color:
-        #9aa79f;
+    color: #9aa79f;
 
-    text-decoration:
-        none;
+    text-decoration: none;
 
-    font-size:
-        .88rem;
+    font-size: .88rem;
 }
 
 .footer-links a:hover {
-    color:
-        var(--green-light);
+    color: var(--green-light);
 }
 
 
@@ -1296,145 +1077,110 @@ footer {
    RESPONSIVE
 ========================================================= */
 
-@media
-(max-width: 950px) {
+@media (max-width: 950px) {
 
     nav a:not(.nav-download) {
-        display:
-            none;
+        display: none;
     }
 
     .features-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .tool,
     .tool.reverse {
+        grid-template-columns: 1fr;
 
-        grid-template-columns:
-            1fr;
-
-        gap:
-            35px;
+        gap: 35px;
     }
 
-    .tool.reverse
-    .tool-copy,
-
-    .tool.reverse
-    .tool-media {
-
-        order:
-            initial;
+    .tool.reverse .tool-copy,
+    .tool.reverse .tool-media {
+        order: initial;
     }
 
     .use-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 
-@media
-(max-width: 650px) {
+@media (max-width: 650px) {
 
     .container {
-        width:
-            min(
-                100% - 30px,
-                var(--max-width)
-            );
+        width: min(100% - 30px, var(--max-width));
     }
 
     .navbar {
-        min-height:
-            64px;
+        min-height: 64px;
     }
 
     .brand-logo {
-        width:
-            42px;
-
-        height:
-            42px;
+        width: 42px;
+        height: 42px;
     }
 
     .nav-download {
-        display:
-            none;
+        display: none;
     }
 
     .hero {
-        padding-top:
-            75px;
+        padding-top: 75px;
     }
 
     .hero h1 {
-        font-size:
-            clamp(
-                2.7rem,
-                13vw,
-                4rem
-            );
+        font-size: clamp(2.7rem, 13vw, 4rem);
     }
 
     .intro-items,
-
     .features-grid,
-
     .platform-grid,
-
-    .use-grid {
-
-        grid-template-columns:
-            1fr;
+    .use-grid,
+    .support-grid {
+        grid-template-columns: 1fr;
     }
 
     .intro-item {
-        border-right:
-            0;
+        border-right: 0;
 
-        border-bottom:
-            1px solid
-            var(--border);
+        border-bottom: 1px solid var(--border);
     }
 
     .intro-item:last-child {
-        border-bottom:
-            0;
+        border-bottom: 0;
     }
 
     section {
-        padding:
-            70px 0;
+        padding: 70px 0;
     }
 
     .tool {
-        padding:
-            55px 0;
+        padding: 55px 0;
     }
 
     .community-box {
-        padding:
-            35px 22px;
+        padding: 35px 22px;
+    }
+
+    .support-card {
+        padding: 32px 22px;
     }
 
     .footer-inner {
-        flex-direction:
-            column;
+        flex-direction: column;
 
-        text-align:
-            center;
+        text-align: center;
     }
 
     .footer-links {
-        justify-content:
-            center;
+        justify-content: center;
     }
+
 }
 
 </style>
+
 </head>
 
 
@@ -1481,6 +1227,10 @@ footer {
             Community
         </a>
 
+        <a href="#support">
+            Support
+        </a>
+
         <a href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus">
             GitHub
         </a>
@@ -1511,11 +1261,8 @@ footer {
 
 <div class="container hero-content">
 
-
     <div class="eyebrow">
-
         Free Modbus Toolkit for Windows and Linux
-
     </div>
 
 
@@ -1541,7 +1288,6 @@ footer {
 
     <div class="buttons">
 
-
         <a
             class="btn btn-primary"
             href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases">
@@ -1558,7 +1304,6 @@ footer {
             View on GitHub
 
         </a>
-
 
     </div>
 
@@ -1591,7 +1336,6 @@ footer {
             alt="ScanBus-BR running on Linux">
 
     </div>
-
 
 </div>
 
@@ -1658,7 +1402,6 @@ footer {
 
     </div>
 
-
 </div>
 
 </div>
@@ -1672,24 +1415,16 @@ footer {
 
 <div class="container">
 
-
     <div class="section-heading">
 
-
         <span class="section-kicker">
-
             Complete toolkit
-
         </span>
 
-
         <h2>
-
             One application.
             Multiple professional Modbus tools.
-
         </h2>
-
 
         <p>
 
@@ -1698,7 +1433,6 @@ footer {
             protocol learning and embedded firmware development.
 
         </p>
-
 
     </div>
 
@@ -1867,9 +1601,7 @@ footer {
 
         </article>
 
-
     </div>
-
 
 </div>
 
@@ -1880,30 +1612,20 @@ footer {
      TOOLS
 ===================================================== -->
 
-<section
-    id="tools"
-    class="showcase">
+<section id="tools" class="showcase">
 
 <div class="container">
 
-
     <div class="section-heading">
 
-
         <span class="section-kicker">
-
             Engineering tools
-
         </span>
 
-
         <h2>
-
             Built for real-world
             Modbus diagnostics.
-
         </h2>
-
 
         <p>
 
@@ -1913,7 +1635,6 @@ footer {
 
         </p>
 
-
     </div>
 
 
@@ -1921,23 +1642,15 @@ footer {
 
     <article class="tool">
 
-
         <div class="tool-copy">
 
-
             <span class="tool-number">
-
                 01 — ANALYZE
-
             </span>
 
-
             <h3>
-
                 Traffic Data Analyzer
-
             </h3>
-
 
             <p>
 
@@ -1946,7 +1659,6 @@ footer {
                 problems without digging through raw logs manually.
 
             </p>
-
 
             <ul class="tool-list">
 
@@ -1968,7 +1680,6 @@ footer {
 
             </ul>
 
-
         </div>
 
 
@@ -1981,7 +1692,6 @@ footer {
 
         </div>
 
-
     </article>
 
 
@@ -1989,23 +1699,15 @@ footer {
 
     <article class="tool reverse">
 
-
         <div class="tool-copy">
 
-
             <span class="tool-number">
-
                 02 — DISCOVER
-
             </span>
 
-
             <h3>
-
                 Device Scanner
-
             </h3>
-
 
             <p>
 
@@ -2014,7 +1716,6 @@ footer {
                 register areas automatically.
 
             </p>
-
 
             <ul class="tool-list">
 
@@ -2036,7 +1737,6 @@ footer {
 
             </ul>
 
-
         </div>
 
 
@@ -2049,7 +1749,6 @@ footer {
 
         </div>
 
-
     </article>
 
 
@@ -2057,23 +1756,15 @@ footer {
 
     <article class="tool">
 
-
         <div class="tool-copy">
 
-
             <span class="tool-number">
-
                 03 — IDENTIFY
-
             </span>
 
-
             <h3>
-
                 Serial RTU Scanner
-
             </h3>
-
 
             <p>
 
@@ -2082,7 +1773,6 @@ footer {
                 parameters required for communication.
 
             </p>
-
 
             <ul class="tool-list">
 
@@ -2104,7 +1794,6 @@ footer {
 
             </ul>
 
-
         </div>
 
 
@@ -2117,7 +1806,6 @@ footer {
 
         </div>
 
-
     </article>
 
 
@@ -2125,23 +1813,15 @@ footer {
 
     <article class="tool reverse">
 
-
         <div class="tool-copy">
 
-
             <span class="tool-number">
-
                 04 — FIND
-
             </span>
 
-
             <h3>
-
                 TCP/IP Scanner
-
             </h3>
-
 
             <p>
 
@@ -2150,7 +1830,6 @@ footer {
                 communication port is unknown.
 
             </p>
-
 
             <ul class="tool-list">
 
@@ -2172,7 +1851,6 @@ footer {
 
             </ul>
 
-
         </div>
 
 
@@ -2185,7 +1863,6 @@ footer {
 
         </div>
 
-
     </article>
 
 
@@ -2193,23 +1870,15 @@ footer {
 
     <article class="tool">
 
-
         <div class="tool-copy">
 
-
             <span class="tool-number">
-
                 05 — VISUALIZE
-
             </span>
 
-
             <h3>
-
                 Time Graph
-
             </h3>
-
 
             <p>
 
@@ -2218,7 +1887,6 @@ footer {
                 and dynamic system behavior.
 
             </p>
-
 
             <ul class="tool-list">
 
@@ -2240,7 +1908,6 @@ footer {
 
             </ul>
 
-
         </div>
 
 
@@ -2253,7 +1920,6 @@ footer {
 
         </div>
 
-
     </article>
 
 
@@ -2261,23 +1927,15 @@ footer {
 
     <article class="tool reverse">
 
-
         <div class="tool-copy">
 
-
             <span class="tool-number">
-
                 06 — REVERSE ENGINEER
-
             </span>
 
-
             <h3>
-
                 Wide Vision
-
             </h3>
-
 
             <p>
 
@@ -2286,7 +1944,6 @@ footer {
                 interacting with a device.
 
             </p>
-
 
             <ul class="tool-list">
 
@@ -2308,7 +1965,6 @@ footer {
 
             </ul>
 
-
         </div>
 
 
@@ -2321,7 +1977,6 @@ footer {
 
         </div>
 
-
     </article>
 
 
@@ -2329,23 +1984,15 @@ footer {
 
     <article class="tool">
 
-
         <div class="tool-copy">
 
-
             <span class="tool-number">
-
                 07 — MONITOR
-
             </span>
 
-
             <h3>
-
                 Integrated Modbus RTU Sniffer
-
             </h3>
-
 
             <p>
 
@@ -2354,7 +2001,6 @@ footer {
                 more Slave devices.
 
             </p>
-
 
             <ul class="tool-list">
 
@@ -2376,7 +2022,6 @@ footer {
 
             </ul>
 
-
         </div>
 
 
@@ -2389,7 +2034,6 @@ footer {
 
         </div>
 
-
     </article>
 
 
@@ -2397,23 +2041,15 @@ footer {
 
     <article class="tool reverse">
 
-
         <div class="tool-copy">
 
-
             <span class="tool-number">
-
                 08 — SIMULATE
-
             </span>
 
-
             <h3>
-
                 Internal Slave Simulator
-
             </h3>
-
 
             <p>
 
@@ -2422,7 +2058,6 @@ footer {
                 and embedded firmware development.
 
             </p>
-
 
             <ul class="tool-list">
 
@@ -2444,7 +2079,6 @@ footer {
 
             </ul>
 
-
         </div>
 
 
@@ -2457,9 +2091,7 @@ footer {
 
         </div>
 
-
     </article>
-
 
 </div>
 
@@ -2474,24 +2106,16 @@ footer {
 
 <div class="container">
 
-
     <div class="section-heading">
 
-
         <span class="section-kicker">
-
             Designed for the field
-
         </span>
 
-
         <h2>
-
             From development bench
             to industrial maintenance.
-
         </h2>
-
 
     </div>
 
@@ -2610,9 +2234,7 @@ footer {
 
         </div>
 
-
     </div>
-
 
 </div>
 
@@ -2627,24 +2249,16 @@ footer {
 
 <div class="container">
 
-
     <div class="section-heading">
 
-
         <span class="section-kicker">
-
             Portable application
-
         </span>
 
-
         <h2>
-
             Run it. Connect.
             Start working.
-
         </h2>
-
 
         <p>
 
@@ -2653,20 +2267,16 @@ footer {
 
         </p>
 
-
     </div>
 
 
     <div class="platform-grid">
 
-
         <article class="platform-card">
-
 
             <h3>
                 Windows
             </h3>
-
 
             <p>
 
@@ -2675,17 +2285,14 @@ footer {
 
             </p>
 
-
         </article>
 
 
         <article class="platform-card">
 
-
             <h3>
                 Linux
             </h3>
-
 
             <p>
 
@@ -2694,9 +2301,7 @@ footer {
 
             </p>
 
-
         </article>
-
 
     </div>
 
@@ -2711,7 +2316,6 @@ footer {
 
     </p>
 
-
 </div>
 
 </section>
@@ -2721,29 +2325,19 @@ footer {
      COMMUNITY
 ===================================================== -->
 
-<section
-    id="community"
-    class="community">
+<section id="community" class="community">
 
 <div class="container">
 
-
     <div class="community-box">
 
-
         <span class="section-kicker">
-
             Community
-
         </span>
 
-
         <h2>
-
             Questions, ideas or feedback?
-
         </h2>
-
 
         <p class="community-description">
 
@@ -2756,33 +2350,157 @@ footer {
 
         <div class="community-links">
 
-
-            <a href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/discussions">
+            <a
+                href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/discussions"
+                target="_blank"
+                rel="noopener noreferrer">
 
                 GitHub Discussions
 
             </a>
 
 
-            <a href="https://t.me/Scanbus_br">
+            <a
+                href="https://t.me/Scanbus_br"
+                target="_blank"
+                rel="noopener noreferrer">
 
                 Telegram
 
             </a>
 
 
-            <a href="https://www.youtube.com/channel/UCU19Zzi0tI-7OPVz2x3Vh9Q">
+            <a
+                href="https://www.youtube.com/channel/UCU19Zzi0tI-7OPVz2x3Vh9Q"
+                target="_blank"
+                rel="noopener noreferrer">
 
                 YouTube
 
             </a>
 
-
         </div>
-
 
     </div>
 
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     SUPPORT THE PROJECT / DONATION
+===================================================== -->
+
+<section id="support" class="support">
+
+<div class="container">
+
+    <div class="section-heading">
+
+        <span class="section-kicker">
+            Support the Project
+        </span>
+
+        <h2>
+            Help keep ScanBus-BR free for everyone.
+        </h2>
+
+        <p>
+
+            ScanBus-BR is an independent project developed
+            and maintained during my free time.
+
+            The software is completely free, with no advertisements,
+            subscriptions, paid versions or hidden features.
+
+        </p>
+
+    </div>
+
+
+    <div class="support-grid">
+
+
+        <!-- PAYPAL -->
+
+        <article class="support-card">
+
+            <div class="support-icon">
+                $
+            </div>
+
+            <h3>
+                Donate via PayPal
+            </h3>
+
+            <p>
+
+                Support the development of ScanBus-BR
+                with a secure donation through PayPal.
+
+            </p>
+
+            <a
+                class="btn btn-primary"
+                href="https://www.paypal.com/donate/?hosted_button_id=6EUN9X4VDY88N"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                Donate with PayPal
+
+            </a>
+
+        </article>
+
+
+        <!-- PIX -->
+
+        <article class="support-card">
+
+            <div class="support-icon">
+                PIX
+            </div>
+
+            <h3>
+                Donate via PIX
+            </h3>
+
+            <p>
+
+                For users in Brazil, you can support
+                the project directly using PIX.
+
+            </p>
+
+            <img
+                src="https://raw.githubusercontent.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/main/Imagens/PIX.png"
+                alt="ScanBus-BR PIX Donation QR Code"
+                class="pix-image"
+                loading="lazy">
+
+        </article>
+
+    </div>
+
+
+    <p class="support-thanks">
+
+        If ScanBus-BR has helped you solve a problem
+        or saved valuable development time,
+        consider supporting the project.
+
+        Every contribution helps fund future
+        improvements and new features.
+
+        <br><br>
+
+        <strong>
+            Thank you for helping keep ScanBus-BR
+            free for everyone. ❤️
+        </strong>
+
+    </p>
 
 </div>
 
@@ -2793,19 +2511,13 @@ footer {
      DOWNLOAD
 ===================================================== -->
 
-<section
-    id="download"
-    class="download">
+<section id="download" class="download">
 
 <div class="container">
 
-
     <span class="section-kicker">
-
         Get ScanBus-BR
-
     </span>
-
 
     <h2>
 
@@ -2829,7 +2541,6 @@ footer {
 
     <div class="buttons">
 
-
         <a
             class="btn btn-primary"
             href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases">
@@ -2847,7 +2558,6 @@ footer {
 
         </a>
 
-
     </div>
 
 
@@ -2857,7 +2567,6 @@ footer {
         through the official GitHub Releases page.
 
     </p>
-
 
 </div>
 
@@ -2873,26 +2582,20 @@ footer {
 
 <footer>
 
-
 <div class="container footer-inner">
-
 
     <div>
 
-
         <div class="footer-brand">
-
 
             <img
                 src="https://raw.githubusercontent.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/main/Imagens/Logo.png"
                 alt="ScanBus-BR Logo"
                 class="footer-logo">
 
-
             <span>
                 ScanBus-BR
             </span>
-
 
         </div>
 
@@ -2904,43 +2607,38 @@ footer {
 
         </small>
 
-
     </div>
 
 
     <div class="footer-links">
 
-
         <a href="#features">
             Features
         </a>
-
 
         <a href="#tools">
             Tools
         </a>
 
-
         <a href="#platforms">
             Platforms
         </a>
 
-
-        <a href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus">
-
-            GitHub
-
+        <a href="#support">
+            Support
         </a>
 
+        <a href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus">
+            GitHub
+        </a>
 
     </div>
 
-
 </div>
-
 
 </footer>
 
 
 </body>
+
 </html>
