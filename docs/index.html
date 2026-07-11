@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ScanBus-BR — Modbus Toolkit</title>
+
+<meta name="description"
+   content="ScanBus-BR - Free Modbus RTU Master, TCP Client, RTU Sniffer, Slave Simulator and diagnostic toolkit for Windows and Linux.">
+
+<style>
+:root {
+    --green: #16a05d;
+    --green-light: #38d17f;
+    --green-dark: #087443;
+    --dark: #0d1511;
+    --dark2: #142019;
+    --text: #26332b;
+    --muted: #68756d;
+    --bg: #f5f8f6;
+    --white: #ffffff;
+    --border: #dce5df;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 24px;
+}
+
+/* HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(13, 21, 17, .96);
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.navbar {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.45rem;
+    font-weight: 800;
+}
+
+.logo span {
+    color: var(--green-light);
+}
+
+nav a {
+    color: #d6e1da;
+    text-decoration: none;
+    margin-left: 28px;
+    font-size: .95rem;
+}
+
+nav a:hover {
+    color: var(--green-light);
+}
+
+/* HERO */
+
+.hero {
+    color: white;
+    padding: 105px 0 80px;
+
+    background:
+        radial-gradient(
+            circle at 75% 20%,
+            rgba(22,160,93,.25),
+            transparent 32%
+        ),
+        linear-gradient(
+            135deg,
+            #0c1410,
+            #17281e
+        );
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 950px;
+    margin: auto;
+}
+
+.badge {
+    display: inline-block;
+    padding: 7px 17px;
+    margin-bottom: 25px;
+
+    border: 1px solid rgba(56,209,127,.35);
+    border-radius: 30px;
+
+    background: rgba(56,209,127,.08);
+    color: var(--green-light);
+
+    font-size: .9rem;
+}
+
+.hero h1 {
+    font-size: clamp(2.8rem, 7vw, 5.4rem);
+    line-height: 1.05;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: var(--green-light);
+}
+
+.hero p {
+    max-width: 800px;
+    margin: 0 auto 35px;
+    color: #c7d4cc;
+    font-size: 1.2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 26px;
+
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: .2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: var(--green);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--green-light);
+}
+
+.btn-outline {
+    color: white;
+    border: 1px solid #53645a;
+}
+
+.btn-outline:hover {
+    background: rgba(255,255,255,.07);
+}
+
+/* HERO IMAGE */
+
+.hero-image {
+    max-width: 1050px;
+    margin: 70px auto 0;
+
+    padding: 8px;
+    border-radius: 14px;
+
+    background: #1c2821;
+    border: 1px solid #34463b;
+
+    box-shadow: 0 35px 90px rgba(0,0,0,.45);
+}
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* SECTIONS */
+
+section {
+    padding: 90px 0;
+}
+
+.section-title {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 55px;
+}
+
+.section-title h2 {
+    font-size: 2.4rem;
+    margin-bottom: 12px;
+}
+
+.section-title p {
+    color: var(--muted);
+}
+
+/* FEATURES */
+
+.features {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+
+    border: 1px solid var(--border);
+    border-radius: 13px;
+
+    transition: .25s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(22,160,93,.45);
+    box-shadow: 0 15px 35px rgba(0,0,0,.07);
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    background: rgba(22,160,93,.1);
+    color: var(--green);
+
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.card h3 {
+    margin-bottom: 9px;
+}
+
+.card p {
+    color: var(--muted);
+    font-size: .95rem;
+}
+
+/* SCREENSHOTS */
+
+.showcase {
+    background: var(--dark);
+    color: white;
+}
+
+.showcase .section-title p {
+    color: #aab9b0;
+}
+
+.tool {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 55px;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.tool:last-child {
+    margin-bottom: 0;
+}
+
+.tool.reverse .tool-text {
+    order: 2;
+}
+
+.tool.reverse .tool-image {
+    order: 1;
+}
+
+.tool-text h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.tool-text p {
+    color: #b3c0b8;
+    margin-bottom: 15px;
+}
+
+.tool-text ul {
+    list-style: none;
+}
+
+.tool-text li {
+    color: #b3c0b8;
+    margin: 8px 0;
+}
+
+.tool-text li::before {
+    content: "✓";
+    color: var(--green-light);
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+.tool-image {
+    padding: 7px;
+
+    border-radius: 12px;
+    background: #1c2821;
+    border: 1px solid #34463b;
+
+    box-shadow: 0 25px 60px rgba(0,0,0,.35);
+}
+
+.tool-image img {
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+}
+
+/* PLATFORMS */
+
+.platforms {
+    text-align: center;
+}
+
+.platform-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 25px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.platform {
+    background: white;
+    padding: 35px;
+
+    border-radius: 14px;
+    border: 1px solid var(--border);
+}
+
+.platform h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.platform p {
+    color: var(--muted);
+}
+
+/* DOWNLOAD */
+
+.download {
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(22,160,93,.18),
+            transparent 45%
+        ),
+        var(--dark);
+
+    color: white;
+    text-align: center;
+}
+
+.download-box {
+    max-width: 800px;
+    margin: auto;
+}
+
+.download h2 {
+    font-size: 2.7rem;
+    margin-bottom: 18px;
+}
+
+.download p {
+    color: #b8c5bd;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 35px 20px;
+
+    background: #090e0b;
+    color: #89988f;
+
+    text-align: center;
+}
+
+footer a {
+    color: var(--green-light);
+    text-decoration: none;
+}
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    nav {
+        display: none;
+    }
+
+    .hero {
+        padding-top: 75px;
+    }
+
+    .tool {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-bottom: 75px;
+    }
+
+    .tool.reverse .tool-text,
+    .tool.reverse .tool-image {
+        order: initial;
+    }
+
+    section {
+        padding: 65px 0;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="container navbar">
+
+```
+<a href="#" class="logo">
+    ScanBus<span>-BR</span>
+</a>
+
+<nav>
+    <a href="#recursos">Recursos</a>
+    <a href="#ferramentas">Ferramentas</a>
+    <a href="#sistemas">Sistemas</a>
+    <a href="#download">Download</a>
+    <a href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus">
+        GitHub
+    </a>
+</nav>
+```
+
+</div>
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="container hero-content">
+
+```
+<div class="badge">
+    Free Modbus Toolkit for Windows and Linux
+</div>
+
+<h1>
+    The Swiss Army Knife for
+    <span>Modbus Networks</span>
+</h1>
+
+<p>
+    ScanBus-BR is a free and portable toolkit for
+    Modbus RTU, Modbus TCP/IP and RTU over TCP.
+    Analyze, simulate, monitor and troubleshoot
+    industrial communication networks.
+</p>
+
+<div class="buttons">
+
+    <a
+        class="btn btn-primary"
+        href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases"
+    >
+        Download
+    </a>
+
+    <a
+        class="btn btn-outline"
+        href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus"
+    >
+        View on GitHub
+    </a>
+
+</div>
+
+
+<!--
+IMPORTANTE:
+Troque Main.png pelo nome da imagem principal existente
+na pasta Imagens.
+-->
+
+<div class="hero-image">
+    <img
+        src="../Imagens/Main.png"
+        alt="ScanBus-BR Modbus Toolkit"
+    >
+</div>
+```
+
+</div>
+</section>
+
+<!-- FEATURES -->
+
+<section id="recursos">
+
+<div class="container">
+
+```
+<div class="section-title">
+
+    <h2>
+        One application. Multiple Modbus tools.
+    </h2>
+
+    <p>
+        Everything needed for development,
+        commissioning, diagnostics and troubleshooting
+        of Modbus networks.
+    </p>
+
+</div>
+
+
+<div class="features">
+
+    <div class="card">
+        <div class="icon">⇄</div>
+        <h3>Modbus Master</h3>
+        <p>
+            Modbus RTU Master, TCP Client and
+            RTU over TCP communication.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">⌕</div>
+        <h3>RTU Sniffer</h3>
+        <p>
+            Monitor and analyze communication
+            between devices on an existing RTU network.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">◉</div>
+        <h3>Slave Simulator</h3>
+        <p>
+            Simulate Modbus devices and registers
+            for development and testing.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">⌁</div>
+        <h3>Device Scanners</h3>
+        <p>
+            Device scanner, Serial RTU scanner
+            and TCP/IP network scanner.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">▥</div>
+        <h3>Traffic Analyzer</h3>
+        <p>
+            Analyze Modbus traffic, communication
+            errors and protocol exceptions.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">⌁</div>
+        <h3>Time Graph</h3>
+        <p>
+            Monitor register values over time
+            using real-time graphical visualization.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">✓</div>
+        <h3>CRC Validation</h3>
+        <p>
+            Validate frames and detect communication
+            errors in Modbus RTU messages.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">≡</div>
+        <h3>Activity Logging</h3>
+        <p>
+            Record communication activity for
+            diagnostics and later analysis.
+        </p>
+    </div>
+
+</div>
+```
+
+</div>
+</section>
+
+<!-- TOOLS / SCREENSHOTS -->
+
+<section id="ferramentas" class="showcase">
+
+<div class="container">
+
+```
+<div class="section-title">
+
+    <h2>
+        Built for real Modbus diagnostics
+    </h2>
+
+    <p>
+        Dedicated tools for engineers,
+        developers, maintenance technicians
+        and industrial automation professionals.
+    </p>
+
+</div>
+
+
+<!-- TRAFFIC ANALYZER -->
+
+<div class="tool">
+
+    <div class="tool-text">
+
+        <h3>Traffic Data Analyzer</h3>
+
+        <p>
+            View Modbus communication in real time
+            and quickly identify communication problems.
+        </p>
+
+        <ul>
+            <li>Valid communication frames</li>
+            <li>Communication error filtering</li>
+            <li>CSV data export</li>
+            <li>Real-time diagnostics</li>
+        </ul>
+
+    </div>
+
+
+    <div class="tool-image">
+
+        <!--
+        Altere o nome abaixo se necessário
+        para o arquivo correspondente na pasta Imagens.
+        -->
+
+        <img
+            src="../Imagens/Traffic_Data_Analyzer.png"
+            alt="ScanBus-BR Traffic Data Analyzer"
+            loading="lazy"
+        >
+
+    </div>
+
+</div>
+
+
+<!-- MODBUS MASTER -->
+
+<div class="tool reverse">
+
+    <div class="tool-text">
+
+        <h3>Modbus Master & TCP Client</h3>
+
+        <p>
+            Communicate with industrial devices
+            using the most common Modbus protocols.
+        </p>
+
+        <ul>
+            <li>Modbus RTU</li>
+            <li>Modbus TCP/IP</li>
+            <li>Modbus RTU over TCP/IP</li>
+            <li>Multiple numeric formats</li>
+            <li>Universal register tables</li>
+        </ul>
+
+    </div>
+
+
+    <div class="tool-image">
+
+        <img
+            src="../Imagens/Modbus_Master.png"
+            alt="ScanBus-BR Modbus Master"
+            loading="lazy"
+        >
+
+    </div>
+
+</div>
+
+
+<!-- SNIFFER -->
+
+<div class="tool">
+
+    <div class="tool-text">
+
+        <h3>Integrated Modbus RTU Sniffer</h3>
+
+        <p>
+            Monitor communication between a Modbus
+            Master and Slave without interfering
+            with the network.
+        </p>
+
+        <ul>
+            <li>Real-time frame monitoring</li>
+            <li>Communication diagnostics</li>
+            <li>CRC validation</li>
+            <li>Error identification</li>
+        </ul>
+
+    </div>
+
+
+    <div class="tool-image">
+
+        <img
+            src="../Imagens/Sniffer.png"
+            alt="ScanBus-BR Modbus RTU Sniffer"
+            loading="lazy"
+        >
+
+    </div>
+
+</div>
+
+
+<!-- SLAVE SIMULATOR -->
+
+<div class="tool reverse">
+
+    <div class="tool-text">
+
+        <h3>Modbus Slave Simulator</h3>
+
+        <p>
+            Simulate Modbus devices during
+            software, PLC and embedded firmware development.
+        </p>
+
+        <ul>
+            <li>Register simulation</li>
+            <li>Automatic value generation</li>
+            <li>Exception response simulation</li>
+            <li>Firmware development testing</li>
+        </ul>
+
+    </div>
+
+
+    <div class="tool-image">
+
+        <img
+            src="../Imagens/Slave_Simulator.png"
+            alt="ScanBus-BR Modbus Slave Simulator"
+            loading="lazy"
+        >
+
+    </div>
+
+</div>
+```
+
+</div>
+</section>
+
+<!-- SYSTEMS -->
+
+<section id="sistemas" class="platforms">
+
+<div class="container">
+
+```
+<div class="section-title">
+
+    <h2>Windows and Linux</h2>
+
+    <p>
+        ScanBus-BR is distributed as a portable application.
+        No installation is required.
+    </p>
+
+</div>
+
+
+<div class="platform-grid">
+
+    <div class="platform">
+
+        <h3>Windows</h3>
+
+        <p>
+            Windows 7, Windows 10 and
+            Windows 11 — 64-bit.
+        </p>
+
+    </div>
+
+
+    <div class="platform">
+
+        <h3>Linux</h3>
+
+        <p>
+            64-bit Linux with support
+            for most distributions.
+        </p>
+
+    </div>
+
+</div>
+```
+
+</div>
+</section>
+
+<!-- DOWNLOAD -->
+
+<section id="download" class="download">
+
+<div class="container download-box">
+
+```
+<h2>
+    Download ScanBus-BR
+</h2>
+
+<p>
+    Freeware. No advertisements.
+    No bundled software.
+    No installation required.
+    Simply extract the ZIP file and start using it.
+</p>
+
+<div class="buttons">
+
+    <a
+        class="btn btn-primary"
+        href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases"
+    >
+        Download Latest Release
+    </a>
+
+    <a
+        class="btn btn-outline"
+        href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus"
+    >
+        View Project on GitHub
+    </a>
+
+</div>
+```
+
+</div>
+</section>
+
+<footer>
+
+```
+<p>
+    ScanBus-BR — Free Modbus Toolkit
+</p>
+
+<p style="margin-top:8px">
+
+    Modbus RTU · TCP/IP · RTU over TCP/IP
+
+</p>
+```
+
+</footer>
+
+</body>
+</html>
+
