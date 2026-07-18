@@ -1210,10 +1210,11 @@ footer {
           <p class="hero-description"> Analyze, simulate, monitor and
             troubleshoot Modbus networks with a complete collection of
             engineering tools in one portable application. </p>
-          <div class="buttons"> <a class="btn btn-primary" href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases">
+          <div class="buttons"> <a class="btn btn-primary download-latest" href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases">
               Download Latest Release </a> <a class="btn btn-secondary" href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus">
               View on GitHub </a> </div>
-          <div class="trust-row"> <span> Completely Free </span> <span> No
+          <div class="latest-version" style="margin-top:18px;color:#bdcbc2"><strong>Latest Version:</strong> <span id="ultima-versao">Loading...</span><br><span id="release-data"></span></div>
+<div class="trust-row"> <span> Completely Free </span> <span> No
               Ads </span> <span> No Installation </span> <span> Portable </span>
           </div>
           <div class="hero-window"> <img src="https://raw.githubusercontent.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/main/Imagens/Scanbus-BR-linux.png"
@@ -1549,7 +1550,7 @@ footer {
               <h3> Donate via PayPal </h3>
               <p> Support the development of ScanBus-BR with a secure donation
                 through PayPal. </p>
-              <a class="btn btn-primary" href="https://www.paypal.com/donate/?hosted_button_id=6EUN9X4VDY88N"
+              <a class="btn btn-primary download-latest" href="https://www.paypal.com/donate/?hosted_button_id=6EUN9X4VDY88N"
                 target="_blank" rel="noopener noreferrer"> Donate with PayPal </a>
             </article>
             <!-- PIX -->
@@ -1579,7 +1580,7 @@ footer {
           <p class="download-description"> Freeware. No advertisements. No
             bundled software. No installation required. Download the latest
             portable release for Windows or Linux. </p>
-          <div class="buttons"> <a class="btn btn-primary" href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases">
+          <div class="buttons"> <a class="btn btn-primary download-latest" href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases">
               Download Latest Release </a> <a class="btn btn-secondary" href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus">
               View Project on GitHub </a> </div>
           <p class="download-note"> Downloads are distributed through the
@@ -1602,5 +1603,16 @@ footer {
             GitHub </a> </div>
       </div>
     </footer>
-  </body>
+  <script>
+async function carregarUltimaVersao(){
+try{
+const r=await fetch('https://api.github.com/repos/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases/latest');
+const rel=await r.json();
+document.getElementById('ultima-versao').textContent=rel.tag_name||'';
+document.getElementById('release-data').textContent='Release: '+new Date(rel.published_at).toISOString().slice(0,10);
+document.querySelectorAll('.download-latest').forEach(b=>b.href=rel.html_url);
+}catch(e){}
+}
+carregarUltimaVersao();
+</script></body>
 </html>
