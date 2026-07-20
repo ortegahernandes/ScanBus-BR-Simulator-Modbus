@@ -124,7 +124,7 @@ header {
 }
 
 .brand-logo {
-    width: 48px;
+    width: 75px;
     height: 48px;
 
     object-fit: cover;
@@ -1049,8 +1049,8 @@ footer {
 }
 
 .footer-logo {
-    width: 36px;
-    height: 36px;
+    width: 75px;
+    height: 75px;
 
     object-fit: cover;
 
@@ -1213,8 +1213,10 @@ footer {
           <div class="buttons"> <a class="btn btn-primary download-latest" href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases">
               Download Latest Release </a> <a class="btn btn-secondary" href="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus">
               View on GitHub </a> </div>
-          <div class="latest-version" style="margin-top:18px;color:#bdcbc2"><strong>Latest Version:</strong> <span id="ultima-versao">Loading...</span><br><span id="release-data"></span></div>
-<div class="trust-row"> <span> Completely Free </span> <span> No
+          <div class="latest-version" style="margin-top:18px;color:#bdcbc2"><strong>Latest
+              Version:</strong> <span id="ultima-versao">Loading...</span><br>
+            <span id="release-data"></span></div>
+          <div class="trust-row"> <span> Completely Free </span> <span> No
               Ads </span> <span> No Installation </span> <span> Portable </span>
           </div>
           <div class="hero-window"> <img src="https://raw.githubusercontent.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/main/Imagens/Scanbus-BR-linux.png"
@@ -1594,8 +1596,8 @@ footer {
       <div class="container footer-inner">
         <div>
           <div class="footer-brand"> <img src="https://raw.githubusercontent.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/main/Imagens/Logo.png"
-              alt="ScanBus-BR Logo" class="footer-logo"> <span> ScanBus-BR </span>
-          </div>
+              alt="ScanBus-BR Logo" class="footer-logo">&nbsp; <span>
+              ScanBus-BR </span> </div>
           <small> Free Modbus Toolkit for Windows and Linux </small> </div>
         <div class="footer-links"> <a href="#features"> Features </a> <a href="#tools">
             Tools </a> <a href="#platforms"> Platforms </a> <a href="#support">
@@ -1603,7 +1605,7 @@ footer {
             GitHub </a> </div>
       </div>
     </footer>
-  <script>
+    <script>
 async function carregarUltimaVersao(){
 try{
 const r=await fetch('https://api.github.com/repos/ortegahernandes/ScanBus-BR-Simulator-Modbus/releases/latest');
@@ -1614,5 +1616,6 @@ document.querySelectorAll('.download-latest').forEach(b=>b.href=rel.html_url);
 }catch(e){}
 }
 carregarUltimaVersao();
-</script></body>
+</script>
+  </body>
 </html>
