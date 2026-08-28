@@ -72,6 +72,28 @@ In most cases, simply extract the archive and run the executable.
 
 ---
 
+# Community
+
+If you have questions, suggestions, bug reports or simply want to discuss Modbus, feel free to join one of the communities below.
+
+### WhatsApp (Portuguese)
+
+https://chat.whatsapp.com/D8ZMNuLCYgLK8Eeg8LdmF6
+
+### WhatsApp (English / Español)
+
+https://chat.whatsapp.com/JjndsgL4jXF7VfToQ3cuBN
+
+### Telegram
+
+https://t.me/Scanbus_br
+
+### YouTube
+
+https://www.youtube.com/channel/UCU19Zzi0tI-7OPVz2x3Vh9Q
+
+---
+
 # Download
 
 The latest version is always available from the GitHub Releases page.
@@ -186,28 +208,6 @@ If Windows SmartScreen is displayed:
 2. Click **Run anyway**
 
 After the first execution, Windows will remember your choice.
-
----
-
-# Community
-
-If you have questions, suggestions, bug reports or simply want to discuss Modbus, feel free to join one of the communities below.
-
-### WhatsApp (Portuguese)
-
-https://chat.whatsapp.com/D8ZMNuLCYgLK8Eeg8LdmF6
-
-### WhatsApp (English / Español)
-
-https://chat.whatsapp.com/JjndsgL4jXF7VfToQ3cuBN
-
-### Telegram
-
-https://t.me/Scanbus_br
-
-### YouTube
-
-https://www.youtube.com/channel/UCU19Zzi0tI-7OPVz2x3Vh9Q
 
 ---
 
