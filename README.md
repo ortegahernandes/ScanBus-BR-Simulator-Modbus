@@ -1514,6 +1514,8 @@ If your USB/RS485 converter uses an FTDI chipset, set the **USB Latency Timer** 
 
 For the best overall performance, CH340 and CH343 converters remain the recommended option.
 
+## Converters with PL2303 chip:
+There is an incompatibility with this chip; Windows may restart on its own in the sniffer/terminal.
 ---
 
 # Support the Project ❤️
