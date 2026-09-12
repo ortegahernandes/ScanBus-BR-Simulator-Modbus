@@ -1,4 +1,4 @@
-# ScanBus-BR - Modbus Master Simulator, TCP Client and RTU Sniffer
+# ScanBus-BR - Modbus Simulator and RTU Sniffer
 
 ### **Free Modbus Toolkit for Windows and Linux**
 
@@ -23,8 +23,9 @@ Simply extract the ZIP file and start using it.
 * ✔ Modbus RTU Master
 * ✔ Modbus TCP Client
 * ✔ Modbus RTU over TCP
-* ✔ Integrated Modbus RTU Sniffer
+* ✔ Integrated Modbus Sniffer
 * ✔ Modbus Slave Simulator
+* ✔ Modbus Cilent Simulator
 * ✔ Device Scanner
 * ✔ Serial RTU Scanner
 * ✔ TCP/IP Scanner
@@ -108,7 +109,7 @@ No installation is required.
 
 # What is ScanBus-BR?
 
-ScanBus-BR is much more than a Modbus Master or TCP Client.
+ScanBus-BR is much more than a Modbus Simulator.
 
 It is a complete toolkit that integrates several professional utilities into a single application, allowing engineers and developers to analyze, simulate, monitor and troubleshoot Modbus communication networks.
 
@@ -124,8 +125,8 @@ Unlike many free and commercial Modbus applications, ScanBus-BR offers a complet
 
 Some of its most notable capabilities include:
 
-* Integrated RTU Sniffer
-* Internal Modbus Slave Simulator
+* Integrated Sniffer
+* Internal Modbus Slave / Server Simulator
 * Device and Network Scanner
 * Serial Configuration Scanner
 * TCP/IP Scanner
