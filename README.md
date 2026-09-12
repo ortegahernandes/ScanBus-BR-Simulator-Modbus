@@ -1136,11 +1136,11 @@ This makes dynamic values immediately visible without requiring constant observa
 
 ---
 
-# Modbus RTU Sniffer (SPY)
+# Modbus  Sniffer (SPY)
 
-The integrated **RTU Sniffer** is one of the flagship features of ScanBus-BR.
+The integrated **Sniffer** is one of the flagship features of ScanBus-BR.
 
-Instead of acting as a Modbus Master, the Sniffer passively monitors communication between an existing Master and one or more Slave devices.
+Instead of acting as a Modbus Master, the Sniffer passively monitors communication between an existing Master/Client and one or more Slave devices.
 
 This makes it an invaluable tool for troubleshooting, reverse engineering, firmware validation and protocol analysis.
 
@@ -1161,6 +1161,7 @@ For the highest reliability, USB/RS485 converters based on the **CH340** or **CH
 <p align="center">
 <img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Menu_Sniffer.png">
 </p>
+
 
 ## Available Controls
 
@@ -1311,6 +1312,37 @@ Available only for Modbus RTU communication.
 
 ---
 
+# TCP/IP (Server) Connection
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Menu_Sniffer_tcp.png">
+</p>
+
+## AT
+
+Indicates serial communication status.
+
+Color meanings:
+
+| Color | Meaning |
+|--------|----------|
+| Blue | Never connected |
+| Yellow | Connection problem |
+| Red | Connected but inactive |
+| Green | Active communication |
+| Aqua | Disconnected |
+
+---
+
+## TX
+
+Indicates data transmitted by the Modbus Client.
+
+---
+
+## RX
+
+Indicates data transmitted by the Modbus Client.
+
 # Serial Terminal
 
 The integrated terminal can also be used independently of the Modbus decoder.
@@ -1340,7 +1372,7 @@ Incoming and outgoing data may be displayed as:
 
 ---
 
-# Internal Modbus Slave Simulator
+# Internal Modbus Slave / Server Simulator
 
 One of the most unique features of ScanBus-BR is the built-in Modbus RTU Slave Simulator.
 
@@ -1360,7 +1392,7 @@ This feature is extremely useful during:
 
 ---
 
-## Slave ID Selection
+## Slave / Server ID Selection
 
 <p align="center">
 <img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Slave_ID.png">
@@ -1386,7 +1418,7 @@ The Slave Simulator can intentionally generate communication errors.
 Supported simulations:
 
 - Invalid Slave ID
-- Invalid CRC
+- Invalid CRC (only Serial RTU)
 - Communication Delay
 
 It can also generate every standard Modbus Exception Response.
@@ -1408,7 +1440,7 @@ Supported exception codes:
 
 ---
 
-# Editable Slave Memory
+# Editable Slave / Server Memory
 
 <p align="center">
 <img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Table_Slave.png">
@@ -1486,8 +1518,8 @@ Supported functions:
 
 Supported filters include:
 
-- Master only
-- Slave only
+- Master / Client only
+- Slave only (Only Serial RTU) 
 - Device ID
 - Function Code
 
