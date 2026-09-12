@@ -25,7 +25,7 @@ Simply extract the ZIP file and start using it.
 * ✔ Modbus RTU over TCP
 * ✔ Integrated Modbus Sniffer
 * ✔ Modbus Slave Simulator
-* ✔ Modbus Cilent Simulator
+* ✔ Modbus Server Simulator
 * ✔ Device Scanner
 * ✔ Serial RTU Scanner
 * ✔ TCP/IP Scanner
