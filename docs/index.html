@@ -794,6 +794,80 @@ section {
 
 
 /* =========================================================
+   SMARTSCREEN NOTICE
+========================================================= */
+
+.smartscreen {
+    padding: 15px 0 55px;
+}
+
+.smartscreen-box {
+    display: grid;
+
+    grid-template-columns: 1.1fr 1fr;
+    align-items: center;
+
+    gap: 40px;
+
+    padding: 36px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+    border-left: 4px solid #d99a1b;
+
+    border-radius: 15px;
+}
+
+.smartscreen-text .section-kicker {
+    margin-bottom: 10px;
+}
+
+.smartscreen-text h2 {
+    margin-bottom: 14px;
+
+    font-size: 1.6rem;
+}
+
+.smartscreen-text p {
+    color: var(--muted);
+
+    margin-bottom: 14px;
+}
+
+.smartscreen-steps {
+    margin: 0 0 14px 20px;
+
+    color: var(--text);
+    font-weight: 600;
+}
+
+.smartscreen-steps li {
+    margin-bottom: 6px;
+}
+
+.smartscreen-note {
+    font-size: .88rem;
+
+    color: var(--muted);
+}
+
+.smartscreen-images {
+    display: grid;
+    gap: 14px;
+}
+
+.smartscreen-images img {
+    width: 100%;
+
+    border-radius: 10px;
+    border: 1px solid var(--border);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.06);
+}
+
+
+/* =========================================================
    COMMUNITY
 ========================================================= */
 
@@ -1142,7 +1216,8 @@ footer {
     .features-grid,
     .platform-grid,
     .use-grid,
-    .support-grid {
+    .support-grid,
+    .smartscreen-box {
         grid-template-columns: 1fr;
     }
 
@@ -1237,6 +1312,33 @@ footer {
               Portable 64-bit application </span> </div>
         </div>
       </div>
+      <!-- =====================================================
+     SMARTSCREEN NOTICE===================================================== -->
+      <section id="smartscreen" class="smartscreen">
+        <div class="container">
+          <div class="smartscreen-box">
+            <div class="smartscreen-text"> <span class="section-kicker"> Windows
+                Users </span>
+              <h2> Windows SmartScreen Warning </h2>
+              <p> ScanBus-BR is distributed free of charge and does not include
+                a commercial code-signing certificate, so Windows SmartScreen
+                may display a warning the first time you run the application.
+                This is expected and does not indicate malware. </p>
+              <ol class="smartscreen-steps">
+                <li> Click <strong> More info </strong> </li>
+                <li> Click <strong> Run anyway </strong> </li>
+              </ol>
+              <p class="smartscreen-note"> After the first execution, Windows
+                will remember your choice. </p>
+            </div>
+            <div class="smartscreen-images"> <img src="https://raw.githubusercontent.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/main/Imagens/Windows%20smartscreen%2001.png"
+                alt="Windows SmartScreen warning - click More info" loading="lazy">
+              <img src="https://raw.githubusercontent.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/main/Imagens/Windows%20smartscreen%2002.png"
+                alt="Windows SmartScreen warning - click Run anyway" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- =====================================================
      FEATURES===================================================== -->
       <section id="features">
