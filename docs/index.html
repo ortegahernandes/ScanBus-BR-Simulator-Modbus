@@ -804,10 +804,10 @@ section {
 .smartscreen-box {
     display: grid;
 
-    grid-template-columns: 1.1fr 1fr;
-    align-items: center;
+    grid-template-columns: 1fr;
+    align-items: start;
 
-    gap: 40px;
+    gap: 24px;
 
     padding: 36px;
 
@@ -854,6 +854,7 @@ section {
 
 .smartscreen-images {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 14px;
 }
 
@@ -1217,7 +1218,8 @@ footer {
     .platform-grid,
     .use-grid,
     .support-grid,
-    .smartscreen-box {
+    .smartscreen-box,
+    .smartscreen-images {
         grid-template-columns: 1fr;
     }
 
