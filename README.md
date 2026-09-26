@@ -295,5 +295,5 @@ Sharing the project with friends and colleagues also helps it reach more people.
 
 Thank you for using ScanBus-BR!
 
-# For more details, check out this utilities guide.
+# For more details, check out this Features guide.
 https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Utilities-guide.md
