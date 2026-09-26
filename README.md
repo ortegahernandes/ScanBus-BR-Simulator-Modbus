@@ -164,7 +164,7 @@ This warning is expected and **does not indicate malware**.
 
 ## Fedora users:
 
-For reasons currently unknown, you must run the Sniffer as root; 
+You must run the Sniffer as root; 
 however, you can use the simulator as a normal user after granting access to the dialout group.
 
 ---
