@@ -90,9 +90,3 @@ restricted uses in Section 2, or suggestions may be directed through the
 official community channels listed in the project's repository.
 
 ---
-
-Note: This text was written to clearly express the usage terms intended by
-the author. It does not constitute legal advice. Should the project come
-to be used by organizations with formal compliance processes, review by a
-lawyer specializing in intellectual property is recommended before final
-publication.
