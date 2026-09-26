@@ -295,15 +295,4 @@ Sharing the project with friends and colleagues also helps it reach more people.
 
 Thank you for using ScanBus-BR!
 
-Happy coding! 🚀
-```
 
-
-
-
-
----
-
-# Manual Completo
-
-Para o guia detalhado de todas as telas, ferramentas e configuracoes, veja o [MANUAL.md](MANUAL.md).
