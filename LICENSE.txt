@@ -1,99 +1,98 @@
-ScanBus-BR - Licença de Uso (Freeware)
+ScanBus-BR - Freeware License
 Copyright (c) 2025-2026 Rodrigo F. Hernandes
-Todos os direitos reservados.
+All rights reserved.
 
-1. CONCESSÃO DE USO
+1. GRANT OF USE
 
-É concedida, gratuitamente, a qualquer pessoa ou organização que obtenha uma
-cópia deste software (o "Software") e dos arquivos de documentação
-associados, permissão para usar o Software, sem restrição de finalidade,
-incluindo, sem limitação, uso pessoal, educacional, profissional e
-comercial, sujeito às condições abaixo.
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of this software (the "Software") and associated
+documentation files, to use the Software for any purpose, including
+without limitation personal, educational, professional, and commercial
+use, subject to the conditions below.
 
-Não é cobrada nenhuma taxa de licenciamento, assinatura ou royalty pelo uso
-do Software, independentemente do contexto em que seja utilizado.
+No license fee, subscription, or royalty is charged for use of the
+Software, regardless of the context in which it is used.
 
-2. RESTRIÇÕES
+2. RESTRICTIONS
 
-É expressamente proibido, sem autorização prévia e por escrito do autor:
+The following actions are expressly prohibited without prior written
+authorization from the author:
 
-  a) Vender, sublicenciar, alugar ou redistribuir comercialmente o
-     Software, no todo ou em parte, seja de forma isolada ou incorporado
-     a outro produto ou serviço;
+  a) Selling, sublicensing, renting, or commercially redistributing the
+     Software, in whole or in part, whether standalone or bundled with
+     another product or service;
 
-  b) Redistribuir o Software através de sites, repositórios, lojas de
-     aplicativos ou outros meios de distribuição que não sejam os canais
-     oficiais indicados pelo autor;
+  b) Redistributing the Software through websites, repositories, app
+     stores, or other distribution channels other than the official
+     channels designated by the author;
 
-  c) Remover, ocultar ou alterar avisos de direitos autorais, marcas,
-     logotipos ou identificação do autor presentes no Software ou em sua
-     documentação;
+  c) Removing, hiding, or altering copyright notices, trademarks, logos,
+     or author attribution present in the Software or its documentation;
 
-  d) Realizar engenharia reversa, descompilação, desmontagem ou qualquer
-     tentativa de extrair o código-fonte do Software, exceto na medida em
-     que tal restrição seja expressamente proibida pela legislação
-     aplicável;
+  d) Reverse engineering, decompiling, disassembling, or otherwise
+     attempting to extract the source code of the Software, except to the
+     extent such restriction is expressly prohibited by applicable law;
 
-  e) Utilizar o nome "ScanBus-BR", suas variações, ou o nome do autor para
-     fins de promoção, endosso ou publicidade de produtos ou serviços
-     derivados sem autorização prévia.
+  e) Using the name "ScanBus-BR", its variations, or the author's name to
+     promote, endorse, or advertise derivative products or services
+     without prior authorization.
 
-3. USO COMERCIAL
+3. COMMERCIAL USE
 
-O uso do Software em ambiente corporativo, industrial ou comercial —
-incluindo, sem limitação, comissionamento de equipamentos, manutenção
-industrial, desenvolvimento de firmware, treinamento e suporte técnico — é
-permitido livremente e sem custo, desde que respeitadas as restrições da
-Seção 2.
+Use of the Software in corporate, industrial, or commercial environments —
+including, without limitation, equipment commissioning, industrial
+maintenance, firmware development, training, and technical support — is
+freely permitted at no cost, provided the restrictions in Section 2 are
+respected.
 
-4. AUSÊNCIA DE GARANTIA
+4. NO WARRANTY
 
-O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), SEM
-GARANTIAS DE QUALQUER TIPO, EXPRESSAS OU IMPLÍCITAS, INCLUINDO, MAS NÃO SE
-LIMITANDO A, GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM FIM ESPECÍFICO E
-NÃO VIOLAÇÃO DE DIREITOS DE TERCEIROS.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT OF THIRD-PARTY
+RIGHTS.
 
-O autor não garante que o Software estará livre de erros, funcionará sem
-interrupções, ou será adequado a qualquer aplicação específica, incluindo
-aplicações críticas de segurança, controle industrial ou automação de
-processos.
+The author does not warrant that the Software will be error-free, will
+operate without interruption, or will be suitable for any specific
+application, including safety-critical, industrial control, or process
+automation applications.
 
-5. LIMITAÇÃO DE RESPONSABILIDADE
+5. LIMITATION OF LIABILITY
 
-EM NENHUMA HIPÓTESE O AUTOR SERÁ RESPONSÁVEL POR QUALQUER REIVINDICAÇÃO,
-DANO OU OUTRA RESPONSABILIDADE, SEJA EM AÇÃO DE CONTRATO, ATO ILÍCITO OU
-DE OUTRA FORMA, DECORRENTE DE, OU EM CONEXÃO COM O SOFTWARE OU O USO OU
-OUTRAS NEGOCIAÇÕES NO SOFTWARE, INCLUINDO, SEM LIMITAÇÃO, DANOS DIRETOS,
-INDIRETOS, INCIDENTAIS, ESPECIAIS OU CONSEQUENCIAIS, PERDA DE DADOS, PERDA
-DE PRODUÇÃO OU INTERRUPÇÃO DE PROCESSOS INDUSTRIAIS.
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE, INCLUDING WITHOUT LIMITATION DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, LOSS OF DATA, LOSS OF
+PRODUCTION, OR INDUSTRIAL PROCESS DOWNTIME.
 
-O usuário é o único responsável por validar a adequação do Software antes
-de utilizá-lo em qualquer ambiente de produção, comissionamento ou sistema
-crítico.
+The user is solely responsible for validating the suitability of the
+Software before using it in any production, commissioning, or
+safety-critical environment.
 
-6. PROPRIEDADE INTELECTUAL
+6. INTELLECTUAL PROPERTY
 
-O Software, incluindo seu código, design, documentação e materiais
-associados, permanece de propriedade exclusiva do autor. Esta licença não
-transfere nenhum direito de propriedade intelectual ao usuário, apenas o
-direito de uso conforme descrito nas seções acima.
+The Software, including its code, design, documentation, and associated
+materials, remains the exclusive property of the author. This license does
+not transfer any intellectual property rights to the user, only the right
+of use as described in the sections above.
 
-7. VIGÊNCIA E RESCISÃO
+7. TERM AND TERMINATION
 
-Esta licença permanece em vigor enquanto o usuário respeitar suas
-condições. O descumprimento de qualquer restrição da Seção 2 encerra
-automaticamente os direitos de uso concedidos por esta licença.
+This license remains in effect for as long as the user complies with its
+terms. Failure to comply with any restriction in Section 2 automatically
+terminates the usage rights granted under this license.
 
-8. CONTATO
+8. CONTACT
 
-Dúvidas sobre esta licença, pedidos de autorização para os usos restritos
-na Seção 2, ou sugestões podem ser encaminhados através dos canais oficiais
-de comunidade listados no repositório do projeto.
+Questions about this license, requests for authorization regarding the
+restricted uses in Section 2, or suggestions may be directed through the
+official community channels listed in the project's repository.
 
 ---
 
-Nota: este texto foi redigido para expressar claramente as condições de
-uso pretendidas pelo autor. Não substitui aconselhamento jurídico. Caso o
-projeto venha a ser usado por empresas com processos formais de compliance,
-recomenda-se revisão por um advogado especializado em propriedade
-intelectual antes de publicação definitiva.
+Note: This text was written to clearly express the usage terms intended by
+the author. It does not constitute legal advice. Should the project come
+to be used by organizations with formal compliance processes, review by a
+lawyer specializing in intellectual property is recommended before final
+publication.
