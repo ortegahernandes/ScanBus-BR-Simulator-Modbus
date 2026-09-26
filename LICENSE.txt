@@ -1,0 +1,99 @@
+ScanBus-BR - Licença de Uso (Freeware)
+Copyright (c) 2025-2026 Rodrigo F. Hernandes
+Todos os direitos reservados.
+
+1. CONCESSÃO DE USO
+
+É concedida, gratuitamente, a qualquer pessoa ou organização que obtenha uma
+cópia deste software (o "Software") e dos arquivos de documentação
+associados, permissão para usar o Software, sem restrição de finalidade,
+incluindo, sem limitação, uso pessoal, educacional, profissional e
+comercial, sujeito às condições abaixo.
+
+Não é cobrada nenhuma taxa de licenciamento, assinatura ou royalty pelo uso
+do Software, independentemente do contexto em que seja utilizado.
+
+2. RESTRIÇÕES
+
+É expressamente proibido, sem autorização prévia e por escrito do autor:
+
+  a) Vender, sublicenciar, alugar ou redistribuir comercialmente o
+     Software, no todo ou em parte, seja de forma isolada ou incorporado
+     a outro produto ou serviço;
+
+  b) Redistribuir o Software através de sites, repositórios, lojas de
+     aplicativos ou outros meios de distribuição que não sejam os canais
+     oficiais indicados pelo autor;
+
+  c) Remover, ocultar ou alterar avisos de direitos autorais, marcas,
+     logotipos ou identificação do autor presentes no Software ou em sua
+     documentação;
+
+  d) Realizar engenharia reversa, descompilação, desmontagem ou qualquer
+     tentativa de extrair o código-fonte do Software, exceto na medida em
+     que tal restrição seja expressamente proibida pela legislação
+     aplicável;
+
+  e) Utilizar o nome "ScanBus-BR", suas variações, ou o nome do autor para
+     fins de promoção, endosso ou publicidade de produtos ou serviços
+     derivados sem autorização prévia.
+
+3. USO COMERCIAL
+
+O uso do Software em ambiente corporativo, industrial ou comercial —
+incluindo, sem limitação, comissionamento de equipamentos, manutenção
+industrial, desenvolvimento de firmware, treinamento e suporte técnico — é
+permitido livremente e sem custo, desde que respeitadas as restrições da
+Seção 2.
+
+4. AUSÊNCIA DE GARANTIA
+
+O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), SEM
+GARANTIAS DE QUALQUER TIPO, EXPRESSAS OU IMPLÍCITAS, INCLUINDO, MAS NÃO SE
+LIMITANDO A, GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM FIM ESPECÍFICO E
+NÃO VIOLAÇÃO DE DIREITOS DE TERCEIROS.
+
+O autor não garante que o Software estará livre de erros, funcionará sem
+interrupções, ou será adequado a qualquer aplicação específica, incluindo
+aplicações críticas de segurança, controle industrial ou automação de
+processos.
+
+5. LIMITAÇÃO DE RESPONSABILIDADE
+
+EM NENHUMA HIPÓTESE O AUTOR SERÁ RESPONSÁVEL POR QUALQUER REIVINDICAÇÃO,
+DANO OU OUTRA RESPONSABILIDADE, SEJA EM AÇÃO DE CONTRATO, ATO ILÍCITO OU
+DE OUTRA FORMA, DECORRENTE DE, OU EM CONEXÃO COM O SOFTWARE OU O USO OU
+OUTRAS NEGOCIAÇÕES NO SOFTWARE, INCLUINDO, SEM LIMITAÇÃO, DANOS DIRETOS,
+INDIRETOS, INCIDENTAIS, ESPECIAIS OU CONSEQUENCIAIS, PERDA DE DADOS, PERDA
+DE PRODUÇÃO OU INTERRUPÇÃO DE PROCESSOS INDUSTRIAIS.
+
+O usuário é o único responsável por validar a adequação do Software antes
+de utilizá-lo em qualquer ambiente de produção, comissionamento ou sistema
+crítico.
+
+6. PROPRIEDADE INTELECTUAL
+
+O Software, incluindo seu código, design, documentação e materiais
+associados, permanece de propriedade exclusiva do autor. Esta licença não
+transfere nenhum direito de propriedade intelectual ao usuário, apenas o
+direito de uso conforme descrito nas seções acima.
+
+7. VIGÊNCIA E RESCISÃO
+
+Esta licença permanece em vigor enquanto o usuário respeitar suas
+condições. O descumprimento de qualquer restrição da Seção 2 encerra
+automaticamente os direitos de uso concedidos por esta licença.
+
+8. CONTATO
+
+Dúvidas sobre esta licença, pedidos de autorização para os usos restritos
+na Seção 2, ou sugestões podem ser encaminhados através dos canais oficiais
+de comunidade listados no repositório do projeto.
+
+---
+
+Nota: este texto foi redigido para expressar claramente as condições de
+uso pretendidas pelo autor. Não substitui aconselhamento jurídico. Caso o
+projeto venha a ser usado por empresas com processos formais de compliance,
+recomenda-se revisão por um advogado especializado em propriedade
+intelectual antes de publicação definitiva.
