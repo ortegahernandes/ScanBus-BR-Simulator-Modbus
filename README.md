@@ -264,7 +264,7 @@ The software is provided **"as is"**, without any warranty.
 
 **Rodrigo F. Hernandes**
 
-Automation and software enthusiast developer passionate about industrial communication protocols.
+Industrial Electronics Technologist and software enthusiast.
 
 The goal of ScanBus-BR is to make Modbus testing, diagnostics and troubleshooting easier for everyone.
 
