@@ -76,34 +76,6 @@ In most cases, simply extract the archive and run the executable.
 # For more details, check out this Features guide.
 https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Utilities-guide.md
 
-
-# Linux Users
-
-## Chrome Download Warning
-
-This project includes a precompiled Linux executable (ELF).
-
-Because the binary is relatively new and has not yet accumulated a large download history, Google Chrome may display a warning indicating that the file is uncommon.
-
-This warning is expected and **does not indicate malware**.
-
----
-
-## Fedora users:
-
-You must run the Sniffer as root; 
-however, you can use the simulator as a normal user after granting access to the dialout group.
-
----
-
-## Ubuntu Users
-
-Do **not** drag the executable directly onto the Desktop before running it.
-
-Instead, execute it from the Downloads folder or any other regular directory.
-
----
-
 # Windows Users
 
 ## SmartScreen Warning
@@ -136,6 +108,33 @@ If Windows SmartScreen is displayed:
 2. Click **Run anyway**
 
 After the first execution, Windows will remember your choice.
+
+---
+
+# Linux Users
+
+## Chrome Download Warning
+
+This project includes a precompiled Linux executable (ELF).
+
+Because the binary is relatively new and has not yet accumulated a large download history, Google Chrome may display a warning indicating that the file is uncommon.
+
+This warning is expected and **does not indicate malware**.
+
+---
+
+## Fedora users:
+
+You must run the Sniffer as root; 
+however, you can use the simulator as a normal user after granting access to the dialout group.
+
+---
+
+## Ubuntu Users
+
+Do **not** drag the executable directly onto the Desktop before running it.
+
+Instead, execute it from the Downloads folder or any other regular directory.
 
 ---
 
@@ -294,45 +293,6 @@ Feel free to share your ideas.
 
 ---
 
-# Contributing
-
-Although ScanBus-BR is currently maintained by a single developer, contributions are always welcome.
-
-You can contribute by:
-
-- Reporting bugs
-- Suggesting new features
-- Improving translations
-- Testing new releases
-- Sharing the project
-- Supporting development through donations
-
----
-
-# Why ScanBus-BR?
-
-ScanBus-BR was created to provide a professional-quality Modbus toolkit that is freely available to everyone.
-
-It combines tools that are often distributed across multiple commercial applications into a single portable program.
-
-The project continues to evolve with every release, driven by user feedback and real-world industrial applications.
-
----
-
-# Acknowledgements
-
-Special thanks to every user who:
-
-- Reported bugs
-- Suggested improvements
-- Tested beta versions
-- Shared the software
-- Supported the project
-
-Your feedback has been essential to the continuous evolution of ScanBus-BR.
-
----
-
 # License
 
 ScanBus-BR is distributed as **Freeware**.
@@ -347,7 +307,7 @@ The software is provided **"as is"**, without any warranty.
 
 **Rodrigo F. Hernandes**
 
-Automation enthusiast and software developer passionate about industrial communication protocols.
+Automation and software enthusiast developer passionate about industrial communication protocols.
 
 The goal of ScanBus-BR is to make Modbus testing, diagnostics and troubleshooting easier for everyone.
 
