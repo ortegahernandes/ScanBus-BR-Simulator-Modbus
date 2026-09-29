@@ -73,6 +73,10 @@ In most cases, simply extract the archive and run the executable.
 
 ---
 
+# For more details, check out this Features guide.
+https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Utilities-guide.md
+
+
 # Linux Users
 
 ## Chrome Download Warning
@@ -356,6 +360,3 @@ The goal of ScanBus-BR is to make Modbus testing, diagnostics and troubleshootin
 Sharing the project with friends and colleagues also helps it reach more people.
 
 Thank you for using ScanBus-BR!
-
-# For more details, check out this Features guide.
-https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Utilities-guide.md
