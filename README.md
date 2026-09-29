@@ -150,49 +150,6 @@ No installation is required.
 
 ---
 
-# What is ScanBus-BR?
-
-ScanBus-BR is much more than a Modbus Simulator.
-
-It is a complete toolkit that integrates several professional utilities into a single application, allowing engineers and developers to analyze, simulate, monitor and troubleshoot Modbus communication networks.
-
-Whether you need to test a PLC, validate firmware, analyze serial traffic or reverse engineer an industrial device, ScanBus-BR provides dedicated tools to simplify the job.
-
-Error conditions, Modbus exception responses and communication diagnostics are displayed in real time, making troubleshooting significantly easier.
-
----
-
-# Why choose ScanBus-BR?
-
-Unlike many free and commercial Modbus applications, ScanBus-BR offers a complete collection of diagnostic tools within a single executable.
-
-Some of its most notable capabilities include:
-
-* Integrated Sniffer
-* Internal Modbus Slave / Server Simulator
-* Device and Network Scanner
-* Serial Configuration Scanner
-* TCP/IP Scanner
-* Traffic Data Analyzer
-* Universal Register Tables
-* Time Graph Generator
-* Automatic Register Simulation
-* Communication Logging
-* Exception Response Simulation
-
-These features make ScanBus-BR suitable for:
-
-* Industrial Automation
-* PLC Commissioning
-* Embedded Systems Development
-* Industrial Maintenance
-* Protocol Learning
-* Reverse Engineering
-* Technical Support
-* Educational Use
-
----
-
 # Support the Project ❤️
 
 ScanBus-BR is developed as an independent project and is distributed completely **free of charge**.
