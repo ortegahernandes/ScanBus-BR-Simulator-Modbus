@@ -1,4 +1,4 @@
-# ScanBus-BR - Modbus Simulator and RTU Sniffer
+# ScanBus-BR - Modbus Simulator and Sniffer
 
 ### **Free Modbus Toolkit for Windows and Linux**
 
