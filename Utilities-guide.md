@@ -1108,7 +1108,7 @@ Available only for Modbus RTU communication.
 
 ## AT
 
-Indicates serial communication status.
+Indicates communication status.
 
 Color meanings:
 
@@ -1124,15 +1124,16 @@ Color meanings:
 
 ## TX
 
-Indicates data transmitted by the Modbus Client.
+Indicates data transmitted to the Modbus Client.
 
 ---
 
 ## RX
 
-Indicates data transmitted by the Modbus Client.
+Indicates data received by the Modbus Client.
 
-# Serial Terminal
+
+# Terminal
 
 The integrated terminal can also be used independently of the Modbus decoder.
 
