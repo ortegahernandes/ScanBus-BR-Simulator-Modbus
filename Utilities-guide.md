@@ -478,6 +478,8 @@ Function 16 is recommended whenever the target device supports it.
 
 ---
 # Modbus Device Library
+Set of Modbus Device Maps.
+
 <p align="center">
 <img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Device%20library.png">
 </p>
@@ -506,11 +508,12 @@ Double-click on the desired row in the table to open a new window displaying the
 <p align="center">
 <img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Device%20library_register.png">
 </p>
-Set of Modbus Device Maps.
 
+> **Important**
+> To contribute Modbus maps (e.g., by providing a manual containing a list of registers), please visit this project:
+> https://github.com/nobrega8/mbmap-library
 
-To contribute Modbus maps (e.g., by providing a manual containing a list of registers), please visit this project:
-https://github.com/nobrega8/mbmap-library
+---
    
 # Communication Log
 
