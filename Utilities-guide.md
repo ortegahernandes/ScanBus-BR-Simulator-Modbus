@@ -493,7 +493,7 @@ Items:
   - if not already connected it also transfers serial settings if they are available in the Modbus map.
     
 - Search for a device by manufacturer:
-  - Search for a device in the library; it can be selected or entered in the following order (Manufacturer > model).
+  - Search for a device in the library; it can be selected or typed in the following order (Manufacturer > model).
      
 - Look in the table:
   - Look up the entered value in the table (name, register (address), type, unit, etc.).
