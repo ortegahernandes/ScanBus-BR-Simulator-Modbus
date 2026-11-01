@@ -489,7 +489,8 @@ Items:
   - Modbus device number; it is pre-set to a default value depending on the selected map, but can be changed manually. Not all maps have a default ID.
  
 - OK button: 
-  - Transfers the values ​​for Name to the "Alias," as well as the initial address, numerical format, and byte order of the first register (if not already connected); it also transfers serial settings if they are available in the Modbus map.
+  - Transfers the values ​​for Name to the "Alias," as well as the initial address, numerical format, and byte order of the first register. 
+  - if not already connected it also transfers serial settings if they are available in the Modbus map.
     
 - Search for a device by manufacturer:
   - Search for a device in the library; it can be selected or entered in the following order (Manufacturer > model).
