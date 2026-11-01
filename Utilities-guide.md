@@ -477,7 +477,40 @@ Function 16 is recommended whenever the target device supports it.
 > Registers configured for automatic updates are highlighted in **green** within the main table.
 
 ---
+# Modbus Device Library
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Device%20library.png">
+</p>
+Set of Modbus Device Maps.
 
+
+Items:
+- ID: 
+  - Modbus device number; it is pre-set to a default value depending on the selected map, but can be changed manually. Not all maps have a default ID.
+ 
+- OK button: 
+  - Transfers the values ​​for Name to the "Alias," as well as the initial address, numerical format, and byte order of the first register (if not already connected); it also transfers serial settings if they are available in the Modbus map.
+    
+- Search for a device by manufacturer:
+  - Search for a device in the library; it can be selected or entered in the following order (Manufacturer > model).
+     
+- Look in the table:
+  - Look up the entered value in the table (name, register (address), type, unit, etc.).
+  
+- Save button:
+  - You can save the table in 3 formats: TXT (text), CSV, and RTF (Rich Text). The format selection is made in the save dialog window.
+
+Double-click on the desired row in the table to open a new window displaying the reading for the selected register; if not already connected, the serial configuration values—provided they are included in the Modbus map—will also be transferred.
+
+<p align="center">
+<img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Device%20library_register.png">
+</p>
+Set of Modbus Device Maps.
+
+
+To contribute Modbus maps (e.g., by providing a manual containing a list of registers), please visit this project:
+https://github.com/nobrega8/mbmap-library
+   
 # Communication Log
 
 <p align="center">
