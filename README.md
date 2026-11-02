@@ -8,6 +8,10 @@
 <img src="https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Scanbus-BR-linux.png" width="900">
 </p>
 
+## Starting with version 5.2, the Windows version is unavailable due to a false positive in Windows Defender; it will be brought back once the issue is resolved.
+
+## ScanBus-BR - Modbus Simulator and Sniffer
+
 ScanBus-BR is a **free**, **portable**, and feature-rich toolkit designed for professionals working with the Modbus protocol.
 
 Unlike conventional Modbus simulators, ScanBus-BR combines multiple engineering tools into a single application, making it ideal for commissioning, diagnostics, troubleshooting, reverse engineering, protocol learning, and embedded firmware development.
