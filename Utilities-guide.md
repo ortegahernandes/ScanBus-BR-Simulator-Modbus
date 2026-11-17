@@ -602,7 +602,7 @@ These settings allow the graph to be optimized for both slow-changing variables 
 
 # Device Library
 
-[![](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/raw/main/Imagens/Device_Library.png)](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Device_Library.png)
+[![](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/raw/main/Imagens/Device%20library.png)](https://github.com/ortegahernandes/ScanBus-BR-Simulator-Modbus/blob/main/Imagens/Device%20library.png)
 
 The **Device Library** lets you find the Modbus register map of a device by brand or model.
 
@@ -620,6 +620,32 @@ There are two ways to choose a device in the selection box:
 > **Note**
 >
 > The maps are stored in `maps.zip`, located beside the ScanBus-BR executable. Each device is described by a JSON file listed in the `index.json` of the zip.
+
+* * *
+
+## Map Source and Contributing
+
+The maps in the Device Library come from **[mbmap-library](https://github.com/nobrega8/mbmap-library)**, an open library of Modbus register maps in the **MBMap** format (JSON, `.mbmap.json` files), created and maintained by **[nobrega8](https://github.com/nobrega8)**.
+
+Many thanks to the maintainer and to everyone who contributes maps to the project.
+
+Each map describes one device model: the manufacturer, how to connect to it and what every register means.
+
+### Contributing New Maps
+
+Is your device missing, or did you find a wrong register? Contribute to **mbmap-library** so that everyone benefits:
+
+1. Read the [CONTRIBUTING.md](https://github.com/nobrega8/mbmap-library/blob/main/CONTRIBUTING.md) of the project.
+2. Write your map following the [MBMap specification](https://github.com/nobrega8/mbmap-library/blob/main/SPEC.md). Maps are stored as `maps/<vendor>/<model>.mbmap.json`, and the [JSON Schema](https://github.com/nobrega8/mbmap-library/blob/main/schema/mbmap-2.schema.json) of the project describes the structure of the file.
+3. Check your file with the validator provided by the project (`tools/validate/validate.py`). The exact command is described in the CONTRIBUTING.md.
+
+> **Note**
+>
+> The older CSV-based format (`.mbmap`, version 1) is deprecated. New maps must use the JSON format.
+
+> **Note**
+>
+> The maps are provided as is. Always check a map against the manufacturer's documentation before writing to a live device.
 
 * * *
 
